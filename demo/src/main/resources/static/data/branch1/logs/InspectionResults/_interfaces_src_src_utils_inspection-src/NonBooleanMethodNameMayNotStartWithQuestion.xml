@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>2763</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.Boolean shouldUseDesignManagerOptimization()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-boolean method name must not start with question word</problem_class>
+          
+        <description>Non-boolean method name &lt;code&gt;shouldUseDesignManagerOptimization&lt;/code&gt; starts with a question word #loc</description>
+        
+    </problem>
+    
+</problems>

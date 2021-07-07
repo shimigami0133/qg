@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3092</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment chs.utilities.Environment.DBConnectionInfo getDBConnectionInfo(org.w3c.dom.Document props)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly long method</problem_class>
+          
+        <description>&lt;code&gt;getDBConnectionInfo&lt;/code&gt; is too long (# Non-comment source statements = 67) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>657</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo void init(java.io.OutputStream os, java.lang.String applicationName, chs.utilities.CmdLine cmdline)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly long method</problem_class>
+          
+        <description>&lt;code&gt;init&lt;/code&gt; is too long (# Non-comment source statements = 63) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>935</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo void init(java.io.OutputStream os, java.lang.String applicationName, chs.utilities.CmdLine cmdline, boolean addBuildInfo)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly long method</problem_class>
+          
+        <description>&lt;code&gt;init&lt;/code&gt; is too long (# Non-comment source statements = 134) #loc</description>
+        
+    </problem>
+    
+</problems>

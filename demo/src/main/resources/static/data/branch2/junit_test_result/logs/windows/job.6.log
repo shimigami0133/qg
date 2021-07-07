@@ -1,0 +1,281 @@
+-- Tue Jun 22 17:31:20 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Generated checksum of dest   - ed558ec7d76f2bf2011d9b5dcad363ed
+     [echo] Checksum does not match? : true
+
+BUILD FAILED
+G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml:1907: Checksum mismatch between C:/repos/iesd/chs_home.zip : ed558ec7d76f2bf2011d9b5dcad363ed and G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5 : c6f3c97868a1e3cfc329c6443a9f30e7
+
+Total time: 38 seconds
+-- Tue Jun 22 17:32:15 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dget-file-url="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip" -Dget-file-dest="C:/repos/iesd/chs_home.zip" get-file -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+get-file:
+      [get] Getting: http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip
+      [get] To: C:\repos\iesd\chs_home.zip
+
+BUILD SUCCESSFUL
+Total time: 1 minute 19 seconds
+-- Tue Jun 22 17:33:36 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Generated checksum of dest   - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Checksum does not match? : ${checksumDoesNotMatch}
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+-- Tue Jun 22 17:33:54 2021: IESD::ChsHomeUtil::downloadAndExtractBuildZip - Deleting chs_home dir: C:/repos/iesd/chs_home.
+-- Tue Jun 22 17:34:11 2021: Directory 'C:/repos/iesd/chs_home' deleted.
+-- Tue Jun 22 17:34:11 2021: Total time: 17.632 seconds
+-- Tue Jun 22 17:34:11 2021: 7z x C:/repos/iesd/chs_home.zip -y -oC:/repos/iesd/chs_home
+-- Tue Jun 22 17:35:00 2021: Total time: 48.778 seconds
+-- Tue Jun 22 17:35:00 2021: C:/repos/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dchshome=C:/repos/iesd/chs_home -Dchs.home=C:/repos/iesd/chs_home -Dchsbuildtools_home=C:/repos/iesd/chs_home/bld -Dtest.results.base=G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testresults  -Dchs.build.skiptestexports=true -Dcapital.testlist.path=G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testjobs.windows/job.6.txt runtestsonlyqg -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/datamodel_src/tests/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\datamodel_src\tests\build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = windows.job.6
+
+-os-init-linux:
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testresults/datamodel exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from COF Tests G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\datamodel_src\tests\build.xml
+[readtestlist] Found 50 test classes in testlist 'G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\chs_home\bld\testjobs.windows\job.6.txt'
+    [junit] Running chs.utility.helpers.OverlapUtilsTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.13 sec
+    [junit] Running chs.utility.helpers.creationdeletion.ThreadedCreationDeletionHelperContainerTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.111 sec
+    [junit] Running chs.utility.logic.RingTerminalPartSelectionTest
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.401 sec
+    [junit] Running chs.utility.logic.autotagharness.PokeHomeHarnessDesignPropagatorTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.371 sec
+    [junit] Running chs.utility.profiling.TextLayoutCacheSizeMeasureProviderTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.187 sec
+    [junit] Running chs.utility.sbom.workbook.WorkbookServerTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.327 sec
+    [junit] Running chs.utility.topology.place.RedundantWireCalculatorTest
+    [junit] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.32 sec
+    [junit] Running chs.utility.topology.route.SpliceCreatorMockTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.893 sec
+    [junit] Running chs.utility.topology.route.SpliceDevicePinWrapperCoverageTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.978 sec
+    [junit] Running chs.utility.topology.utils.TopoConfigUtilsPrefsTest
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.369 sec
+    [junit] Running chs.utility.ui.ExternalHyperlinkListenerTest
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.945 sec
+    [junit] Running chs.utility.ui.PinSelectionConfigurableTableViewCapabilityTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.mentor.capital.javafx.table.impl.CapitalTableHeaderColumn (file:/C:/repos/iesd/chs_home/lib/capitalutils.jar) to field java.lang.reflect.Field.modifiers
+    [junit] WARNING: Please consider reporting this to the maintainers of com.mentor.capital.javafx.table.impl.CapitalTableHeaderColumn
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.229 sec
+    [junit] Running chs.utility.validateAndScrub.TopologyDesignValidatorTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.499 sec
+    [junit] Running chs.workingset.WorkingSetXMLExporterTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.418 sec
+    [junit] Running com.mentor.chsx.example.action.ExportFixturesActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.786 sec
+    [junit] Running com.mentor.chsx.forecasts.groups.GroupByCarrierTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.629 sec
+    [junit] Running com.mentor.chsx.forecasts.groups.GroupByCarrierTypeTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.747 sec
+    [junit] Running com.mentor.chsx.sbom.PSAAdditionalComponentsTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.014 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.print.DynamicTableSizeHelperTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.814 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.print.ImageTableFlowHelperTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.408 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.print.PdfBoxPrintServiceTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.468 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.print.PdfItextPrintServiceTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.828 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.print.PdfPrintServiceTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.886 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.print.SplittableTableTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.02 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.provider.CANNetworkProviderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.122 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.provider.ConnectorLoadingProviderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.047 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.provider.SingleMulticrimpProviderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.cgm.write.unit.CGMTextUnit (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field java.awt.Font.values
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.cgm.write.unit.CGMTextUnit
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.119 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.provider.SpliceNetworkProviderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.314 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.provider.SpliceViewProviderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.cgm.write.unit.CGMTextUnit (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field java.awt.Font.values
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.cgm.write.unit.CGMTextUnit
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 34.277 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.provider.TwistLinkedMulticoreProviderTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.717 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.provider.TwistedMulticoreProviderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.624 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.provider.utils.svgWorkbookUtil.SVGToolsTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.cgm.write.unit.CGMTextUnit (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field java.awt.Font.values
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.cgm.write.unit.CGMTextUnit
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.56 sec
+    [junit] Running com.mentor.chsx.sbom.workbook.ui.PdfFontStylerTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.117 sec
+    [junit] Running com.mentor.chsx.teamcenter.BridgedOutBuildListDetailsTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.106 sec
+    [junit] Running com.mentor.chsx.teamcenter.BridgedOutDesignPublishCapitalFlowTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.103 sec
+    [junit] Running com.mentor.chsx.teamcenter.BuildListItemDetailsTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.057 sec
+    [junit] Running com.mentor.chsx.teamcenter.CheckedInDesignPublishCapitalFlowTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.295 sec
+    [junit] Running com.mentor.chsx.teamcenter.CheckedInDesignPublishCustomerFlowTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.713 sec
+    [junit] Running com.mentor.chsx.teamcenter.CheckedInDesignPublishMultiSiteFlowTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.863 sec
+    [junit] Running com.mentor.chsx.teamcenter.ConfigurableDatasetNameTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.245 sec
+    [junit] Running com.mentor.chsx.teamcenter.ContinueWithPublishEvenIfPropUpdateFailsTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.608 sec
+    [junit] Running com.mentor.chsx.teamcenter.DatasetCheckedOutStatusTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.224 sec
+    [junit] Running com.mentor.chsx.teamcenter.DesignDetailsFetchTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.199 sec
+    [junit] Running com.mentor.chsx.teamcenter.ExistingDesignWithNewRevisionPublishCapitalFlowTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.508 sec
+    [junit] Running com.mentor.chsx.teamcenter.ExistingDesignWithNewRevisionPublishCustomerFlowTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.137 sec
+    [junit] Running com.mentor.chsx.teamcenter.HarnessDesignWithMultipleChildDesignsExportTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.43 sec
+    [junit] Running com.mentor.chsx.teamcenter.IntegratorDesignWithMultipleChildDesignsExportTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.089 sec
+    [junit] Running com.mentor.chsx.teamcenter.ItemHavingPropertiesFetchTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.118 sec
+    [junit] Running com.mentor.chsx.teamcenter.ItemMasterPropertiesUpdateOnPublishTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.628 sec
+    [junit] Running com.mentor.chsx.teamcenter.ItemPropertiesUpdateOnPublishTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.187 sec
+
+BUILD SUCCESSFUL
+Total time: 40 minutes 51 seconds

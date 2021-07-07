@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>351</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo java.util.Properties getProperties()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Collection declared by class, not interface</problem_class>
+          
+        <description>Declaration of &lt;code&gt;Properties&lt;/code&gt; should probably be weakened to 'java.util.Hashtable' #loc</description>
+        
+    </problem>
+    
+</problems>

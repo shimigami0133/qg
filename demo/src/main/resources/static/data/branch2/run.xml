@@ -1,0 +1,11 @@
+<run>
+    <stream buildid="V2021.1.1_608" interestingfiles="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa//2021.1_ADP1_DEV_installer_porting/changes/undelivered.newfiles.txt" name="2021.1_ADP1_DEV_installer_porting"/>
+    <timing starttime="1624379351512"/>
+    <host name="ies-iesd-grd002"/>
+    <log link="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa//2021.1_ADP1_DEV_installer_porting/logs/stream.log"/>
+    <findchanges link="" status="NA"/>
+    <sync link="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa//2021.1_ADP1_DEV_installer_porting/logs/sync.log" status="NA"/>
+    <build endtime="1624377462249" link="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa//2021.1_ADP1_DEV_installer_porting/logs/build.log" starttime="1624371237623" status="DONE"/>
+    <submit link="" status="DONE"/>
+</run>
+

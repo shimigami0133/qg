@@ -1,0 +1,357 @@
+
+/var/spool/sge/ies/ies-iesd-grd-26/job_scripts/227599248 -stream 2021.1_ADP1_INT -projHome /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd -buildFile /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml -testlist /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt
+
+ARC=lx-amd64
+_=/bin/env
+CVS_RSH=ssh
+DISPLAY=lnx-ies-bld-06.ies.mentorg.com:3
+ENVIRONMENT=BATCH
+GRID_SCRIPT_TO_EXECUTE=/ies/iesd_data11/iesdgridhome/scripts/prod/BuildScripts/bin/rununittest.pl
+HISTCONTROL=ignoredups
+HISTSIZE=1000
+HOME=/home/iesdgrid
+HOSTNAME=ies-iesd-grd-26
+IESD_GRIDDATA=/ies/iesd_data11/iesdgridhome/data
+IESD_SCRIPTS=/ies/iesd_data11/iesdgridhome/scripts/prod
+JOB_ID=227599248
+JOB_NAME=gridrunner.sh
+JOB_SCRIPT=/var/spool/sge/ies/ies-iesd-grd-26/job_scripts/227599248
+KDEDIRS=/usr
+LANG=en_US.UTF-8
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LOGNAME=iesdgrid
+MAIL=/var/spool/mail/iesdgrid
+MANPATH=:/opt/puppetlabs/puppet/share/man
+NHOSTS=1
+NQUEUES=1
+NSLOTS=1
+PATH=/usr/lib64/qt-3.3/bin:/home/iesdgrid/perl5/bin:/var/spool/sge/ies/tmp/227599248.1.iesd.p:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/iesdgrid/opt/intellij/idea-IC-162.2228.15/bin
+PERL5LIB=/home/iesdgrid/perl5/lib/perl5:
+PERL_LOCAL_LIB_ROOT=:/home/iesdgrid/perl5
+PERL_MB_OPT=--install_base /home/iesdgrid/perl5
+PERL_MM_OPT=INSTALL_BASE=/home/iesdgrid/perl5
+PWD=/home/iesdgrid
+QTDIR=/usr/lib64/qt-3.3
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTINC=/usr/lib64/qt-3.3/include
+QTLIB=/usr/lib64/qt-3.3/lib
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QUEUE=iesd.p
+REQNAME=gridrunner.sh
+REQUEST=gridrunner.sh
+RESTARTED=0
+SGE_ACCOUNT=sge
+SGE_ARCH=lx-amd64
+SGE_BINARY_PATH=/ies/grid/uge86/bin/lx-amd64
+SGE_CELL=default
+SGE_CWD_PATH=/home/iesdgrid
+SGE_EXECD_PORT=6471
+SGE_HGR_memory=5.588G
+SGE_JOB_SPOOL_DIR=/var/spool/sge/ies/ies-iesd-grd-26/active_jobs/227599248.1
+SGE_O_HOME=/home/iesdgrid
+SGE_O_HOST=ies-iesd-grd002
+SGE_O_LOGNAME=iesdgrid
+SGE_O_MAIL=/var/mail/iesdgrid
+SGE_O_PATH=/ies/iesd_data11/iesdgridhome/tools/appsroot/aol/java/jdk-11.0.4/bin:/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin:/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bin:/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/lib:/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib:/usr/atria/bin:/ies/grid/uge86/mgc:/ies/grid/uge86/bin/lx-amd64:/usr/local/bin:/usr/bin
+SGE_O_SHELL=/bin/ksh
+SGE_O_WORKDIR=/tmp/slave/ci01/workspace/SubmitQualityGatesGit
+SGE_QMASTER_PORT=6470
+SGE_RERUN_JOB=1
+SGE_RERUN_REQUESTED=1
+SGE_ROOT=/ies/grid/uge86
+SGE_STDERR_PATH=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/junit_test_result/logs/linux/job.533.log
+SGE_STDIN_PATH=/dev/null
+SGE_STDOUT_PATH=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/junit_test_result/logs/linux/job.533.log
+SGE_TASK_FIRST=undefined
+SGE_TASK_ID=undefined
+SGE_TASK_LAST=undefined
+SGE_TASK_STEPSIZE=undefined
+SHELL=/bin/sh
+SHLVL=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+TMPDIR=/var/spool/sge/ies/tmp/227599248.1.iesd.p
+TMP=/var/spool/sge/ies/tmp/227599248.1.iesd.p
+TZ=UTC
+USER=iesdgrid
+XDG_DATA_DIRS=/home/iesdgrid/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
++ export MGC_VCO=aol
++ MGC_VCO=aol
++ export LD_LIBRARY_PATH=/ies/iesd_data11/iesdgridhome/scripts/prod/Modules/aol:
++ LD_LIBRARY_PATH=/ies/iesd_data11/iesdgridhome/scripts/prod/Modules/aol:
++ export PATH=/bin:/usr/lib64/qt-3.3/bin:/home/iesdgrid/perl5/bin:/var/spool/sge/ies/tmp/227599248.1.iesd.p:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/iesdgrid/opt/intellij/idea-IC-162.2228.15/bin
++ PATH=/bin:/usr/lib64/qt-3.3/bin:/home/iesdgrid/perl5/bin:/var/spool/sge/ies/tmp/227599248.1.iesd.p:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/iesdgrid/opt/intellij/idea-IC-162.2228.15/bin
++ '[' -x /ies/grid/uge86/default/common/settings.sh ']'
++ echo 'Calling perl /ies/iesd_data11/iesdgridhome/scripts/prod/BuildScripts/bin/rununittest.pl -stream' 2021.1_ADP1_INT -projHome /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd -buildFile /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml -testlist '/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt '
+Calling perl /ies/iesd_data11/iesdgridhome/scripts/prod/BuildScripts/bin/rununittest.pl -stream 2021.1_ADP1_INT -projHome /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd -buildFile /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml -testlist /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt 
++ echo 'Fail if file not found '
+Fail if file not found 
++ perl /ies/iesd_data11/iesdgridhome/scripts/prod/BuildScripts/bin/rununittest.pl -stream 2021.1_ADP1_INT -projHome /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd -buildFile /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml -testlist /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt
+-- Wed May  5 00:30:18 2021: /ies/iesd_data11/iesdgridhome/scripts/prod/BuildScripts/bin/rununittest.pl -stream 2021.1_ADP1_INT -projHome /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd -buildFile /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml -testlist /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt
+-- Wed May  5 00:30:18 2021: Checking for branch configuration attributes file: '/ies/iesd_data11/iesdgridhome/BranchDataRoot/2021.1_ADP1_INT/attributes.ini'
+-- Wed May  5 00:30:18 2021: Found /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/infra_features.ini. Reading the config with least precedence.
+-- Wed May  5 00:30:19 2021: TestListExecutor /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt STARTED
+-- Wed May  5 00:30:19 2021: PROJ_HOME=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd
+-- Wed May  5 00:30:19 2021: BUILD_HOME=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd
+-- Wed May  5 00:30:19 2021: CHS_HOME=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home
+-- Wed May  5 00:30:19 2021: JAVA_HOME=/ies/iesd_data11/iesdgridhome/tools/appsroot/aol/java/jdk-11.0.4
+-- Wed May  5 00:30:19 2021: ANT_HOME=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld
+-- Wed May  5 00:30:19 2021: PATH=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bin:/bin:/usr/lib64/qt-3.3/bin:/home/iesdgrid/perl5/bin:/var/spool/sge/ies/tmp/227599248.1.iesd.p:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/iesdgrid/opt/intellij/idea-IC-162.2228.15/bin
+-- Wed May  5 00:30:19 2021: PATH=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin:/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bin:/bin:/usr/lib64/qt-3.3/bin:/home/iesdgrid/perl5/bin:/var/spool/sge/ies/tmp/227599248.1.iesd.p:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/iesdgrid/opt/intellij/idea-IC-162.2228.15/bin
+-- Wed May  5 00:30:19 2021: PATH=/ies/iesd_data11/iesdgridhome/tools/appsroot/aol/java/jdk-11.0.4/bin:/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin:/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bin:/bin:/usr/lib64/qt-3.3/bin:/home/iesdgrid/perl5/bin:/var/spool/sge/ies/tmp/227599248.1.iesd.p:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/iesdgrid/opt/intellij/idea-IC-162.2228.15/bin
+-- Wed May  5 00:30:19 2021: ANT_OPTS=-Xmx2G -Dfile.encoding=iso-8859-1
+-- Wed May  5 00:30:19 2021: ant  -Dbuild_vco=aol -Dbuild_env=linux -propertyfile /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.properties -Dchs.build.skiptestexports=true -Dcapital.testlist.path=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt runtestsonlyqg -f /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml STARTED
+-- Wed May  5 00:30:19 2021: /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant  -Dbuild_vco=aol -Dbuild_env=linux -propertyfile /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.properties -Dchs.build.skiptestexports=true -Dcapital.testlist.path=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt runtestsonlyqg -f /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml
+Buildfile: /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = linux.job.533
+
+-os-init-linux:
+     [echo] Reset to include attachlistener
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] capital.skiplookandfeel=true 
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults/topology exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from Capital Integrator Tests /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml
+[readtestlist] Found 15 test classes in testlist '/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt'
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.PersistentLockCheckerOnAllOpenDesignsTopoTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.186 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.TopoViewTest
+    [junit] ES2 Prism: Error - GLX extension is not supported
+    [junit]     GLX version 1.3 or higher is required
+    [junit] 
+    [junit] (java:14223): dbind-WARNING **: 00:30:59.684: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-zPZA5LlC6Z: Connection refused
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.373 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.IntegratorActionUtilsMockTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.213 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.IntegratorActionUtilsTest
+    [junit] ES2 Prism: Error - GLX extension is not supported
+    [junit]     GLX version 1.3 or higher is required
+    [junit] 
+    [junit] (java:16769): dbind-WARNING **: 00:31:47.041: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-zPZA5LlC6Z: Connection refused
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.445 sec
+    [junit] Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+    [junit] 	at chs.caplets.topo.actions.designassistant.SignalRouteStateCalcActionUI$SignalRouteStateCalcAction.isEnabled(SignalRouteStateCalcActionUI.java:71)
+    [junit] 	at chs.caf.helpers.ui.common.statusmessage.DesignStatusActionUIButton.isMessageActionEnabled(DesignStatusActionUIButton.java:132)
+    [junit] 	at chs.caf.helpers.ui.common.statusmessage.DesignStatusActionUIButton.update(DesignStatusActionUIButton.java:115)
+    [junit] 	at chs.utilities.ui.tree.Drawer.update(Drawer.java:656)
+    [junit] 	at chs.utilities.ui.tree.Drawer.update(Drawer.java:656)
+    [junit] 	at chs.caplets.topo.actions.designassistant.DesignAssistantStatusMessageComponentCreationVisitor$1.update(DesignAssistantStatusMessageComponentCreationVisitor.java:51)
+    [junit] 	at chs.caf.caplet.helpers.DoubleEndedToolbar.update(DoubleEndedToolbar.java:145)
+    [junit] 	at chs.caf.helpers.ui.common.statusmessage.StatusMessageTableWindow.updatePaneUI(StatusMessageTableWindow.java:575)
+    [junit] 	at chs.caf.helpers.ui.common.OutputWindow.updatePaneUIs(OutputWindow.java:407)
+    [junit] 	at chs.caf.OutputWindowWrapper$12.run(OutputWindowWrapper.java:291)
+    [junit] 	at chs.utility.ui.CHSSwingUtils.invoke(CHSSwingUtils.java:110)
+    [junit] 	at chs.caf.OutputWindowWrapper.updatePaneUIs(OutputWindowWrapper.java:295)
+    [junit] 	at chs.caf.helpers.ui.std.UIManager.doTickleUI(UIManager.java:3816)
+    [junit] 	at chs.caf.helpers.autorecovery.IScanningLock.tryWithinScanningLock(IScanningLock.java:162)
+    [junit] 	at chs.caf.helpers.ui.std.UIManager.tryDoingTickleUI(UIManager.java:3780)
+    [junit] 	at com.mentor.capital.executor.AutoRetryRunnable.lambda$run$1(AutoRetryRunnable.java:65)
+    [junit] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+    [junit] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+    [junit] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+    [junit] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+    [junit] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+    [junit] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+    [junit] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+    [junit] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+    [junit] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+    [junit] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+    [junit] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+    [junit] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+    [junit] SynthDebugDimmingValueAction tried to stop the timer when it was not running and hence is not logged as an event
+    [junit] Exception in thread "JavaFX Application Thread" java.lang.NullPointerException
+    [junit] 	at com.sun.javafx.webkit.prism.WCFontImpl.getFont(WCFontImpl.java:54)
+    [junit] 	at com.sun.javafx.webkit.prism.PrismGraphicsManager.getWCFont(PrismGraphicsManager.java:84)
+    [junit] 	at com.sun.webkit.WebPage.twkInit(Native Method)
+    [junit] 	at com.sun.webkit.WebPage.<init>(WebPage.java:192)
+    [junit] 	at javafx.scene.web.WebEngine.<init>(WebEngine.java:841)
+    [junit] 	at javafx.scene.web.WebEngine.<init>(WebEngine.java:826)
+    [junit] 	at javafx.scene.web.WebView.<init>(WebView.java:260)
+    [junit] 	at chs.teamplay.TeamPlayTab.lambda$new$0(TeamPlayTab.java:97)
+    [junit] 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+    [junit] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+    [junit] 	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+    [junit] 	at com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+    [junit] 	at com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$11(GtkApplication.java:277)
+    [junit] 	at java.base/java.lang.Thread.run(Thread.java:834)
+    [junit] Exception in thread "JavaFX Application Thread" java.lang.NullPointerException
+    [junit] 	at com.sun.javafx.webkit.prism.WCFontImpl.getFont(WCFontImpl.java:54)
+    [junit] 	at com.sun.javafx.webkit.prism.PrismGraphicsManager.getWCFont(PrismGraphicsManager.java:84)
+    [junit] 	at com.sun.webkit.WebPage.twkInit(Native Method)
+    [junit] 	at com.sun.webkit.WebPage.<init>(WebPage.java:192)
+    [junit] 	at javafx.scene.web.WebEngine.<init>(WebEngine.java:841)
+    [junit] 	at javafx.scene.web.WebEngine.<init>(WebEngine.java:826)
+    [junit] 	at javafx.scene.web.WebView.<init>(WebView.java:260)
+    [junit] 	at chs.teamplay.TeamPlayTab.lambda$new$0(TeamPlayTab.java:97)
+    [junit] 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+    [junit] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+    [junit] 	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+    [junit] 	at com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+    [junit] 	at com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$11(GtkApplication.java:277)
+    [junit] 	at java.base/java.lang.Thread.run(Thread.java:834)
+    [junit] Exception in thread "JavaFX Application Thread" java.lang.NullPointerException
+    [junit] 	at com.sun.javafx.webkit.prism.WCFontImpl.getFont(WCFontImpl.java:54)
+    [junit] 	at com.sun.javafx.webkit.prism.PrismGraphicsManager.getWCFont(PrismGraphicsManager.java:84)
+    [junit] 	at com.sun.webkit.WebPage.twkInit(Native Method)
+    [junit] 	at com.sun.webkit.WebPage.<init>(WebPage.java:192)
+    [junit] 	at javafx.scene.web.WebEngine.<init>(WebEngine.java:841)
+    [junit] 	at javafx.scene.web.WebEngine.<init>(WebEngine.java:826)
+    [junit] 	at javafx.scene.web.WebView.<init>(WebView.java:260)
+    [junit] 	at chs.teamplay.TeamPlayTab.lambda$new$0(TeamPlayTab.java:97)
+    [junit] 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+    [junit] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+    [junit] 	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+    [junit] 	at com.sun.glass.ui.gtk.GtkApplication._runLoop(Native Method)
+    [junit] 	at com.sun.glass.ui.gtk.GtkApplication.lambda$runLoop$11(GtkApplication.java:277)
+    [junit] 	at java.base/java.lang.Thread.run(Thread.java:834)
+    [junit] #
+    [junit] # A fatal error has been detected by the Java Runtime Environment:
+    [junit] #
+    [junit] #  SIGSEGV (0xb) at pc=0x00002ad605520d46, pid=16769, tid=19118
+    [junit] #
+    [junit] # JRE version: OpenJDK Runtime Environment (11.0.4+11) (build 11.0.4-ojdkbuild+11)
+    [junit] # Java VM: OpenJDK 64-Bit Server VM (11.0.4-ojdkbuild+11, mixed mode, tiered, compressed oops, g1 gc, linux-amd64)
+    [junit] # Problematic frame:
+    [junit] # C  [libjfxwebkit.so+0x1520d46]  WebCore::FontCache::lastResortFallbackFont(WebCore::FontDescription const&)+0x66
+    [junit] #
+    [junit] # Core dump will be written. Default location: /ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/core.16769
+    [junit] #
+    [junit] # An error report file with more information is saved as:
+    [junit] # /ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/hs_err_pid16769.log
+    [junit] Compiled method (c1)   33407 9093  s    3       java.io.BufferedOutputStream::flush (12 bytes)
+    [junit]  total in heap  [0x00002ad4ba3e1d90,0x00002ad4ba3e2580] = 2032
+    [junit]  relocation     [0x00002ad4ba3e1f08,0x00002ad4ba3e1f68] = 96
+    [junit]  main code      [0x00002ad4ba3e1f80,0x00002ad4ba3e23c0] = 1088
+    [junit]  stub code      [0x00002ad4ba3e23c0,0x00002ad4ba3e2478] = 184
+    [junit]  metadata       [0x00002ad4ba3e2478,0x00002ad4ba3e2490] = 24
+    [junit]  scopes data    [0x00002ad4ba3e2490,0x00002ad4ba3e24d0] = 64
+    [junit]  scopes pcs     [0x00002ad4ba3e24d0,0x00002ad4ba3e2560] = 144
+    [junit]  dependencies   [0x00002ad4ba3e2560,0x00002ad4ba3e2568] = 8
+    [junit]  nul chk table  [0x00002ad4ba3e2568,0x00002ad4ba3e2580] = 24
+    [junit] #
+    [junit] # If you would like to submit a bug report, please visit:
+    [junit] #   http://bugreport.java.com/bugreport/crash.jsp
+    [junit] # The crash happened outside the Java Virtual Machine in native code.
+    [junit] # See problematic frame for where to report the bug.
+    [junit] #
+    [junit] Test chs.caf.cafmain.actions.IntegratorActionUtilsTest FAILED
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.ToggleCrosshairActionTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.244 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.analysis.AttachModelActionTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.481 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.dev.DeleteHiddenObjectsDEVActionTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.141 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.dev.DeleteHiddenObjectsDEVUndoableActionTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.562 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.dev.DisassociateUnusedDesignsFromIntegDEVActionTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.573 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.dev.DisassociateUnusedDesignsFromIntegDEVUndoableActionTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.97 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.dev.LoadCachedWiringDataDEVActionTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.61 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.dev.SaveCachedWiringDataDEVActionTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.841 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.dev.UnassociateLogicDesignsFromTopologyDEVActionTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.12 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.topology.graphics.CapitalTopoRotateFlipAboutCentreTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.398 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by sun.awt.peer.cacio.Reflection (file:/ies/iesd_data4_nb/qualitygates/iesd-21.1/2021.1_ADP1_INT/code/iesd/chs_home/bld/lib/cacio-shared.jar) to field java.awt.Component.peer
+    [junit] WARNING: Please consider reporting this to the maintainers of sun.awt.peer.cacio.Reflection
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.topology.networks.AvionicsExportActionUITest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.754 sec
+
+BUILD SUCCESSFUL
+Total time: 5 minutes 34 seconds
+-- Wed May  5 00:35:54 2021: ant  -Dbuild_vco=aol -Dbuild_env=linux -propertyfile /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.properties -Dchs.build.skiptestexports=true -Dcapital.testlist.path=/ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt runtestsonlyqg -f /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/ctopology_src/tests/build.xml DONE in 335730ms
+-- Wed May  5 00:35:54 2021: TestListExecutor /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.linux/job.533.txt DONE in 335753ms
+-- Wed May  5 00:35:54 2021: /ies/iesd_data11/iesdgridhome/scripts/prod/BuildScripts/bin/rununittest.pl DONE - exit code : 0

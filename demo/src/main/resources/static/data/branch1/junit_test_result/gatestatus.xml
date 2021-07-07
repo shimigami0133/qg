@@ -1,0 +1,18 @@
+<gatestatus>
+    <gate
+        name="junit_test_result"
+        displayname="JUnit Tests"
+        description="JUnit tests must pass 100%"
+        mode="PRODUCTION"
+        kind="DEFAULT"
+    />
+    <status
+        result="FAIL"
+        link="code/iesd/chs_home/bld/testreports/html/index.html"
+        details="Run: 12581, Failed: 8, Errors: 6, Intermittent: 15"
+    />
+    <timing
+        starttime="1620173570270"
+        endtime="1620178758654"
+    />
+</gatestatus>

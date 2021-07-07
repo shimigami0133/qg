@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>396</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Set&lt;com.mentor.chs.api.IXValue&gt; getAttributes()" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'isAttributeExposed(java.lang.Class&lt;? extends com.mentor.chs.api.IXObject&gt;, java.lang.Class&lt;? extends chs.common.attr.IAttributeProvider&gt;, java.lang.String)' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>434</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.lang.String getAttribute(java.lang.String name)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'isAttributeExposed(java.lang.Class&lt;? extends com.mentor.chs.api.IXObject&gt;, java.lang.Class&lt;? extends chs.common.attr.IAttributeProvider&gt;, java.lang.String)' is deprecated</description>
+        
+    </problem>
+    
+</problems>

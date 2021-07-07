@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/pdm/TCBomReportParser.java</file>
+          
+        <line>104</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCBomReportParser void populateStructure(org.w3c.dom.Element nestedReportModuleNode, java.util.List&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails&gt; bomDetails, java.lang.String occurrenceIdentifier)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;instanceName&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>285</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper void connectToClient(com.mentor.chs.extension.api.plm.PIXPLMClient plmClient, chs.bridges.IHandshakeMgr mgr)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+</problems>

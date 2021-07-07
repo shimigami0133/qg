@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>639</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction java.util.Set&lt;com.mentor.chs.api.sbom.IXSBOM&gt; getActiveSBOMS()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly strong type cast</problem_class>
+          
+        <description>Cast to &lt;code&gt;IHarnessDesign&lt;/code&gt; can be weakened to 'IDesignDescriptor' #loc</description>
+        
+    </problem>
+    
+</problems>

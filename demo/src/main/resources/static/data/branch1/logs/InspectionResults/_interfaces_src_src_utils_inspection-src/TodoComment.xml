@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>233</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean isSingleSignOnPreferred()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: rjoseph - to be removed!&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>246</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean supportsEmbeddedDatabasesOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: rjoseph - convert into a capability/feature: DATABASE_EMBEDDED, DATABASE_ENTERPRISE&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>270</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean usesInApplicationProjectEditing()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: rjoseph - convert into a capability/feature: PROJECT_APPLICATION?&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>304</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean supportsFeature(chs.utilities.Feature feature)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: will not be needed when capabilities &amp; features merge.&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>314</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean supportsApplication(chs.caf.annotations.Application application)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: will not be needed when capabilities migrate to actions.&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>406</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean requiresProjectSignatures()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: rjoseph - convert into a capability/feature: PROJECT_SIGNATURES?&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>519</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean supportsRestrictedAnalysisOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: rjoseph - convert into a capability/feature: ANALYSIS_BASIC, ANALYSIS_ADVANCED&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/AppInfo.java</file>
+          
+        <line>56</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.AppInfo.App CONCORDPLATFORMS" TYPE="field"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO LOGIC-2313 ConcordFX - Rename properly for readability&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/AppInfo.java</file>
+          
+        <line>197</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.AppInfo.App chs.utilities.AppInfo.App getApplicationForName(java.lang.String appName)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo need to remove this hack once the obsolete Systems suite is removed. Needed this at present as ...&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/AppInfo.java</file>
+          
+        <line>272</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.AppInfo java.lang.String getDefaultStyleSheetPath()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO Need better encapsulation&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/AppInfo.java</file>
+          
+        <line>650</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.AppInfo chs.utilities.AppInfo.App getSuitableApp(java.lang.String appName)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO LOGIC-2313 ConcordFX - Following code need to be removed&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/PropsFileNames.java</file>
+          
+        <line>761</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.PropsFileNames.InternalPropsFileNames java.lang.String getANSConfigurationFile()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo ANS integrate with BuildInfo if we need to support command line option&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>1734</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean isWebServerEmbedded(java.lang.String hostAppliName)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo TestPoint - Test that Manager props is used irrespective of build info - kjuthi&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3378</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: createCrsConfiguration()&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>425</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo java.lang.String getGalaxyBuildID()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: Ideally Galaxy should return a build ID for all galaxy products, We will review this in 2019 J...&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>1081</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo void init(java.io.OutputStream os, java.lang.String applicationName, chs.utilities.CmdLine cmdline, boolean addBuildInfo)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: should use suites.&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>1271</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo boolean isSnapshotBuild()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO-jayan : could&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

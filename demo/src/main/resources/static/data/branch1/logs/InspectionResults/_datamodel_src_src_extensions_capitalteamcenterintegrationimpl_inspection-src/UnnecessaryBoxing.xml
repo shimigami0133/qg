@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>967</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator void validateItemIdLength(java.lang.String itemId, java.lang.String taskContextTag)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unnecessary boxing</problem_class>
+          
+        <description>Redundant boxing inside &lt;code&gt;Integer.valueOf(mPDMPropertiesHandler.loadProperty(TCeConstants.PRODUCT_ID_MAXLEN, TCeConstants....&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>350</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration void waitForAWSUIToLoad()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unnecessary boxing</problem_class>
+          
+        <description>Redundant boxing inside &lt;code&gt;Integer.valueOf(designPropertiesHandler.loadProperty(TCeConstants.AW_LOAD_LATENCY, TCeConstant...&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

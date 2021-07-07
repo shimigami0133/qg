@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>115</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect tcSupportedActions" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;EnumSet&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesIntegrationServices.java</file>
+          
+        <line>283</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesIntegrationServices void getBaseIdMap(chs.common.IDesignContainer design, chs.bridges.importer.BridgeInComponentsMap objBaseIds)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;BridgeInComponentsMap&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>756</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory java.lang.ClassLoader crateEDXMGClassLoader(java.lang.String iFormatJar)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;Class&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>1087</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory java.util.List&lt;chs.bridges.adaptors.IAdaptorDiagramInfoProvider.DiagramInfo&gt; getDesignDiagrams(java.lang.String designId, boolean includeAssociatedDesigns)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;Collection&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

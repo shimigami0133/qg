@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/LogicBOMReportCreator.java</file>
+          
+        <line>37</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.LogicBOMReportCreator" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/TeamcenterLogicReportExchangeAction.java</file>
+          
+        <line>27</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.TeamcenterLogicReportExchangeAction" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/TeamcenterCompleteReportExchangeAction.java</file>
+          
+        <line>16</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.TeamcenterCompleteReportExchangeAction" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/helpers/ui/common/ribbon/TeamcenterExtensionsMenuItemProducer.java</file>
+          
+        <line>35</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.helpers.ui.common.ribbon</package>
+          
+        <entry_point FQNAME="chs.caf.helpers.ui.common.ribbon.TeamcenterExtensionsMenuItemProducer" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>108</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+</problems>

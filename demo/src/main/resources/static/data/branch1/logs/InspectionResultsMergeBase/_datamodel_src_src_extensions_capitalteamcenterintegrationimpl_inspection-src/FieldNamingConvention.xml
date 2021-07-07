@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>104</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration countDownLatchToWaitForAWLoadingCompletely" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Field naming convention</problem_class>
+          
+        <description>Instance field name &lt;code&gt;countDownLatchToWaitForAWLoadingCompletely&lt;/code&gt; is too long (42 &amp;gt; 32) #loc</description>
+        
+    </problem>
+    
+</problems>

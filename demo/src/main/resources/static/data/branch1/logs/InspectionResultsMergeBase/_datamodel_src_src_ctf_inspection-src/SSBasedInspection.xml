@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/ctf/src/chs/task/icd/xsd/XSDICDImporterFileUtil.java</file>
+          
+        <line>31</line>
+          
+        <module>datamodel_ctf</module>
+          
+        <package>chs.task.icd.xsd</package>
+          
+        <entry_point FQNAME="chs.task.icd.xsd.XSDICDImporterFileUtil java.util.Set&lt;chs.task.icd.xsd.XSDICDDataItem&gt; scanFolder(chs.utilities.IFileSystemUtils fileSystemUtils)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/ctf/src/chs/task/icd/xsd/XSDICDImporterFileUtil.java</file>
+          
+        <line>104</line>
+          
+        <module>datamodel_ctf</module>
+          
+        <package>chs.task.icd.xsd</package>
+          
+        <entry_point FQNAME="chs.task.icd.xsd.XSDICDImporterFileUtil chs.task.icd.xsd.XSDICDImportParameters getParameters()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+</problems>

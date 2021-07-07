@@ -1,0 +1,94 @@
+* {
+    /*
+	IN-3235 - Note that we have to repeat this in child elements because Outlook
+	HTML email rendering (and MS tools in general) is not "responsive" to the cascading
+	style.  It doesn't cascade!
+	*/
+    font-family: Verdana;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+h1 {
+    font-family: Verdana;
+}
+
+table, th, td {
+    font-family: Verdana;
+    text-align: left;
+    padding:0px 5px;
+}
+
+th {
+    font-family: Verdana;
+    background-color: gray;
+    color: white;
+}
+
+.footer {
+    font-family: Verdana;
+    color: gray;
+    font-size: 8px;
+}
+
+.gateNameCell {
+}
+
+.gateStatusCell {
+}
+
+.gateStatusPassCell {
+    background-color: green;
+}
+
+.gateStatusFailCell {
+    background-color: red;
+}
+
+.gateStatusErrorCell {
+    background-color: red;
+}
+
+.gateDetailsCell {
+}
+
+.gateDurationCell {
+    color: gray;
+}
+
+.gateOverallCell {
+    font-weight: bold;
+}
+
+.gateOverallPassCell {
+    font-weight: bold;
+    background-color: green;
+}
+
+.gateOverallFailCell {
+    font-weight: bold;
+    background-color: red;
+}
+
+.gateOverallErrorCell {
+    font-weight: bold;
+    background-color: red;
+}
+
+.buildTitleCell {
+}
+
+.buildStatusCell {
+}
+
+.buildStatusErrorCell {
+    background-color: red;
+}
+
+.buildDurationCell {
+    color: gray;
+}
+

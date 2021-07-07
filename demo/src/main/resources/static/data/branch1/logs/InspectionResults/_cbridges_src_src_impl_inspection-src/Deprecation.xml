@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>612</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory chs.bridges.adaptors.IAdaptorFormat loadAdaptor(java.lang.String iFormatJar, java.lang.String iClassName, int iPluginCount, java.lang.String[] iPluginApplis, java.lang.String[] iPluginClasses)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'newInstance()' is deprecated</description>
+        
+    </problem>
+    
+</problems>

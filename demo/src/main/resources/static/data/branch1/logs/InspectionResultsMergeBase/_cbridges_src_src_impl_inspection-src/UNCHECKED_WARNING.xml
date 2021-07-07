@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>1064</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory java.util.List&lt;chs.bridges.adaptors.IAdaptorDiagramInfoProvider.DiagramInfo&gt; getDesignDiagrams(java.lang.String designId, boolean includeAssociatedDesigns)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked assignment: 'java.util.List' to 'java.util.List&lt;chs.bridges.adaptors.IAdaptorDiagramInfoProvider.DiagramInfo&gt;'</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>776</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo void init(java.io.OutputStream os, java.lang.String applicationName, chs.utilities.CmdLine cmdline)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'expression.equals("literal")' rather than '"literal".equals(expression)'</problem_class>
+          
+        <description>Literal &lt;code&gt;"log"&lt;/code&gt; is argument of 'equalsIgnoreCase()', instead of its qualifier #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>779</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo void init(java.io.OutputStream os, java.lang.String applicationName, chs.utilities.CmdLine cmdline)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'expression.equals("literal")' rather than '"literal".equals(expression)'</problem_class>
+          
+        <description>Literal &lt;code&gt;"chslog"&lt;/code&gt; is argument of 'equalsIgnoreCase()', instead of its qualifier #loc</description>
+        
+    </problem>
+    
+</problems>

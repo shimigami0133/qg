@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>647</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String decrypt(java.security.Key decKey, java.lang.String encString)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'throw' inside 'catch' block which ignores the caught exception</problem_class>
+          
+        <description>&lt;code&gt;throw&lt;/code&gt; inside 'catch' block ignores the caught exception #loc</description>
+        
+    </problem>
+    
+</problems>

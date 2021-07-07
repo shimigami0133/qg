@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>127</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many fields</problem_class>
+          
+        <description>&lt;code&gt;UtilityHelper&lt;/code&gt; has too many fields (field count = 12) #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>22</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getPartNumber()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>27</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getQuantity()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>32</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getGroupType()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>37</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getBOMID()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>42</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getPartRevision()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>47</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getUOM()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>67</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getPdmID()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>72</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getPdmName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>77</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getPdmRev()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>82</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getInstanceName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>87</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.util.Set&lt;java.lang.String&gt; getPropertyNames()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>92</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getPropertyValue(java.lang.String propertyName)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>102</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.util.Map&lt;java.lang.String,java.lang.String&gt; getOccurrenceNotes()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>121</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails java.lang.String getItemUOM()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+</problems>

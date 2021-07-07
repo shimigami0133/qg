@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>621</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration boolean isViewManagementServiceAvailable()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'java.lang.Error' not rethrown</problem_class>
+          
+        <description>Error &lt;code&gt;linkageError&lt;/code&gt; not rethrown #loc</description>
+        
+    </problem>
+    
+</problems>

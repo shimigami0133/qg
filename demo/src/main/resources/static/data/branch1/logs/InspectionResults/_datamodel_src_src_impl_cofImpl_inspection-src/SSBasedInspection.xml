@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>178</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.lang.String getResourceMessage(java.lang.String key, java.lang.Object... parameters)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>188</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices com.mentor.chs.extension.api.plm.PXDesignType getDesignType(com.mentor.chs.api.IXDesign xDesign)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>214</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.Locale getCapitalLocaleValue()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>272</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.lang.String getPropertiesFileName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>277</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.lang.String getDesignPropertiesFileName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>282</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.lang.String getCADPropertiesFileName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>287</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.lang.String getBOMPropertiesFileName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>310</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.Set&lt;P&gt; getPLMPluginSet(java.lang.Class&lt;P&gt; clazz)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>315</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices com.mentor.chs.api.tc.IXTeamcenterDesignExchangeContext getDesignExchangeContext()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>335</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices$3 java.util.Collection&lt;com.mentor.chs.api.IXBuildList&gt; getSelectedBuildLists()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>320</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices com.mentor.chs.api.IXValidationContext getExchangeContextForGivenObject(com.mentor.chs.extension.api.PIXPLMObject currentObjectToRead, boolean publishAsSingleItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>343</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices com.mentor.chs.api.tc.IXTeamcenterBuildListExchangeContext getBuildlistExchangeContext(boolean publishAsSingleItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>348</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.Map&lt;javafx.util.Pair&lt;java.lang.String,java.lang.String&gt;,java.lang.String&gt; getObjectProperties(com.mentor.chs.api.IXObject xObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>375</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.lang.String getPropertyType(java.lang.String propertyTypeStr)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>403</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.Set&lt;com.mentor.chs.api.IXDesign&gt; sortDesigns(java.util.Set&lt;com.mentor.chs.api.IXDesign&gt; xDesigns)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>420</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.Set&lt;java.lang.String&gt; getAllTCRelations()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>513</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.List&lt;java.lang.String&gt; generateReports(com.mentor.chs.api.IXDesign design)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>526</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.List&lt;java.lang.String&gt; getDesignDatasetRelations()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>552</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.List&lt;java.lang.String&gt; getCadDatasetRelations()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>577</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.List&lt;java.lang.String&gt; getLinkDatasetRelations()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>627</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices chs.common.ValueTypeEnum getPropTypeEnum(java.lang.String propType)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>632</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.Map&lt;javafx.util.Pair&lt;java.lang.String,java.lang.String&gt;,java.lang.String&gt; getObjectProperties(chs.common.IPropertyIterator propertyIterator, java.util.Collection&lt;chs.common.attr.IAttribute&gt; attributes)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>680</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.List&lt;chs.cof.draw.ISheet&gt; getDiagramSheets(java.util.List&lt;com.mentor.chs.api.IXDiagram&gt; xDiagrams)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+</problems>

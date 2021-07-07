@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>335</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; updatePLMObjectStructure(com.mentor.chs.api.IXObject pixplmObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask, java.lang.String plmObjectName, java.lang.String currentPLMObjectRevProp, java.lang.String xPLMObjectRev, java.lang.String capitalItemType, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; optPLMObjectItem, java.lang.String newRevisionId)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;updatePLMObjectStructure()&lt;/code&gt; (cyclomatic complexity = 16) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>1092</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; getPLMObjectRevisionIfPresent(com.mentor.chs.api.IXObject pixplmObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,?&gt; progressTask, java.lang.String currentPLMObjectRevProp, java.lang.String xPLMObjectRev, java.lang.String capitalItemType, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; optPLMObjectItem, java.lang.String newRevisionId)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;getPLMObjectRevisionIfPresent()&lt;/code&gt; (cyclomatic complexity = 17) #loc</description>
+        
+    </problem>
+    
+</problems>

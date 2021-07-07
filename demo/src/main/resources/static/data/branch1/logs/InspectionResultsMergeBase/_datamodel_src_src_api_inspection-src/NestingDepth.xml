@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>428</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.lang.String getAttribute(java.lang.String name)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly nested method</problem_class>
+          
+        <description>&lt;code&gt;getAttribute&lt;/code&gt; is overly nested (maximum nesting depth = 6) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>877</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void removeCharSetFromMetaTag(org.jdom.Element rootElement)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly nested method</problem_class>
+          
+        <description>&lt;code&gt;removeCharSetFromMetaTag&lt;/code&gt; is overly nested (maximum nesting depth = 6) #loc</description>
+        
+    </problem>
+    
+</problems>

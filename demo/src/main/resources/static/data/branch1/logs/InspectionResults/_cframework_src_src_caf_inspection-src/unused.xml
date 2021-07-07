@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>486</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources mValidateActiveCaches" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field is assigned but never accessed.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>567</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction java.util.List&lt;chs.caf.cafmain.actions.embeddedReport.DesignListElement&gt; getBuildListDesignListElements(java.util.Set&lt;com.mentor.chs.api.IXBuildList&gt; buildlistForOpenedDesign)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>111</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction m_forRelease" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field is assigned but never accessed.</description>
+        
+    </problem>
+</problems>

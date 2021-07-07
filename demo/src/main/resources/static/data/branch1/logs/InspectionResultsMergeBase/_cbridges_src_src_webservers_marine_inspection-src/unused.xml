@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/marine/src/chs/marine/sync/IMarineSyncDetails.java</file>
+          
+        <line>20</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.marine.sync</package>
+          
+        <entry_point FQNAME="chs.marine.sync.IMarineSyncDetails" TYPE="class"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>&amp;nbsp;Interface is not implemented.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/marine/src/chs/marine/sync/IMarineSyncDetails.java</file>
+          
+        <line>22</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.marine.sync</package>
+          
+        <entry_point FQNAME="chs.marine.sync.IMarineSyncDetails java.util.Date getLastSuccessfulImportDate()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>&lt;ul&gt;&lt;li&gt;Method owner class is never instantiated OR&lt;/li&gt;&lt;li&gt;An instantiation is not reachable from entry points.&lt;/li&gt;&lt;/ul&gt;</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/marine/src/chs/marine/sync/client/validate/IMarineFileExchangeClientValidator.java</file>
+          
+        <line>19</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.marine.sync.client.validate</package>
+          
+        <entry_point FQNAME="chs.marine.sync.client.validate.IMarineFileExchangeClientValidator boolean validate()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used as a member of this interface, but only as a member of the implementation class(es). The project will stay compilable if the method is removed from the interface.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/marine/src/chs/marine/sync/schedule/MarineUploadScheduler.java</file>
+          
+        <line>77</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.marine.sync.schedule</package>
+          
+        <entry_point FQNAME="chs.marine.sync.schedule.MarineUploadScheduler chs.marine.sync.client.IMarineFileExchangeClient getUploadClient()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/marine/src/chs/marine/servlet/MarineSessionInfoServlet.java</file>
+          
+        <line>43</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.marine.servlet</package>
+          
+        <entry_point FQNAME="chs.marine.servlet.MarineSessionInfoServlet java.lang.String constructSessionIDJsonResponse(java.lang.String id)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/marine/src/chs/marine/servlet/task/AbstractMarineServletTask.java</file>
+          
+        <line>43</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.marine.servlet.task</package>
+          
+        <entry_point FQNAME="chs.marine.servlet.task.AbstractMarineServletTask void performTask(javax.servlet.http.HttpServletRequest clientRequest, javax.servlet.http.HttpServletResponse proxyResponse, org.eclipse.jetty.client.api.Response serverResponse)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="proxyResponse"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;proxyResponse&lt;/code&gt; is not used in any implementation</description>
+        
+    </problem>
+</problems>

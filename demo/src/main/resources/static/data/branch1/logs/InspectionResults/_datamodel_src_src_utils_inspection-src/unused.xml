@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>532</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getAWBrowser(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="propertyInst"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;propertyInst&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/pdm/TCBomReportParserForLogic.java</file>
+          
+        <line>41</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCBomReportParserForLogic PDM_REV" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/pdm/TCBomReportParserForLogic.java</file>
+          
+        <line>47</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCBomReportParserForLogic java.util.List&lt;com.mentor.chs.extension.api.plm.PIXPLMMessage&gt; createBOMDetailsFromReport(java.lang.String reportContent, java.util.List&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails&gt; bomDetails, java.lang.String defaultPartRevisionToUse, java.lang.String occurrenceIdentifier)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+</problems>

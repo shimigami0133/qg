@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/AppInfo.java</file>
+          
+        <line>270</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.AppInfo java.lang.String getDefaultStyleSheetPath()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/AppInfo.java</file>
+          
+        <line>730</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.AppInfo java.lang.String applyPackaging(chs.utilities.suite.IApplicationSuite current, java.lang.String input)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/AppInfo.java</file>
+          
+        <line>336</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.AppInfo boolean isIntegratorBasedInsight()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4651</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment.DBConnectionInfo void setURL(java.lang.String url)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>2217</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getFeatureEnablementValue(chs.utilities.Feature feature, boolean onByDefault, java.lang.String name, java.lang.String check, java.lang.String applicaitonName)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="feature"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;feature&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>2217</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getFeatureEnablementValue(chs.utilities.Feature feature, boolean onByDefault, java.lang.String name, java.lang.String check, java.lang.String applicaitonName)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="name"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;name&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>311</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment clientProps" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>5552</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean shouldExportSchemaLocation()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3822</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.util.Map&lt;java.lang.String,java.lang.String&gt; getPortRangeCorbaProperties()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>1260</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment chs.utilities.LicenseInfo getLicenseInfo()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3866</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean is64Bit()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3903</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean shouldIntegratorDesignOptionsBeMasterForHarnessSync()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>305</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment dumpUpdateDataToFile" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field is assigned but never accessed.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>1980</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getLookAndFeelFromConfigurationFile(java.lang.String override)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="override"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;override&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3773</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean isPreferencesLookupDisabled()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3434</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment org.w3c.dom.Document getCisConfig(boolean reload)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>2775</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getLibraryPersistenceRecordSize()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>920</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo boolean isLegacyAnalysisMode()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>143</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo ARG_ALLOWDESIGNRELEASELEVELS" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>441</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo java.lang.String getApplicationName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>1260</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo java.lang.String getTimestamp()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>141</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo ARG_ALLOWMIGRATIONFLOW" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/PropsFileNames.java</file>
+          
+        <line>218</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.PropsFileNames java.lang.String getJazzRepositoryURI()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>318</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean supportsFeature(chs.utilities.Feature feature)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>318</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean supportsFeature(chs.utilities.Feature feature)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="feature"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;feature&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>266</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean authenticateEmbeddedDatabaseConnection(java.lang.String url, java.lang.String userName, java.lang.String password)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="userName"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;userName&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>267</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite boolean authenticateEmbeddedDatabaseConnection(java.lang.String url, java.lang.String userName, java.lang.String password)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="password"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;password&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>151</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getSystemProperty(java.lang.String suffix)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>326</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite chs.utilities.SupportedFeatureInfo getCapabilities()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>462</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getTopologyDesignType()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>388</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean currentAppUsesModularDesigns()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>482</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getAppExeNamePrefix()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>632</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean usesBackgroundUidStore()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>627</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean usesInApplicationProjectEditing()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>130</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getLibraryGuiConfig()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>492</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String adjustBridgeHostApplication(java.lang.String app)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>320</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean supportsCapability(chs.utilities.SupportedFeatureInfo.Feature capability)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>457</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getIntegratorDesignType()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>638</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean supportsApplication(chs.caf.annotations.Application application)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>367</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean supportsANS()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>452</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getLayoutDesignType()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>432</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean currentAppUsesTopologyDesigns()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>648</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean currentAppSupportsProjectInputFromExternalApplication()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>663</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean supportsLibraryPartRevision()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>447</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getFunctionDesignType()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>135</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getDefaultStyleSheetPath()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>302</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getCurrentApplicationTitle()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>467</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getHarnessDesignType()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>442</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getLogicDesignType()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>394</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.security.Key getSignatureKey()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>582</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite chs.utilities.suite.IBuiltInPlugins getBuiltInPlugins()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>88</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite void initialize()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>477</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getExecutableName(chs.utilities.AppInfo.App app)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>125</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getLibraryName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>472</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getPlatformDesignType()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>621</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean supportsSimpleHexProjectSignature()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>498</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite chs.utilities.suite.IBuiltInBridge[] getBuiltInBridges()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>140</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getLibraryLogName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>437</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean managerAcceptsConnectionsFrom(java.lang.String suiteName)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>658</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean supportsXSDICDImport()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>487</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getCustomThemeOrDefault(java.lang.String defaultTheme)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>600</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean authenticateEmbeddedDatabaseConnection(java.lang.String url, java.lang.String userName, java.lang.String password)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>357</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean currentAppUsesFunctionalDesigns()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>101</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getWelcomeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>653</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean supportsLibraryComponentRevisioning()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>362</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite boolean currentAppUsesPlatformDesigns()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/chs/CHSBrandingImagery.java</file>
+          
+        <line>115</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite.chs</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.chs.CHSBrandingImagery" TYPE="class"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <description>Variable &lt;code&gt;imageHelperManager&lt;/code&gt; is never used</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/chs/CHSBrandingImagery.java</file>
+          
+        <line>120</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite.chs</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.chs.CHSBrandingImagery" TYPE="class"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <description>Variable &lt;code&gt;imageHelperComply&lt;/code&gt; is never used</description>
+        
+    </problem>
+</problems>

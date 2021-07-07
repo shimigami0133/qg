@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcengv10.java</file>
+          
+        <line>31</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcengv10" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>23</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>53</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+</problems>

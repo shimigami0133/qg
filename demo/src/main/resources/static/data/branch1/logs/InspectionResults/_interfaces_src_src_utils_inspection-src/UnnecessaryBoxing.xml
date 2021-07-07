@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>2838</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment int toPartNumberRecordLimit(java.lang.String strNumPartNumbers)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unnecessary boxing</problem_class>
+          
+        <description>Redundant boxing inside &lt;code&gt;Integer.valueOf(actualNumPartNumbers)&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>2939</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void updateValidationInfoFromCommandLine(chs.utilities.Environment.ValidationInfo validationInfo)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unnecessary boxing</problem_class>
+          
+        <description>Redundant boxing inside &lt;code&gt;Boolean.valueOf(xcLinkValidationString)&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4012</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment int getCERReportVisibleRowsThreshold(java.lang.String tagName)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unnecessary boxing</problem_class>
+          
+        <description>Redundant boxing inside &lt;code&gt;Integer.valueOf(resultAsString)&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4033</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean getInterfaceMappingConstraintsVisibility()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unnecessary boxing</problem_class>
+          
+        <description>Redundant boxing inside &lt;code&gt;Boolean.valueOf(resultAsString)&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>192</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo BuildInfo()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unnecessary boxing</problem_class>
+          
+        <description>Redundant boxing inside &lt;code&gt;Integer.valueOf("@BUILD.RELEASE.MAJOR@")&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

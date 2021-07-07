@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCCADBridgeInByDatasetNameTask.java</file>
+          
+        <line>64</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCCADBridgeInByDatasetNameTask java.io.File downloadFile(com.mentor.chs.extension.api.PIXPLMObject pixplmObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception thrown</problem_class>
+          
+        <description>Prohibited exception 'RuntimeException' thrown #loc</description>
+        
+    </problem>
+    
+</problems>

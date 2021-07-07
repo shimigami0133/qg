@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/HarnessBOMPartItemRevisionsLoader.java</file>
+          
+        <line>201</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.HarnessBOMPartItemRevisionsLoader void addPartItemRevPropertiesOnBLCreationInfo(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails bomInfo, com.teamcenter.soa.client.model.strong.ItemRevision partItemRev)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'NotLoadedException' #loc</description>
+        
+    </problem>
+    
+</problems>

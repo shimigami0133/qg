@@ -1,0 +1,8 @@
+chs.ccrs.datamanagement.sync.MarineScheduleXMLUploaderJobExecutionTest
+chs.ccrs.datamanagement.sync.MarineXMLUploaderJobTest
+chs.ccrs.datamanagement.sync.config.MarineSyncConfigurationReaderTest
+chs.ccrs.datamanagement.sync.schedule.MarineLogBackupTriggerBuilderTest
+chs.ccrs.datamanagement.sync.schedule.MarineUploadScheduleManagerTest
+chs.ccrs.datamanagement.sync.schedule.MarineUploadSchedulerTest
+chs.ccrs.servlet.MarineScheduleSyncBackUpJobTest
+chs.ccrs.servlet.MarineScheduleSyncServletTest

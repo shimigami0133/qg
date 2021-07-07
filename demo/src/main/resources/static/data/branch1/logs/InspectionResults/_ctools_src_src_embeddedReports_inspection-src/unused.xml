@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/TeamcenterLogicComponentBOM.java</file>
+          
+        <line>106</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.TeamcenterLogicComponentBOM ASSOCIATED_ICD_S" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/PublishLogicBOMConfig.java</file>
+          
+        <line>37</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.PublishLogicBOMConfig ERROR_MSG" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/PublishLogicBOMConfig.java</file>
+          
+        <line>38</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.PublishLogicBOMConfig CONFIG" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>75</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(K a, K b, boolean caseInsensitive, boolean makeUniqueObjectUnique)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>63</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator AlphaNumComparator()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Constructor is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>174</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int resultIfAppearEquivalent(char[] a, char[] b)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="a"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;a&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>174</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int resultIfAppearEquivalent(char[] a, char[] b)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="b"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;b&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>70</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(K a, K b, boolean caseInsensitive)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/TeamcenterReportExchangeRegistrar.java</file>
+          
+        <line>20</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.TeamcenterReportExchangeRegistrar" TYPE="class"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Class is not instantiated.</description>
+        
+    </problem>
+</problems>

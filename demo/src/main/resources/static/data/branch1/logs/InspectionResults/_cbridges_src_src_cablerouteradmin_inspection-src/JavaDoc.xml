@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/cablerouteradmin/src/chs/cablerouteradmin/CableRouterAdmin.java</file>
+          
+        <line>20</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.cablerouteradmin</package>
+          
+        <entry_point FQNAME="chs.cablerouteradmin.CableRouterAdmin" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+</problems>

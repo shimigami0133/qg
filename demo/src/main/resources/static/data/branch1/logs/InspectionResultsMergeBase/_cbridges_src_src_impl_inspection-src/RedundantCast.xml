@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>1182</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory java.util.List&lt;chs.bridges.adaptors.IAdaptorDiagramInfoProvider.DiagramInfo&gt; getDiagramData(chs.common.IDesignContainer design)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant type cast</problem_class>
+          
+        <description>Casting &lt;code&gt;diagram&lt;/code&gt; to &lt;code&gt;IDiagramObject&lt;/code&gt; is redundant</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>1191</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory java.util.List&lt;chs.bridges.adaptors.IAdaptorDiagramInfoProvider.DiagramInfo&gt; getDiagramData(chs.common.IDesignContainer design)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant type cast</problem_class>
+          
+        <description>Casting &lt;code&gt;diagram&lt;/code&gt; to &lt;code&gt;IDiagramObject&lt;/code&gt; is redundant</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,319 @@
+-- Wed May  5 01:16:30 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Generated checksum of dest   - a3b35abe90de6739ca43515a39d120ab
+     [echo] Checksum does not match? : true
+
+BUILD FAILED
+G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml:1821: Checksum mismatch between C:/repos/iesd/chs_home.zip : a3b35abe90de6739ca43515a39d120ab and G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5 : 5b00a840259e7ddbdae07d9d55b95da1
+
+Total time: 1 minute 17 seconds
+-- Wed May  5 01:17:55 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dget-file-url="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip" -Dget-file-dest="C:/repos/iesd/chs_home.zip" get-file -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+get-file:
+      [get] Getting: http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip
+      [get] To: C:\repos\iesd\chs_home.zip
+
+BUILD SUCCESSFUL
+Total time: 1 minute 27 seconds
+-- Wed May  5 01:19:25 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Generated checksum of dest   - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Checksum does not match? : ${checksumDoesNotMatch}
+
+BUILD SUCCESSFUL
+Total time: 1 minute 12 seconds
+-- Wed May  5 01:20:39 2021: IESD::ChsHomeUtil::downloadAndExtractBuildZip - Deleting chs_home dir: C:/repos/iesd/chs_home.
+-- Wed May  5 01:21:13 2021: Directory 'C:/repos/iesd/chs_home' deleted.
+-- Wed May  5 01:21:13 2021: Total time: 33.383 seconds
+-- Wed May  5 01:21:13 2021: 7z x C:/repos/iesd/chs_home.zip -y -oC:/repos/iesd/chs_home
+-- Wed May  5 01:22:18 2021: Total time: 64.964 seconds
+-- Wed May  5 01:22:18 2021: C:/repos/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dchshome=C:/repos/iesd/chs_home -Dchs.home=C:/repos/iesd/chs_home -Dchsbuildtools_home=C:/repos/iesd/chs_home/bld -Dtest.results.base=G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults  -Dchs.build.skiptestexports=true -Dcapital.testlist.path=G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.windows/job.24.txt runtestsonlyqg -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/charness_src/tests/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\charness_src\tests\build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = windows.job.24
+
+-os-init-linux:
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults/harness exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from Capital Harness Tests G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\charness_src\tests\build.xml
+[readtestlist] Found 41 test classes in testlist 'G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\chs_home\bld\testjobs.windows\job.24.txt'
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+    [junit] Running chs.caplets.harness.actions.HarnessEngineering.SelectSpotTapeTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 81.846 sec
+    [junit] Running chs.caplets.harness.actions.HarnessProcessing.HarnessProcessing0003Test
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 83.125 sec
+    [junit] Running chs.caplets.harness.actions.HarnessProcessing.HarnessProcessingDiagSync0003Test
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 73.693 sec
+    [junit] Running chs.caplets.harness.actions.HarnessProcessing.HarnessProcessingDiagSyncSecondaryRepresentationTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.134 sec
+    [junit] Running chs.caplets.harness.actions.HarnessSymbolFlipWithLeaderlineTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.727 sec
+    [junit] Running chs.caplets.harness.actions.ManualTextRotationTest
+    [junit] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.522 sec
+    [junit] Running chs.caplets.harness.actions.OverrideNominalOriginActionTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.151 sec
+    [junit] Running chs.caplets.harness.actions.RotateContentGraphicsTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.523 sec
+    [junit] Running chs.caplets.harness.actions.RotatedTableUpdateTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.836 sec
+    [junit] Running chs.caplets.harness.actions.StraightenActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.108 sec
+    [junit] Running chs.caplets.harness.actions.StraightenActionWithFixPositionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.135 sec
+    [junit] Running chs.caplets.harness.actions.TableSplitActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.647 sec
+    [junit] Running chs.caplets.harness.actions.ToggleSpliceRepositioningActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.471 sec
+    [junit] Running chs.caplets.harness.actions.ViewFromDirectionActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.576 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSBridgeInActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.392 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSBridgeInFromLogicTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.24 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSBridgeInFromSystemsTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.909 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSChangeManagerImportActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.074 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSChangeManagerImportWithAutoLinkActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.825 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSCheckOutAndImportDesignActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.217 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSCheckoutAndImportActionAvailabilityTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.253 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSFindDesignActionDesignFolderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.529 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.harness.actions.bridges.AWSFindDesignActionTest
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.478 sec
+    [junit] Running chs.caplets.harness.actions.bridges.AWSImportDesignActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.031 sec
+    [junit] Running chs.caplets.harness.actions.bridges.ActiveWorkspaceActionsTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.838 sec
+    [junit] Running chs.caplets.harness.actions.dialogs.ModuleObjectSelectionDialogPerformanceTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.021 sec
+    [junit] Running chs.caplets.harness.actions.dialogs.impacteddesigns.ImpactedChildDesignsViewPanelTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.mentor.capital.javafx.table.impl.CapitalTableHeaderColumn (file:/C:/repos/iesd/chs_home/lib/capitalutils.jar) to field java.lang.reflect.Field.modifiers
+    [junit] WARNING: Please consider reporting this to the maintainers of com.mentor.capital.javafx.table.impl.CapitalTableHeaderColumn
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.01 sec
+    [junit] Running chs.caplets.harness.actions.dialogs.wire.EditWiresDialogChangePolicyTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.507 sec
+    [junit] Running chs.caplets.harness.actions.formboard.HarnessSelectionActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.057 sec
+    [junit] Running chs.caplets.harness.actions.symbol.SymbolOverrideUseNominalSymbolOriginTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.098 sec
+    [junit] Running chs.caplets.harness.mergeformboard.ExtendSelectionUtilTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.657 sec
+    [junit] Running chs.caplets.harness.mergeformboard.interaction.AutomaticMergeWithSelfTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.982 sec
+    [junit] Running chs.caplets.harness.mergeformboard.interaction.InsulationsInteractionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 74.477 sec
+    [junit] Running chs.caplets.harness.mergeformboard.interaction.OneConnectorBundleAutomaticMergeTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.017 sec
+    [junit] Running chs.caplets.harness.mergeformboard.interaction.OpenTwiceThenAutomaticMergeTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.503 sec
+    [junit] Running chs.caplets.harness.mergeformboard.interaction.SimpleAutomaticMergeTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.908 sec
+    [junit] Running chs.caplets.harness.mergeformboard.interaction.TwoBundleAutomaticMergeTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.511 sec
+    [junit] Running chs.caplets.harness.mergeformboard.recorder.FormboardManagerRecorderEventTest
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.18 sec
+    [junit] Running chs.caplets.harness.multicore.EditMulticoreDialogTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.726 sec
+    [junit] Running chs.caplets.harness.multicore.EditMulticoreDlgChangePolicyTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.138 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.harness.multicore.MulticoreEndsTabAndMulticoreComponentDialogTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.928 sec
+
+BUILD SUCCESSFUL
+Total time: 52 minutes 20 seconds

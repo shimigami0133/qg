@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/DatasetCreator.java</file>
+          
+        <line>39</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.DatasetCreator" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly coupled class</problem_class>
+          
+        <description>&lt;code&gt;DatasetCreator&lt;/code&gt; is overly coupled (dependencies = 17) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>49</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly coupled class</problem_class>
+          
+        <description>&lt;code&gt;ItemCreator&lt;/code&gt; is overly coupled (dependencies = 29) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>97</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly coupled class</problem_class>
+          
+        <description>&lt;code&gt;PXCapitalAWSIntegration&lt;/code&gt; is overly coupled (dependencies = 44) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>77</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly coupled class</problem_class>
+          
+        <description>&lt;code&gt;PXPLMClientImpl&lt;/code&gt; is overly coupled (dependencies = 51) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishBOMTask.java</file>
+          
+        <line>32</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishBOMTask" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly coupled class</problem_class>
+          
+        <description>&lt;code&gt;TCPublishBOMTask&lt;/code&gt; is overly coupled (dependencies = 24) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>59</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly coupled class</problem_class>
+          
+        <description>&lt;code&gt;QueryService&lt;/code&gt; is overly coupled (dependencies = 35) #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>108</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many methods</problem_class>
+          
+        <description>&lt;code&gt;ReportViewerAction&lt;/code&gt; has too many methods (method count = 30) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>476</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many methods</problem_class>
+          
+        <description>&lt;code&gt;MainResources&lt;/code&gt; has too many methods (method count = 41) #loc</description>
+        
+    </problem>
+    
+</problems>

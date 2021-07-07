@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>270</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator.X2MLValidator" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many fields</problem_class>
+          
+        <description>&lt;code&gt;X2MLValidator&lt;/code&gt; has too many fields (field count = 12) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>118</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many fields</problem_class>
+          
+        <description>&lt;code&gt;CHSAdaptorFactory&lt;/code&gt; has too many fields (field count = 11) #loc</description>
+        
+    </problem>
+    
+</problems>

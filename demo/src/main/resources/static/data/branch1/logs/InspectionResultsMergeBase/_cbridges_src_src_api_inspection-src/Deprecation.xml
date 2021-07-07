@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/adaptors/IAdaptorFormat.java</file>
+          
+        <line>156</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.IAdaptorFormat java.util.Observer getEditor(java.awt.Component parent, boolean isExport)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+</problems>

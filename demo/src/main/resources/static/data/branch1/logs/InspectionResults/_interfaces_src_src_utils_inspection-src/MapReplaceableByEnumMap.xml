@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/chs/CHSBrandingImagery.java</file>
+          
+        <line>114</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite.chs</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.chs.CHSBrandingImagery" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Map replaceable with EnumMap</problem_class>
+          
+        <description>&lt;code&gt;HashMap&lt;AppInfo.App, BrandingImagery&gt;&lt;/code&gt; replaceable with 'EnumMap' #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,42 @@
+Found a 37 line (169 tokens) duplication in the following files:
+Starting at line 30 of /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/MarineExportServlet.java
+Starting at line 31 of /ies/iesd_data3_nb/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/MarineScheduleSyncServlet.java
+
+public class MarineExportServlet extends HttpServlet
+{
+
+	@Override protected void service(@NotNull HttpServletRequest req, @NotNull HttpServletResponse resp)
+			throws IOException
+	{
+		String response = constructJSONResponse();
+		resp.getWriter().println(response);
+	}
+
+	@NotNull private String constructJSONResponse()
+	{
+		// The string needs to be constructed in the same format as CMPIC response.
+		ObjectMapper mapper = new ObjectMapper();
+		ObjectNode rootNode = mapper.createObjectNode();
+		ObjectNode childNode = constructlatestSyncRecord(mapper);
+		rootNode.set("data", childNode);
+
+		try {
+			return mapper.writerWithDefaultPrettyPrinter().writeValueAsString(rootNode);
+		}
+		catch (JsonProcessingException e) {
+			LogFile.getAppLogger().warn("Cannot construct JSON response: " + e.getMessage());
+		}
+		return StringUtils.EMPTY_STRING;
+	}
+
+	@NotNull private ObjectNode constructlatestSyncRecord(ObjectMapper mapper)
+	{
+		ObjectNode childNode = mapper.createObjectNode();
+		childNode.set("record", latestUploadedFileName(mapper));
+		return childNode;
+	}
+
+	@NotNull private ObjectNode latestUploadedFileName(ObjectMapper mapper)
+	{
+		ObjectNode childNode = mapper.createObjectNode();
+

@@ -1,0 +1,290 @@
+-- Wed May  5 01:15:08 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Generated checksum of dest   - a3b35abe90de6739ca43515a39d120ab
+     [echo] Checksum does not match? : true
+
+BUILD FAILED
+G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml:1821: Checksum mismatch between C:/repos/iesd/chs_home.zip : a3b35abe90de6739ca43515a39d120ab and G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5 : 5b00a840259e7ddbdae07d9d55b95da1
+
+Total time: 1 minute 27 seconds
+-- Wed May  5 01:16:43 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dget-file-url="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip" -Dget-file-dest="C:/repos/iesd/chs_home.zip" get-file -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+get-file:
+      [get] Getting: http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip
+      [get] To: C:\repos\iesd\chs_home.zip
+
+BUILD SUCCESSFUL
+Total time: 1 minute 36 seconds
+-- Wed May  5 01:18:22 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Generated checksum of dest   - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Checksum does not match? : ${checksumDoesNotMatch}
+
+BUILD SUCCESSFUL
+Total time: 1 minute 22 seconds
+-- Wed May  5 01:19:47 2021: IESD::ChsHomeUtil::downloadAndExtractBuildZip - Deleting chs_home dir: C:/repos/iesd/chs_home.
+-- Wed May  5 01:20:17 2021: Directory 'C:/repos/iesd/chs_home' deleted.
+-- Wed May  5 01:20:17 2021: Total time: 30.281 seconds
+-- Wed May  5 01:20:17 2021: 7z x C:/repos/iesd/chs_home.zip -y -oC:/repos/iesd/chs_home
+-- Wed May  5 01:21:39 2021: Total time: 81.741 seconds
+-- Wed May  5 01:21:39 2021: C:/repos/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dchshome=C:/repos/iesd/chs_home -Dchs.home=C:/repos/iesd/chs_home -Dchsbuildtools_home=C:/repos/iesd/chs_home/bld -Dtest.results.base=G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults  -Dchs.build.skiptestexports=true -Dcapital.testlist.path=G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.windows/job.14.txt runtestsonlyqg -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/clogic_src/tests/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\clogic_src\tests\build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = windows.job.14
+
+-os-init-linux:
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults/logic exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from Capital Logic Tests G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\clogic_src\tests\build.xml
+[readtestlist] Found 42 test classes in testlist 'G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\chs_home\bld\testjobs.windows\job.14.txt'
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.actions.shared.EditSharedPinlistActionTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.49 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.actions.shared.EditSharedPinlistDialogViewTest
+    [junit] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.75 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.actions.shared.FunctionalDeleteUnusedSharedObjectDialogTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.44 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.actions.shared.ReusePanelTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.748 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.actions.shared.SelectSharedFunctionPanelTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.059 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.actions.shared.ShareActionOnUnsharedObjectTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.745 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.BatchShareDialogTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.339 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.BatchShareTableCellStateHandlerTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.407 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.BatchShareTableCellValueChangeListenerTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.041 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.BatchShareTableControlPaneProviderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.003 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.BatchShareTableViewTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.532 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.CheckBoxMenuItemProviderTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.093 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.SelectionChangeTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.425 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.detailsPane.AttributeDetailPaneTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.091 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.detailsPane.BatchShareDetailsPaneTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.731 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.detailsPane.DetailsTableCellStateHandlerTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.582 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.detailsPane.InstanceDetailPaneTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectionHelper (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.plaf.basic.BasicInternalFrameUI.sharedDesktopManager
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectionHelper
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.855 sec
+    [junit] Running chs.caplets.logic.actions.shared.batchshare.ui.detailsPane.PinlistDetailsTableInfoTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.692 sec
+    [junit] Running chs.caplets.logic.actions.ui.ManageConnectorPlugMapHighlighterTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.mentor.capital.javafx.table.impl.CapitalTableHeaderColumn (file:/C:/repos/iesd/chs_home/lib/capitalutils.jar) to field java.lang.reflect.Field.modifiers
+    [junit] WARNING: Please consider reporting this to the maintainers of com.mentor.capital.javafx.table.impl.CapitalTableHeaderColumn
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.851 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.commands.AssociateLibraryPartCommandTest
+    [junit] Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.357 sec
+    [junit] Running chs.caplets.logic.harness.propagate.AutoPropagateHarnessControllerTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.844 sec
+    [junit] Running chs.caplets.logic.icd.ICDBackshellSignalRoutingTest
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.365 sec
+    [junit] Running chs.caplets.logic.merge.UpdateReplaceSymbolForMergedDevicesTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.881 sec
+    [junit] Running chs.caplets.logic.tests.AddPinListTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.796 sec
+    [junit] Running chs.caplets.logic.tests.AddPinTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.321 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.tests.AddSharedDeviceActionTest
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.898 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.tests.AddSharedFunctionActionTest
+    [junit] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.028 sec
+    [junit] Running chs.caplets.logic.tests.AddSymbolInstanceTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.567 sec
+    [junit] Running chs.caplets.logic.tests.ApplyStyleToSegmentsXRefTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.933 sec
+    [junit] Running chs.caplets.logic.tests.BasicTableMoveToActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.024 sec
+    [junit] Running chs.caplets.logic.tests.ConvertNetsToWiresSharedMCTest
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 66.215 sec
+    [junit] Running chs.caplets.logic.tests.ConvertNetsToWiresTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.572 sec
+    [junit] Running chs.caplets.logic.tests.CreateCoaxMulticoreAccelActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.095 sec
+    [junit] Running chs.caplets.logic.tests.CreateImageActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.866 sec
+    [junit] Running chs.caplets.logic.tests.CreateMulticoreActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.947 sec
+    [junit] Running chs.caplets.logic.tests.CreateMultipleConductorsActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 104.296 sec
+    [junit] Running chs.caplets.logic.tests.CreateOverbraidWithAccelActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.663 sec
+    [junit] Running chs.caplets.logic.tests.CreateTwistedMulticoreAccelActionTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.152 sec
+    [junit] Running chs.caplets.logic.tests.CrossRefTextUpdateStylesTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.565 sec
+    [junit] Running chs.caplets.logic.tests.DefaultIndicatorSelectionInNewMulticoreDialogTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.933 sec
+    [junit] Running chs.caplets.logic.tests.IndicatorRefresherTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.common.introspection.IntrospectiveObjectScan (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field javax.swing.undo.UndoManager.indexOfNextAdd
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.common.introspection.IntrospectiveObjectScan
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 66.745 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caplets.logic.tests.LibraryPartSelectionPreferencesWindowTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.916 sec
+
+BUILD SUCCESSFUL
+Total time: 53 minutes 18 seconds

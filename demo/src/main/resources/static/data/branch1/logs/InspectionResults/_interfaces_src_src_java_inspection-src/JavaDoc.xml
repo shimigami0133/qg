@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/java/src/chs/ccrs/servlet/IShutdownProxy.java</file>
+          
+        <line>12</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.ccrs.servlet</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.IShutdownProxy" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+</problems>

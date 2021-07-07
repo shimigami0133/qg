@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XDesign.java</file>
+          
+        <line>659</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XDesign void forEach(java.lang.String type, java.util.function.Function&lt;? super T,java.lang.Boolean&gt; function)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked cast: 'capture&lt;? extends com.mentor.chs.api.customdata.IXAttachedData&gt;' to 'T'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>694</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPosition&gt; getInternalPositions()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked assignment: 'java.util.Collection' to 'java.util.Collection&lt;chs.cof.logical.cable.IInternalPosition&gt;'. Reason: 'cont' has raw type, so result of getPositions is erased</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>709</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject com.mentor.chs.api.IXInternalPosition getOccupiedPosition()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked cast: 'chs.common.IUIDObject' to 'chs.cof.logical.cable.IInternalPositionedObject&lt;chs.cof.logical.cable.IInternalPosition&gt;'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>726</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getUnpositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked assignment: 'java.util.Collection' to 'java.util.Collection&lt;chs.cof.logical.cable.IInternalPositionedObject&gt;'. Reason: 'container' has raw type, so result of getUnpositionedObjects is erased</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>745</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked assignment: 'java.util.Collection' to 'java.util.Collection&lt;chs.cof.logical.cable.IInternalPositionedObject&gt;'. Reason: 'container' has raw type, so result of getPositionedObjects is erased</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>764</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getAllPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked assignment: 'java.util.Collection' to 'java.util.Collection&lt;chs.cof.logical.cable.IInternalPositionedObject&gt;'. Reason: 'container' has raw type, so result of getAllPositionedObjects is erased</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>999</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Set&lt;O&gt; getAssociatedObjects(java.lang.Class&lt;O&gt; filterClass)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked cast: 'com.mentor.chs.api.IXObject' to 'O'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>884</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void removeCharSetFromMetaTag(org.jdom.Element rootElement)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked assignment: 'java.util.List' to 'java.util.List&lt;org.jdom.Attribute&gt;'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>927</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void changeReferenceAttributes(org.jdom.Element rootElement, java.lang.String relativePathToBeAdded, java.io.File dirToCheckFiles, java.io.File targetDir, boolean copyToTargetDir, boolean changeTheHrefs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked assignment: 'java.util.List' to 'java.util.List&lt;org.jdom.Attribute&gt;'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>958</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void changeReferenceAttributes(org.jdom.Element rootElement, java.lang.String relativePathToBeAdded, java.io.File dirToCheckFiles, java.io.File targetDir, boolean copyToTargetDir, boolean changeTheHrefs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Unchecked warning</problem_class>
+          
+        <description>Unchecked assignment: 'java.util.List' to 'java.util.List&lt;org.jdom.Element&gt;'</description>
+        
+    </problem>
+    
+</problems>

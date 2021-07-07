@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/TCBOMReportConstants.java</file>
+          
+        <line>5</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.TCBOMReportConstants" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>7</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails" TYPE="class"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Declaration has Javadoc problems</problem_class>
+          
+        <description>Required Javadoc is absent</description>
+        
+    </problem>
+    
+</problems>

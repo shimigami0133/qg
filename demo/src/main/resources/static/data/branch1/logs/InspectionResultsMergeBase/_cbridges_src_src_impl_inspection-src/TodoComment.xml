@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>354</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator.X2MLValidator void initializeSchemaIgnorableElementsMap()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo kamalsur - ideally this should be fixed in NX4/DSI import&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>366</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator.X2MLValidator void initializeSchemaIgnorableElementsMap()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo - kamalsur - fix this in NX4, DSI import&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>156</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory ADAPTOR_BATCH_NAME" TYPE="field"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO - move this to AppInfo in 10.2&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>678</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory void registerAdaptorClassLoader(java.lang.String formatJarName, java.lang.ClassLoader classLoader)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo BRIDGES-1137 - Need to revisit the class loader dependency for HCV on KBL&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>687</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory java.lang.ClassLoader createNewMGClassLoaderForFormat(java.lang.String iFormatJar)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo BRIDGES-1137 - Need to revisit the class loader dependency for HCV on KBL&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

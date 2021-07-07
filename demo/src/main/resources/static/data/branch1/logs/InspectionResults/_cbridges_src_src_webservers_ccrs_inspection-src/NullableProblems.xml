@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/server/start/StartLifecycleTaskChainBuilder.java</file>
+          
+        <line>22</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.server.start</package>
+          
+        <entry_point FQNAME="chs.ccrs.server.start.StartLifecycleTaskChainBuilder marineServerDetails" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/server/start/StartLifecycleTaskChainBuilder.java</file>
+          
+        <line>24</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.server.start</package>
+          
+        <entry_point FQNAME="chs.ccrs.server.start.StartLifecycleTaskChainBuilder cmpicServerPath" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/context/MarineWebAppContextBuilder.java</file>
+          
+        <line>22</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet.context</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.context.MarineWebAppContextBuilder marineServletName" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/context/MarineWebAppContextBuilder.java</file>
+          
+        <line>23</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet.context</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.context.MarineWebAppContextBuilder cmpicServerPath" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/context/MarineWebAppContextBuilder.java</file>
+          
+        <line>24</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet.context</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.context.MarineWebAppContextBuilder cmpicContextPrefix" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/context/MarineServletContextAdderBuilder.java</file>
+          
+        <line>23</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet.context</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.context.MarineServletContextAdderBuilder marineServer" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/context/MarineServletContextAdderBuilder.java</file>
+          
+        <line>24</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet.context</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.context.MarineServletContextAdderBuilder cmpicServerPath" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/context/MarineServletContextAdderBuilder.java</file>
+          
+        <line>25</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet.context</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.context.MarineServletContextAdderBuilder marineServletName" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/context/MarineServletContextAdderBuilder.java</file>
+          
+        <line>26</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet.context</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.context.MarineServletContextAdderBuilder cmpicContextPrefix" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/MarineServletContextAdapter.java</file>
+          
+        <line>30</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.MarineServletContextAdapter executorService" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Not-null fields must be initialized</description>
+        
+    </problem>
+    
+</problems>

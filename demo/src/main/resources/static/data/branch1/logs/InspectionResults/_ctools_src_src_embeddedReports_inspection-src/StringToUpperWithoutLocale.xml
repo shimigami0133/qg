@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>211</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(T o1, T o2)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Call to 'String.toUpperCase()' or 'toLowerCase()' without a Locale</problem_class>
+          
+        <description>&lt;code&gt;String.toUpperCase()&lt;/code&gt; called without specifying a Locale using internationalized strings #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>211</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(T o1, T o2)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Call to 'String.toUpperCase()' or 'toLowerCase()' without a Locale</problem_class>
+          
+        <description>&lt;code&gt;String.toUpperCase()&lt;/code&gt; called without specifying a Locale using internationalized strings #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/rest/src/chs/rest/service/reports/ProjectReportsService.java</file>
+          
+        <line>646</line>
+          
+        <module>datamodel_misc</module>
+          
+        <package>chs.rest.service.reports</package>
+          
+        <entry_point FQNAME="chs.rest.service.reports.ProjectReportsService$1 void write(java.io.OutputStream outputStream)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;write()&lt;/code&gt; (cyclomatic complexity = 11) #loc</description>
+        
+    </problem>
+    
+</problems>

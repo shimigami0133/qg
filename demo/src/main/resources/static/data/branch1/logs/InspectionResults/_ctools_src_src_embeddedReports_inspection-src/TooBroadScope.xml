@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>222</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(T o1, T o2)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Scope of variable is too broad</problem_class>
+          
+        <description>Scope of variable &lt;code&gt;aLength&lt;/code&gt; is too broad #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>223</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(T o1, T o2)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Scope of variable is too broad</problem_class>
+          
+        <description>Scope of variable &lt;code&gt;bLength&lt;/code&gt; is too broad #loc</description>
+        
+    </problem>
+    
+</problems>

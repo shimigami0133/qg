@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IARegisterCapitalServicesAction.java</file>
+          
+        <line>22</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IARegisterCapitalServicesAction void install(com.zerog.ia.api.pub.InstallerProxy ip)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Parameter name differs from parameter in overridden method</problem_class>
+          
+        <description>Parameter name &lt;code&gt;ip&lt;/code&gt; is different from parameter 'installerProxy' overridden #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IARegisterCapitalServicesAction.java</file>
+          
+        <line>141</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IARegisterCapitalServicesAction void uninstall(com.zerog.ia.api.pub.UninstallerProxy up)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Parameter name differs from parameter in overridden method</problem_class>
+          
+        <description>Parameter name &lt;code&gt;up&lt;/code&gt; is different from parameter 'uninstallerProxy' overridden #loc</description>
+        
+    </problem>
+    
+</problems>

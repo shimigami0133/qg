@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCeConstants.java</file>
+          
+        <line>331</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCeConstants AW_BROWSER" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCeConstants.java</file>
+          
+        <line>156</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCeConstants EEXPORT_HARNESS_CHILD_DESIGNS_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>682</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService java.lang.String getPLMObjectID(com.mentor.chs.extension.api.PIXPLMObject pixPLMObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>67</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService mIntegrationServices" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field is assigned but never accessed.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>590</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; getBOMItemByNameAndType(java.lang.String designBOMItemName, java.lang.String designBOMItemType, java.lang.String taskContextTag)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PDMPropertiesHandler.java</file>
+          
+        <line>253</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PDMPropertiesHandler java.util.Set&lt;java.lang.String&gt; getAttachBOMReportAsDataset()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/AbstractItemRevision.java</file>
+          
+        <line>33</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.AbstractItemRevision boolean isItemRevAlreadyExists()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/HarnessBOMPartItemRevisionsLoader.java</file>
+          
+        <line>62</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.HarnessBOMPartItemRevisionsLoader void loadAllChildLineItems(java.util.List&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails&gt; bomInfos, java.lang.String revisionRule, java.util.Map&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails,com.teamcenter.soa.client.model.strong.ItemRevision&gt; childLinesInfo)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="revisionRule"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;revisionRule&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/HarnessBOMPartItemRevisionsLoader.java</file>
+          
+        <line>36</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.HarnessBOMPartItemRevisionsLoader harnessBOMStructureManagement" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/HarnessBOMPartItemRevisionsLoader.java</file>
+          
+        <line>245</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.HarnessBOMPartItemRevisionsLoader void createAndAddToBOMLineInfo(java.util.Map&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails,com.teamcenter.soa.client.model.strong.ItemRevision&gt; bomInfoToItemRevision, java.util.List&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails&gt; capitalBomInfos, java.util.Map&lt;java.lang.String,java.lang.String&gt; uomMappings)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="uomMappings"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;uomMappings&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/HarnessBOMPartItemRevisionsLoader.java</file>
+          
+        <line>90</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.HarnessBOMPartItemRevisionsLoader void associateItemRevisionToBOMLineInfo(java.util.Map&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails,com.teamcenter.soa.client.model.strong.ItemRevision&gt; childLinesInfo, java.util.Map&lt;java.lang.String,java.lang.String&gt; uomMappings, com.mentor.chs.extension.api.plm.PXTCBOMLineDetails bomInfo, java.lang.String partItemRevID, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; optPartItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="uomMappings"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;uomMappings&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryServiceWithPlugin.java</file>
+          
+        <line>110</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryServiceWithPlugin java.lang.String getXObjectRevisionID(com.mentor.chs.api.IXObject xObject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryServiceWithPlugin.java</file>
+          
+        <line>49</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryServiceWithPlugin java.lang.String getObjectID(com.mentor.chs.api.IXObject xObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryServiceWithPlugin.java</file>
+          
+        <line>94</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryServiceWithPlugin java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; findPLMObjectRevision(com.mentor.chs.api.IXObject xObject, com.mentor.chsx.teamcenter.PLMObjectItem plmItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryServiceWithPlugin.java</file>
+          
+        <line>82</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryServiceWithPlugin java.lang.String getXObjectRevisionPropValue(com.mentor.chs.api.IXObject xObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>1094</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; getPLMObjectRevisionIfPresent(com.mentor.chs.api.IXObject pixplmObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,?&gt; progressTask, java.lang.String currentPLMObjectRevProp, java.lang.String xPLMObjectRev, java.lang.String capitalItemType, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; optPLMObjectItem, java.lang.String newRevisionId)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="capitalItemType"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;capitalItemType&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>337</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; updatePLMObjectStructure(com.mentor.chs.api.IXObject pixplmObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask, java.lang.String plmObjectName, java.lang.String currentPLMObjectRevProp, java.lang.String xPLMObjectRev, java.lang.String capitalItemType, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; optPLMObjectItem, java.lang.String newRevisionId)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="capitalItemType"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;capitalItemType&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/GraphicsDatasetCreator.java</file>
+          
+        <line>161</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.GraphicsDatasetCreator java.util.List&lt;com.teamcenter.soa.client.model.strong.Dataset&gt; getDatasets(java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; optPLMObjectRevision, java.lang.String datasetType)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/GraphicsDatasetCreator.java</file>
+          
+        <line>65</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.GraphicsDatasetCreator java.lang.String getDatasetNameFromSourceObject(com.mentor.chs.api.IXObject object)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/GraphicsDatasetCreator.java</file>
+          
+        <line>47</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.GraphicsDatasetCreator java.util.Map&lt;java.io.File,com.mentor.chs.api.IXObject&gt; createFiles(com.mentor.chs.extension.api.PIXPLMObject pixplmObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/GraphicsDatasetCreator.java</file>
+          
+        <line>190</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.GraphicsDatasetCreator void updateDataset(com.teamcenter.soa.client.model.strong.Dataset dataset, com.mentor.chsx.teamcenter.TCReferencedFile tcReferencedFile, com.mentor.chsx.teamcenter.TCReservationService reservationService, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/GraphicsDatasetCreator.java</file>
+          
+        <line>181</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.GraphicsDatasetCreator void createOrUpdateDatasets(com.mentor.chs.extension.api.PIXPLMObject pixplmObject, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; optPLMObjectRevision, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is not reachable from entry points.</description>
+        
+    </problem>
+</problems>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMStructureBuilderForTC.java</file>
+          
+        <line>47</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMStructureBuilderForTC com.mentor.chs.extension.api.plm.PXCompositeBOMStruct createBOMStructure(chs.common.IDesignContainer designContainer, chs.bridges.pdm.TCSpecificBridgesProgressMonitor progressMonitor, chs.bridges.adaptors.IAdaptorProperty property)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Method with too many exceptions declared</problem_class>
+          
+        <description>&lt;code&gt;createBOMStructure&lt;/code&gt; has too many exceptions declared (num exceptions = 4) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/TeamcenterReportExchangeAction.java</file>
+          
+        <line>390</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.TeamcenterReportExchangeAction.ReportWorker void doSOAModePublish(chs.bridges.adaptors.IAdaptorProperty property)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Method with too many exceptions declared</problem_class>
+          
+        <description>&lt;code&gt;doSOAModePublish&lt;/code&gt; has too many exceptions declared (num exceptions = 4) #loc</description>
+        
+    </problem>
+    
+</problems>

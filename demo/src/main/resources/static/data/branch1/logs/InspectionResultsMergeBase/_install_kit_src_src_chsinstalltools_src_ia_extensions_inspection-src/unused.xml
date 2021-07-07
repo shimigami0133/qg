@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IARegisterCapitalServicesAction.java</file>
+          
+        <line>32</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IARegisterCapitalServicesAction void doInstall(com.zerog.ia.api.pub.VariableAccess va)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <description>Variable &lt;code&gt;m_exeName&lt;/code&gt; is never used</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>163</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$2 java.lang.String getAutoUpdateClientExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>152</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$1 java.lang.String getAutoUpdateDigestExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>158</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$2 java.lang.String getAutoUpdateServerExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>184</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$3 java.lang.String getAutoUpdateDigestExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>147</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$1 java.lang.String getAutoUpdateClientExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>179</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$3 java.lang.String getAutoUpdateClientExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>312</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite java.lang.String getVerifyDBLogPath()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>142</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$1 java.lang.String getAutoUpdateServerExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>174</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$3 java.lang.String getAutoUpdateServerExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>168</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite$2 java.lang.String getAutoUpdateDigestExeName()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+</problems>

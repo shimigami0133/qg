@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>218</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.util.Set&lt;chs.api.servicedoc.outputGenerators.PluginReportGenerator&gt; getPluginReportGenerators()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Scope of variable is too broad</problem_class>
+          
+        <description>Scope of variable &lt;code&gt;generators&lt;/code&gt; is too broad #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>981</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.lang.String getValidFileName(java.lang.String fileName, java.io.File dirToCheckFiles, java.io.File targetDir, boolean copyInternalFilesToTarget)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Scope of variable is too broad</problem_class>
+          
+        <description>Scope of variable &lt;code&gt;inputFileName&lt;/code&gt; is too broad #loc</description>
+        
+    </problem>
+    
+</problems>

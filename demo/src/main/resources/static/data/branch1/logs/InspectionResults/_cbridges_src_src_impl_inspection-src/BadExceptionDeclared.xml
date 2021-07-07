@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcengv10.java</file>
+          
+        <line>46</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcengv10 java.lang.Object pushDesign(java.io.InputStream design, chs.bridges.adaptors.IAdaptorReporter reporter)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception declared</problem_class>
+          
+        <description>Prohibited exception &lt;code&gt;Exception&lt;/code&gt; declared #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcengv10.java</file>
+          
+        <line>51</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcengv10 java.util.List&lt;java.lang.String&gt; pullData()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception declared</problem_class>
+          
+        <description>Prohibited exception &lt;code&gt;Exception&lt;/code&gt; declared #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>59</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect java.lang.Object pushDesign(java.io.InputStream design, chs.bridges.adaptors.IAdaptorReporter reporter)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception declared</problem_class>
+          
+        <description>Prohibited exception &lt;code&gt;Exception&lt;/code&gt; declared #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>71</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect java.util.List&lt;java.lang.String&gt; pullData()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception declared</problem_class>
+          
+        <description>Prohibited exception &lt;code&gt;Exception&lt;/code&gt; declared #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>87</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect java.io.InputStream pullDesign(java.io.InputStream designRequest)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception declared</problem_class>
+          
+        <description>Prohibited exception &lt;code&gt;Exception&lt;/code&gt; declared #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>110</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect void pushSelection(java.io.InputStream selection)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception declared</problem_class>
+          
+        <description>Prohibited exception &lt;code&gt;Exception&lt;/code&gt; declared #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>693</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPosition&gt; getInternalPositions()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionsContainer&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>693</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPosition&gt; getInternalPositions()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionsContainer&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>725</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getUnpositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObjectContainer&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>725</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getUnpositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObjectContainer&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>726</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getUnpositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObject&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>728</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getUnpositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObject&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>744</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObjectContainer&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>744</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObjectContainer&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>745</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObject&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>747</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObject&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>763</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getAllPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObjectContainer&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>763</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getAllPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObjectContainer&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>764</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getAllPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObject&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>766</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Collection&lt;com.mentor.chs.api.IXInternalPositionedObject&gt; getAllPositionedAdditionalComponents()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IInternalPositionedObject&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>133</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper diagramURIDataGenerators" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>135</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper designURIDataGenerators" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>137</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper projectURIDataGenerators" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>139</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper objectURIDataGenerators" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>354</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.lang.String localize(java.lang.Class aClass, java.lang.String messageKey)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;Class&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>488</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.util.Set&lt;com.mentor.chs.api.servicedoc.IXResourceGenerator&gt; getObjectURIDataGenerator(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>564</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.util.Set&lt;com.mentor.chs.api.servicedoc.IXResourceGenerator&gt; getDiagramURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>586</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.util.Set&lt;com.mentor.chs.api.servicedoc.IXResourceGenerator&gt; getDesignURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>608</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.util.Set&lt;com.mentor.chs.api.servicedoc.IXResourceGenerator&gt; getProjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>629</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createProjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>632</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createProjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>632</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createProjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>634</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createProjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>656</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createDiagramURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>659</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createDiagramURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>659</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createDiagramURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>661</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createDiagramURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>683</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createObjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>686</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createObjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>686</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createObjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>688</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createObjectURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>710</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createDesignURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>713</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createDesignURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>713</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void createDesignURIDataGenerators(java.util.Set&lt;? extends com.mentor.chs.api.servicedoc.IXGenerator&gt; generators)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;IXResourceGenerator&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

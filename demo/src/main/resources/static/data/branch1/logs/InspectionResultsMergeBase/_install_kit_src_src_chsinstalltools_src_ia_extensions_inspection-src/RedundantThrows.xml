@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IADeleteServiceAction.java</file>
+          
+        <line>20</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IADeleteServiceAction void install(com.zerog.ia.api.pub.InstallerProxy ip)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="InstallException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;InstallException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+</problems>

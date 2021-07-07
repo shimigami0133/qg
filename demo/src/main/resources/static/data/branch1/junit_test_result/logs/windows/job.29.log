@@ -1,0 +1,216 @@
+-- Wed May  5 01:17:37 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Generated checksum of dest   - a3b35abe90de6739ca43515a39d120ab
+     [echo] Checksum does not match? : true
+
+BUILD FAILED
+G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml:1821: Checksum mismatch between C:/repos/iesd/chs_home.zip : a3b35abe90de6739ca43515a39d120ab and G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5 : 5b00a840259e7ddbdae07d9d55b95da1
+
+Total time: 1 minute 29 seconds
+-- Wed May  5 01:19:14 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dget-file-url="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip" -Dget-file-dest="C:/repos/iesd/chs_home.zip" get-file -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+get-file:
+      [get] Getting: http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip
+      [get] To: C:\repos\iesd\chs_home.zip
+
+BUILD SUCCESSFUL
+Total time: 1 minute 16 seconds
+-- Wed May  5 01:20:36 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Generated checksum of dest   - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Checksum does not match? : ${checksumDoesNotMatch}
+
+BUILD SUCCESSFUL
+Total time: 1 minute 10 seconds
+-- Wed May  5 01:21:55 2021: IESD::ChsHomeUtil::downloadAndExtractBuildZip - Deleting chs_home dir: C:/repos/iesd/chs_home.
+-- Wed May  5 01:22:20 2021: Directory 'C:/repos/iesd/chs_home' deleted.
+-- Wed May  5 01:22:20 2021: Total time: 25.241 seconds
+-- Wed May  5 01:22:20 2021: 7z x C:/repos/iesd/chs_home.zip -y -oC:/repos/iesd/chs_home
+-- Wed May  5 01:23:18 2021: Total time: 58.031 seconds
+-- Wed May  5 01:23:18 2021: C:/repos/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dchshome=C:/repos/iesd/chs_home -Dchs.home=C:/repos/iesd/chs_home -Dchsbuildtools_home=C:/repos/iesd/chs_home/bld -Dtest.results.base=G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults  -Dchs.build.skiptestexports=true -Dcapital.testlist.path=G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.windows/job.29.txt runtestsonlyqg -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/cbridges_src/tests/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\cbridges_src\tests\build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = windows.job.29
+
+-os-init-linux:
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults/bridges exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from Capital Bridges Tests G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\cbridges_src\tests\build.xml
+[readtestlist] Found 50 test classes in testlist 'G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\chs_home\bld\testjobs.windows\job.29.txt'
+    [junit] Running chs.bridges.LD4TWOptionSetterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.247 sec
+    [junit] Running chs.bridges.adaptors.BridgesPDFDiagramGenerateDelegateTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.972 sec
+    [junit] Running chs.bridges.adaptors.CHSAdaptorBatchUseBridgeOptionsTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.318 sec
+    [junit] Running chs.bridges.adaptors.MigrateCapHDesignUsesBridgeOptionsTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.65 sec
+    [junit] Running chs.bridges.adaptors.ap212.AP212Test
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.683 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.ARXMLCompleteFlowTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 87.826 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.ARXMLReportTest
+    [junit] Tests run: 101, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 182.281 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.AvionicsCompleteFlowTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.953 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.AvionicsReportTest
+    [junit] Tests run: 101, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 109.131 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.HTMLTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.511 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.NetworksTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.187 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.bridges.adaptors.capitalnetworks.abexport.ExtendedAdaptorPanelTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.61 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.abexport.NetworksDocumentTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.804 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.bridges.adaptors.capitalnetworks.abexport.filtering.ObtainFilterParametersDialogTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.598 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.capitalavionics.ab.doc.DocumentorSetTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.807 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.capitalavionics.ab.html.HTMLMachineTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.958 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.bridges.adaptors.capitalnetworks.capitalavionics.abc.ConfigTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.866 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.capitalavionics.abc.LogTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.99 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.capitalavionics.abexport.SetUpTempFromEnvirTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.412 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.capitalavionics.conversion.ConversionUtilsTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.004 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.capitalavionics.conversion.builder.arxml.data.TimingLogicFromSignalsTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.402 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.conversion.ConvertX2MLToAvionicsOrARXMLTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.108 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.conversion.builder.arxml.builder.ARXMLCommunicationHardwareGatewayBuilderTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.101 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.conversion.builder.arxml.builder.ARXMLECUSystemHardwareBuilderTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.075 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.conversion.builder.arxml.builder.ARXMLVehicleTopologyHardwareBuilderTest
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.264 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.conversion.builder.arxml.builder.vb.NullVariantBuilderTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.911 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.conversion.builder.av.AvComSystemBuilderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.572 sec
+    [junit] Running chs.bridges.adaptors.capitalnetworks.xLib.abx.ReadXMLTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.414 sec
+    [junit] Running chs.bridges.adaptors.hcv.index.HCVIndexGeneratorTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.528 sec
+    [junit] Running chs.bridges.adaptors.kbl.BridgeOutKblAliasIdTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.706 sec
+    [junit] Running chs.bridges.adaptors.kbl.exporter.KBLExportControllerTest
+    [junit] Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.239 sec
+    [junit] Running chs.bridges.adaptors.renault.exp.EXPImportTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.037 sec
+    [junit] Running chs.bridges.adaptors.solidworks.BridgeOutInHouseMulticoreTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.322 sec
+    [junit] Running chs.bridges.adaptors.solidworks.BridgeOutSolidworksTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.261 sec
+    [junit] Running chs.bridges.adaptors.tceng.TcEngDesign001Test
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.3 sec
+    [junit] Running chs.bridges.adaptors.tceng.TcEngDesign002Test
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.188 sec
+    [junit] Running chs.bridges.adaptors.tceng.TcEngMechatronics001Test
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.57 sec
+    [junit] Running chs.bridges.adaptors.tceng.TcEngMechatronics002Test
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.659 sec
+    [junit] Running chs.bridges.capella.SMWImportOverlappingObjectsTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.266 sec
+    [junit] Running chs.bridges.capella.SMWOptionExpressionParserTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.077 sec
+    [junit] Running chs.bridges.importer.ICDExchangeImporterTest
+    [junit] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 202.832 sec
+    [junit] Running chs.bridges.importer.ICDServiceCopyReviseTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 82.332 sec
+    [junit] Running chs.bridges.importer.capella.attributemapping.AttributeMapperTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.165 sec
+    [junit] Running chs.bridges.importer.capella.tasks.DuplicateObjectNameResolverTaskActualDataTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.467 sec
+    [junit] Running chs.bridges.importer.capella.tasks.feedback.FeedbackTabTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.859 sec
+    [junit] Running chs.bridges.nxintegration.NXJarComparisonTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.877 sec
+    [junit] Running chs.bridges.tceclientv10.TCeFileParserTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.916 sec
+    [junit] Running chs.bridges.x2ml.harness.BundleWithMultipleDogLegsTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.911 sec
+    [junit] Running chs.bridges.x2ml.harness.ConnectorFanoutProcessShellTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.094 sec
+    [junit] Running chs.cablerouteradmin.CableRouterAdminTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.917 sec
+
+BUILD SUCCESSFUL
+Total time: 30 minutes 38 seconds

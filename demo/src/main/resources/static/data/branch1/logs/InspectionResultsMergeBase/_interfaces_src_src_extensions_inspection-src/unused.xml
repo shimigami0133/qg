@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/extensions/src/com/mentor/chs/extension/api/plm/PXTCBOMLineDetails.java</file>
+          
+        <line>57</line>
+          
+        <module>interfaces</module>
+          
+        <package>com.mentor.chs.extension.api.plm</package>
+          
+        <entry_point FQNAME="com.mentor.chs.extension.api.plm.PXTCBOMLineDetails void setPdmName(java.lang.String pdmName)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+</problems>

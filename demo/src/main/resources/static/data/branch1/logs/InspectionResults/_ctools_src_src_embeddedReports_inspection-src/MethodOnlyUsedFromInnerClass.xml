@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/TeamcenterLogicComponentBOM.java</file>
+          
+        <line>490</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.TeamcenterLogicComponentBOM java.lang.Object computeID(com.mentor.chs.api.IXConnectivityObject entity, java.lang.String componentName, java.lang.String columnName)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Private method only used from inner class</problem_class>
+          
+        <description>Method &lt;code&gt;computeID()&lt;/code&gt;#loc is only used from inner class 'NameResultExpression' #loc</description>
+        
+    </problem>
+    
+</problems>

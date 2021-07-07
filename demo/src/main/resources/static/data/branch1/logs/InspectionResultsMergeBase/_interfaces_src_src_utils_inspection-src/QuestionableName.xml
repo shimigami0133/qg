@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>196</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite java.lang.String getStandardPropertyName(java.lang.String var)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Questionable name</problem_class>
+          
+        <description>Questionable name &lt;code&gt;var&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>156</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getStandardPropertyName(java.lang.String var)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Questionable name</problem_class>
+          
+        <description>Questionable name &lt;code&gt;var&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>1445</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getEnvironment(java.lang.String appVar, java.lang.String def, boolean blankOK)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Questionable name</problem_class>
+          
+        <description>Questionable name &lt;code&gt;var&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>1548</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getEnvironmentVariable(java.lang.String var)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Questionable name</problem_class>
+          
+        <description>Questionable name &lt;code&gt;var&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

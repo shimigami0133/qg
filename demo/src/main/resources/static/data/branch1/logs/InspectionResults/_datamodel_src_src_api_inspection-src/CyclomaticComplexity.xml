@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>429</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.lang.String getAttribute(java.lang.String name)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;getAttribute()&lt;/code&gt; (cyclomatic complexity = 13) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>782</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Set&lt;com.mentor.chs.api.IXDiagramInstance&gt; getInstancesFromDesigns(java.util.Set&lt;? extends chs.common.IDesignDescriptor&gt; iDesigns)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;getInstancesFromDesigns()&lt;/code&gt; (cyclomatic complexity = 20) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>885</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void removeCharSetFromMetaTag(org.jdom.Element rootElement)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;removeCharSetFromMetaTag()&lt;/code&gt; (cyclomatic complexity = 13) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>932</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void changeReferenceAttributes(org.jdom.Element rootElement, java.lang.String relativePathToBeAdded, java.io.File dirToCheckFiles, java.io.File targetDir, boolean copyToTargetDir, boolean changeTheHrefs)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;changeReferenceAttributes()&lt;/code&gt; (cyclomatic complexity = 12) #loc</description>
+        
+    </problem>
+    
+</problems>

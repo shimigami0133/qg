@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>125</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(char[] a, char[] b)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Subtraction in 'compareTo()'</problem_class>
+          
+        <description>Subtraction &lt;code&gt;la - maxlen&lt;/code&gt; in 'compareTo()' may result in overflow or precision loss #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>126</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(char[] a, char[] b)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Subtraction in 'compareTo()'</problem_class>
+          
+        <description>Subtraction &lt;code&gt;lb - maxlen&lt;/code&gt; in 'compareTo()' may result in overflow or precision loss #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>127</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(char[] a, char[] b)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Subtraction in 'compareTo()'</problem_class>
+          
+        <description>Subtraction &lt;code&gt;ai - maxlen&lt;/code&gt; in 'compareTo()' may result in overflow or precision loss #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>128</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(char[] a, char[] b)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Subtraction in 'compareTo()'</problem_class>
+          
+        <description>Subtraction &lt;code&gt;bi - maxlen&lt;/code&gt; in 'compareTo()' may result in overflow or precision loss #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>220</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(T o1, T o2)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Subtraction in 'compareTo()'</problem_class>
+          
+        <description>Subtraction &lt;code&gt;aZero - bZero&lt;/code&gt; in 'compareTo()' may result in overflow or precision loss #loc</description>
+        
+    </problem>
+    
+</problems>

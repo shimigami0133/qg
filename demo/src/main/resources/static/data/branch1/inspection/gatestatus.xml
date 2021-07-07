@@ -1,0 +1,18 @@
+<gatestatus>
+    <gate
+        name="inspection"
+        displayname="Inspections"
+        description="Detects New Code Inspections introduced"
+        mode="PRODUCTION"
+        kind="DEFAULT"
+    />
+    <status
+        result="PASS"
+        link="http://ies-iesd-sonar-qg-1.ies.mentorg.com:9000/component_issues?id=2021.1_ADP1_INT:2021.1#resolved=false|sinceLeakPeriod=true"
+        details="No new inspection issues detected"
+    />
+    <timing
+        starttime="1620173576307"
+        endtime="1620179746373"
+    />
+</gatestatus>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMStructureBuilderForTC.java</file>
+          
+        <line>47</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMStructureBuilderForTC com.mentor.chs.extension.api.plm.PXCompositeBOMStruct createBOMStructure(chs.common.IDesignContainer designContainer, chs.bridges.pdm.TCSpecificBridgesProgressMonitor progressMonitor, chs.bridges.adaptors.IAdaptorProperty property)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/helpers/ui/common/ribbon/TeamcenterExtensionsMenuItemProducer.java</file>
+          
+        <line>77</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.helpers.ui.common.ribbon</package>
+          
+        <entry_point FQNAME="chs.caf.helpers.ui.common.ribbon.TeamcenterExtensionsMenuItemProducer java.util.Set&lt;? extends com.mentor.chs.api.dataexchange.teamcenter.IXTeamcenterReportExchangeRegistrar&gt; getTeamcenterExtensions()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>134</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMReportCreator chs.cof.parts.ILibraryObject.GroupType getLibraryGroupType(java.lang.String groupType)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>205</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMReportCreator java.lang.String getPluginName(com.mentor.chs.api.report.IXReportCreator creator)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/TeamcenterReportExchangeAction.java</file>
+          
+        <line>289</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.TeamcenterReportExchangeAction.ReportWorker com.mentor.chs.api.dataexchange.teamcenter.IXPLMXMLTransformer getReportTransformer(com.mentor.chs.api.report.IXReportCreator reportCreator)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/TeamcenterReportExchangeAction.java</file>
+          
+        <line>535</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.TeamcenterReportExchangeAction.ReportWorker chs.bridges.adaptors.IAdaptorReporter createAdaptorReporter(java.lang.Object target)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/TeamcenterReportExchangeAction.java</file>
+          
+        <line>573</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.TeamcenterReportExchangeAction.ReportWorker java.awt.Frame getFrame()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>136</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction javax.swing.Icon getInactiveIcon()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>726</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction java.lang.String getTabResourceString(java.lang.String key)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>731</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction java.lang.String getActionResourceString(java.lang.String key)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>736</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction java.util.Set&lt;com.mentor.chs.api.IXBuildList&gt; getBuildListFor(chs.cof.project.buildlist.BuildListTypeEnum type, java.util.Set&lt;com.mentor.chs.api.IXBuildList&gt; buildLists)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>494</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources java.util.prefs.Preferences getMainResourcesPreferences()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>777</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources chs.caf.QAExtensionAppAction getDeleteAllTagsAction()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1249</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources$1 java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1256</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources$2 java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1264</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources$3 java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1272</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources$4 java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1280</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources$5 java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1296</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources$7 java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1304</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources$8 java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2094</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources chs.caf.ActionEntry getComparePrintOutputAction()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2194</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources chs.caf.ActionContainer createTeamcenterCheckinMenus(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer bridgeMenu, chs.caf.ActionContainer tcMenu)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2243</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources chs.caf.ActionContainer createTeamcenterMainMenu()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2324</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources chs.caf.IActionNode createNodeLogUnexectedDesignLoad()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2357</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.PersistenceSessionLoadSaveMonitorAppAction java.util.Optional&lt;chs.cog.ICOGDebugMessageGenerator&gt; getMessageGenerator()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>4060</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.DumpDesignStateAction java.lang.String getName(java.lang.Object obj)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>4072</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.DumpDesignStateAction java.lang.String getDiagramName(chs.cof.drawplus.IBaseDiagram diag)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>4153</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.DumpDesignStateAction java.lang.String getIncLoadableState(chs.common.IIncLoadable loadable)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>4161</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.DumpDesignStateAction java.lang.String getLockableState(chs.common.ILockable lockable)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>4169</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.DumpDesignStateAction java.lang.String getModifiedState(chs.common.IReadOnlyPendingModification modifiable)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+</problems>

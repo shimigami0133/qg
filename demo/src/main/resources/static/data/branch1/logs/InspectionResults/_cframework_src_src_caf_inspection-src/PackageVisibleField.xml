@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>55</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMReportCreator allReportingPlugins" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Package-visible field</problem_class>
+          
+        <description>Package-visible field &lt;code&gt;allReportingPlugins&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>56</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMReportCreator tcSpecificBridgesProgressMonitor" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Package-visible field</problem_class>
+          
+        <description>Package-visible field &lt;code&gt;tcSpecificBridgesProgressMonitor&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>57</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMReportCreator notifier" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Package-visible field</problem_class>
+          
+        <description>Package-visible field &lt;code&gt;notifier&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

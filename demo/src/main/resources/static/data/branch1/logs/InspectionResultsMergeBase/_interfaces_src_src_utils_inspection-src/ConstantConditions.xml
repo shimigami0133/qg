@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/chs/CHSBrandingImagery.java</file>
+          
+        <line>73</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite.chs</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.chs.CHSBrandingImagery CHSBrandingImagery()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/chs/CHSBrandingImagery.java</file>
+          
+        <line>73</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite.chs</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.chs.CHSBrandingImagery CHSBrandingImagery()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/chs/CHSBrandingImagery.java</file>
+          
+        <line>73</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite.chs</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.chs.CHSBrandingImagery CHSBrandingImagery()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/chs/CHSBrandingImagery.java</file>
+          
+        <line>73</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite.chs</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.chs.CHSBrandingImagery CHSBrandingImagery()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/chs/CHSBrandingImagery.java</file>
+          
+        <line>73</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite.chs</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.chs.CHSBrandingImagery CHSBrandingImagery()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/PropsFileNames.java</file>
+          
+        <line>503</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.PropsFileNames.InternalPropsFileNames void setClientPropsReference(java.lang.String name)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;name&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/PropsFileNames.java</file>
+          
+        <line>508</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.PropsFileNames.InternalPropsFileNames void setCisConfigReference(java.lang.String name)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;name&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>159</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getStandardPropertyName(java.lang.String var)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Condition &lt;code&gt;values != null&lt;/code&gt; is always &lt;code&gt;true&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>258</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite java.lang.String getFullApplicationName(java.lang.String appname)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Method invocation &lt;code&gt;getAppNamePrefix&lt;/code&gt; may produce &lt;code&gt;NullPointerException&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>83</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite AbstractApplicationSuite()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>82</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite AbstractApplicationSuite()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>415</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void clearHeadlessState()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>581</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.security.Key getEncKey()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;m_encryptionKey&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>669</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String encrypt(java.lang.String nonEncryptedString)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;base64cipherData&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>685</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String encrypt(java.security.Key key, java.lang.String nonEncryptedString)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;base64cipherData&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>702</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getBase64Encoded(byte[] plainText)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;encoded&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>722</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment byte[] getBase64Decoded(java.lang.String codedText)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;decoded&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>930</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void clearDocsDir()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>1032</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getLauncherPropsPath()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>1409</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String remapPath(java.lang.String path)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>1459</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getEnvironment(java.lang.String appVar, java.lang.String def, boolean blankOK)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;res&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>2405</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void setDefaultWirePartDetailsEditStrategyForUnitTest(chs.utility.logic.WirePartDetailsEditStrategy theWirePartDetailsEditStrategy)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;theWirePartDetailsEditStrategy&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>2904</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void setImagesLocationForTest(java.lang.String imagesLocation)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;imagesLocation&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3242</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment org.w3c.dom.Document getManagerProps(boolean reload)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3243</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment org.w3c.dom.Document getManagerProps(boolean reload)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3430</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment org.w3c.dom.Document getClientProps(boolean reload)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3429</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment org.w3c.dom.Document getClientProps(boolean reload)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3438</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment org.w3c.dom.Document getCisConfig(boolean reload)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3437</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment org.w3c.dom.Document getCisConfig(boolean reload)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3484</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void forceResetClientProps()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3485</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void forceResetClientProps()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3490</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void forceResetCisConfig()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3489</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void forceResetCisConfig()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3693</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void setPerformanceInfo(chs.utilities.Environment.PerformanceInfo performanceInfo)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;performanceInfo&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>3843</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment chs.utilities.DatabaseSchemaType determineOracleSchemaTypeFromDB(java.sql.Connection connection)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Variable is already assigned to this value</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4189</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean autoUpdateIsEnabledInProperties(org.w3c.dom.Document props)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="WEAK WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Value &lt;code&gt;enabled&lt;/code&gt; is always 'true'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4200</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean deleteEnabledInProperties(org.w3c.dom.Document props)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="WEAK WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Value &lt;code&gt;enabled&lt;/code&gt; is always 'true'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4210</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean logCleanupEnabledInProperties(org.w3c.dom.Document props)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="WEAK WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Value &lt;code&gt;enabled&lt;/code&gt; is always 'false'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4234</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment boolean mandatoryUpdateInProperties(org.w3c.dom.Document props)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="WEAK WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Value &lt;code&gt;enabled&lt;/code&gt; is always 'false'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4339</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4346</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4342</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4347</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4343</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4345</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4344</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4348</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4354</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4351</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4353</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4341</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4349</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4350</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4340</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4352</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetConfigurationForUnitTestingOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>4470</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment.RestServerConfiguration RestServerConfiguration(boolean restServerFlag, int workerMinPort, int numberOfRestWorkers, java.lang.String resourcePath, java.lang.Integer sessionTimeout, java.lang.String maxHeapSize, boolean shouldStartLegacyReporter, java.lang.Integer houseKeepingInterval)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;maxHeapSize&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>5182</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void setClientPropsForTestOnly(org.w3c.dom.Document clientPropsTestable)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;clientPropsTestable&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>5187</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void setManagerPropsForTestOnly(org.w3c.dom.Document managerPropsTestable)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;managerPropsTestable&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>5192</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void setCHSPropsForTestOnly(org.w3c.dom.Document chsPropsTestable)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;chsPropsTestable&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>5196</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void setCisConfigForTestOnly(org.w3c.dom.Document cisConfigTestable)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;cisConfigTestable&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>5201</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment void resetSkipFlagsForTestOnly()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>941</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo void init(java.io.OutputStream os, java.lang.String applicationName, chs.utilities.CmdLine cmdline, boolean addBuildInfo)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Condition &lt;code&gt;"true".equalsIgnoreCase("@TEMPLATED@")&lt;/code&gt; is always &lt;code&gt;false&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>191</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo BuildInfo()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Condition &lt;code&gt;"true".equalsIgnoreCase("@TEMPLATED@")&lt;/code&gt; is always &lt;code&gt;false&lt;/code&gt;</description>
+        
+    </problem>
+    
+</problems>

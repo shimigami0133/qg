@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>141</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite VeSys" TYPE="field"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Inner class too deeply nested</problem_class>
+          
+        <description>&lt;code&gt;VeSys&lt;/code&gt; is too deeply nested (nesting level = 2) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>157</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite SolidEdgeElectrical" TYPE="field"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Inner class too deeply nested</problem_class>
+          
+        <description>&lt;code&gt;SolidEdgeElectrical&lt;/code&gt; is too deeply nested (nesting level = 2) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>173</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite XpeditionCable" TYPE="field"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Inner class too deeply nested</problem_class>
+          
+        <description>&lt;code&gt;XpeditionCable&lt;/code&gt; is too deeply nested (nesting level = 2) #loc</description>
+        
+    </problem>
+    
+</problems>

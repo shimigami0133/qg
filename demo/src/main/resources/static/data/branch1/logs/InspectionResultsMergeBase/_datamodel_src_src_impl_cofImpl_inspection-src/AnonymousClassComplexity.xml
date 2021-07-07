@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>448</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices$4" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex anonymous class</problem_class>
+          
+        <description>Overly complex anonymous class (cyclomatic complexity = 5) #loc</description>
+        
+    </problem>
+    
+</problems>

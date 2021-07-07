@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/filters/MarineBaseDataFilter.java</file>
+          
+        <line>49</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.filters</package>
+          
+        <entry_point FQNAME="chs.ccrs.filters.MarineBaseDataFilter boolean isSessionValid(chs.ccrs.servlet.CMPICRequestWrapper cmpicRequestWrapper, javax.servlet.http.HttpServletResponse resp)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="resp"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;resp&lt;/code&gt; is not used in either this method or any of its derived methods</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/task/AbstractMarineServletTask.java</file>
+          
+        <line>43</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet.task</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.task.AbstractMarineServletTask void performTask(javax.servlet.http.HttpServletRequest clientRequest, javax.servlet.http.HttpServletResponse proxyResponse, org.eclipse.jetty.client.api.Response serverResponse)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="proxyResponse"/>
+              
+        </hints>
+          
+        <description>Parameter &lt;code&gt;proxyResponse&lt;/code&gt; is not used in any implementation</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/sync/IMarineSyncDetails.java</file>
+          
+        <line>20</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.sync</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.sync.IMarineSyncDetails" TYPE="class"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>&amp;nbsp;Interface is not implemented.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/sync/IMarineSyncDetails.java</file>
+          
+        <line>22</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.sync</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.sync.IMarineSyncDetails java.util.Date getLastSuccessfulImportDate()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>&lt;ul&gt;&lt;li&gt;Method owner class is never instantiated OR&lt;/li&gt;&lt;li&gt;An instantiation is not reachable from entry points.&lt;/li&gt;&lt;/ul&gt;</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/sync/client/validate/IMarineFileExchangeClientValidator.java</file>
+          
+        <line>19</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.sync.client.validate</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.sync.client.validate.IMarineFileExchangeClientValidator boolean validate()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used as a member of this interface, but only as a member of the implementation class(es). The project will stay compilable if the method is removed from the interface.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/sync/schedule/MarineUploadScheduler.java</file>
+          
+        <line>77</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.sync.schedule</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.sync.schedule.MarineUploadScheduler chs.ccrs.datamanagement.sync.client.IMarineFileExchangeClient getUploadClient()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/export/config/MarineExportConfiguration.java</file>
+          
+        <line>49</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.export.config</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.export.config.MarineExportConfiguration void setDestination(java.lang.String destination)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/export/config/MarineExportConfiguration.java</file>
+          
+        <line>54</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.export.config</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.export.config.MarineExportConfiguration void setBackupLocation(java.lang.String backupLocation)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/export/config/MarineExportConfiguration.java</file>
+          
+        <line>25</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.export.config</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.export.config.MarineExportConfiguration DEFAULT_CRON_EXPRESSION" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/export/config/MarineExportConfiguration.java</file>
+          
+        <line>44</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.export.config</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.export.config.MarineExportConfiguration void setCronExpression(java.lang.String cronExpression)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/export/schedule/MarineExportScheduleManager.java</file>
+          
+        <line>44</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.export.schedule</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.export.schedule.MarineExportScheduleManager void latestUpload(java.util.List&lt;java.lang.String&gt; files)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/datamanagement/export/schedule/MarineExportScheduleManager.java</file>
+          
+        <line>49</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.datamanagement.export.schedule</package>
+          
+        <entry_point FQNAME="chs.ccrs.datamanagement.export.schedule.MarineExportScheduleManager java.util.List&lt;java.lang.String&gt; getUploadedFiles()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+</problems>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCObjectPropertiesLoader.java</file>
+          
+        <line>657</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCObjectPropertiesLoader com.teamcenter.soa.client.model.ModelObject getModelObjectFromUid(java.lang.String uid)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO: verify the condition&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

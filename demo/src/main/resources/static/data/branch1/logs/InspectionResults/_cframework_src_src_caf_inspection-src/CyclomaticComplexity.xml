@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/ReportViewerAction.java</file>
+          
+        <line>372</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.ReportViewerAction void buildBuildListReportTabView(javax.swing.JDialog reportDlg, java.util.List&lt;com.mentor.chs.api.IXDesign&gt; openDesigns, com.mentor.chs.api.IXProject project, javax.swing.JPanel tabPanel)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;buildBuildListReportTabView()&lt;/code&gt; (cyclomatic complexity = 18) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1078</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void initToolsMenu(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer menu)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;initToolsMenu()&lt;/code&gt; (cyclomatic complexity = 12) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1419</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void addBridgesActions(chs.caf.helpers.ui.common.CapletResourceBuilder rb)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;addBridgesActions()&lt;/code&gt; (cyclomatic complexity = 30) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>3916</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.ValidateMenusDEVAction void actionPerformed(java.awt.event.ActionEvent e)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;actionPerformed()&lt;/code&gt; (cyclomatic complexity = 19) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>4090</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.DumpDesignStateAction void dumpState(java.lang.Object obj, java.lang.String indent)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;dumpState()&lt;/code&gt; (cyclomatic complexity = 11) #loc</description>
+        
+    </problem>
+    
+</problems>

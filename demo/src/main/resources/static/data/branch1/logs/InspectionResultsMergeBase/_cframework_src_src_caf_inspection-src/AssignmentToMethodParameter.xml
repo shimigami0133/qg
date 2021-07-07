@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2188</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void createTeamcenterBOMExchangeMenu(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer bridgeMenu, chs.caf.ActionContainer tcMenu)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Assignment to method parameter</problem_class>
+          
+        <description>Assignment to method parameter &lt;code&gt;tcMenu&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

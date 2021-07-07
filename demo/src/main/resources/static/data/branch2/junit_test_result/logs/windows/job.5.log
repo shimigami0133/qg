@@ -1,0 +1,216 @@
+-- Tue Jun 22 17:31:20 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Generated checksum of dest   - ed558ec7d76f2bf2011d9b5dcad363ed
+     [echo] Checksum does not match? : true
+
+BUILD FAILED
+G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml:1907: Checksum mismatch between C:/repos/iesd/chs_home.zip : ed558ec7d76f2bf2011d9b5dcad363ed and G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5 : c6f3c97868a1e3cfc329c6443a9f30e7
+
+Total time: 39 seconds
+-- Tue Jun 22 17:32:16 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dget-file-url="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip" -Dget-file-dest="C:/repos/iesd/chs_home.zip" get-file -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+get-file:
+      [get] Getting: http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip
+      [get] To: C:\repos\iesd\chs_home.zip
+
+BUILD SUCCESSFUL
+Total time: 1 minute 18 seconds
+-- Tue Jun 22 17:33:36 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Generated checksum of dest   - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Checksum does not match? : ${checksumDoesNotMatch}
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+-- Tue Jun 22 17:33:54 2021: IESD::ChsHomeUtil::downloadAndExtractBuildZip - Deleting chs_home dir: C:/repos/iesd/chs_home.
+-- Tue Jun 22 17:34:11 2021: Directory 'C:/repos/iesd/chs_home' deleted.
+-- Tue Jun 22 17:34:11 2021: Total time: 17.234 seconds
+-- Tue Jun 22 17:34:11 2021: 7z x C:/repos/iesd/chs_home.zip -y -oC:/repos/iesd/chs_home
+-- Tue Jun 22 17:34:56 2021: Total time: 44.934 seconds
+-- Tue Jun 22 17:34:56 2021: C:/repos/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dchshome=C:/repos/iesd/chs_home -Dchs.home=C:/repos/iesd/chs_home -Dchsbuildtools_home=C:/repos/iesd/chs_home/bld -Dtest.results.base=G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testresults  -Dchs.build.skiptestexports=true -Dcapital.testlist.path=G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testjobs.windows/job.5.txt runtestsonlyqg -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/datamodel_src/tests/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\datamodel_src\tests\build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = windows.job.5
+
+-os-init-linux:
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testresults/datamodel exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from COF Tests G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\datamodel_src\tests\build.xml
+[readtestlist] Found 50 test classes in testlist 'G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\chs_home\bld\testjobs.windows\job.5.txt'
+    [junit] Running chs.quincy.CustomerCallHomeDRStatisticsTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.54 sec
+    [junit] Running chs.quincy.QuincyConfigurationTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.junit.JUnitUtil (file:/C:/repos/iesd/chs_home/bld/testlib/capitaltestsinterfaces.jar) to field java.lang.ProcessEnvironment.theCaseInsensitiveEnvironment
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.junit.JUnitUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.237 sec
+    [junit] Running chs.quincy.server.UpgradeBenefitTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.785 sec
+    [junit] Running chs.quincy.walker.RepositoryWalkerFileProcessingTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 2.267 sec
+    [junit] Running chs.reportgeneratorutils.reportables.CustomLogicXMLReportableTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.653 sec
+    [junit] Running chs.rest.common.SecurityExceptionHandlerTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.584 sec
+    [junit] Running chs.rest.resource.icd.ICDResourceSetterTest
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.146 sec
+    [junit] Running chs.rest.service.common.ProjectServiceCollectionTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.474 sec
+    [junit] Running chs.rest.service.parts.ConnectorFaceviewServiceTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.cgm.write.unit.CGMTextUnit (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field java.awt.Font.values
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.cgm.write.unit.CGMTextUnit
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.46 sec
+    [junit] Running chs.subsystem.impacteddesigns.impl.ext.impact.ImpactingOrphanBundleInsulationTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.302 sec
+    [junit] Running chs.system.ElectricalGUIConfigTest
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.841 sec
+    [junit] Running chs.system.VesysGUIConfigTest
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.817 sec
+    [junit] Running chs.task.CEADesignParametersTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.659 sec
+    [junit] Running chs.task.ProjectvalidationFEMParamTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.084 sec
+    [junit] Running chs.task.design.DesignImportTaskTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.333 sec
+    [junit] Running chs.task.icd.cea.CEAValidDataItemTest
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.403 sec
+    [junit] Running chs.task.icd.xsd.XSDICDImportFileUtilTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.796 sec
+    [junit] Running chs.task.icd.xsd.XSDICDImportParametersTest
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.395 sec
+    [junit] Running chs.task.icd.xsd.XSDValidDataItemTest
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.484 sec
+    [junit] Running chs.teamplay.common.CommentEditorLauncherTest
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.406 sec
+    [junit] Running chs.teamplay.persistence.TeamPlayEntityExporterTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.153 sec
+    [junit] Running chs.teamplay.persistence.TeamPlayEntityPersistConsumerTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.11 sec
+    [junit] Running chs.teamplay.persistence.TeamPlayEntityRefPersistConsumerTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.241 sec
+    [junit] Running chs.utilities.PolicyBasedLicenseFilterTest
+    [junit] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.824 sec
+    [junit] Running chs.utilities.ui.tabulareditor.PropertyColumnValidatorTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.925 sec
+    [junit] Running chs.utility.OneOfEverythingTests.RulesForProjectTemplateExportAndImportOneOfEverythingTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 202.231 sec
+    [junit] Running chs.utility.analysis.AnalysisUtilsTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.518 sec
+    [junit] Running chs.utility.cgm.CGMUtilsTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.cgm.write.unit.CGMTextUnit (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field java.awt.Font.values
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.cgm.write.unit.CGMTextUnit
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.317 sec
+    [junit] Running chs.utility.cgm.svg.CGMSVGMiterLimitTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.72 sec
+    [junit] Running chs.utility.dataservices.IORStemFetcherFileSupportTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.064 sec
+    [junit] Running chs.utility.designlog.DesignLogFilteringTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.877 sec
+    [junit] Running chs.utility.gfx.DXFGraphicsDrawGlyphVectorTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.66 sec
+    [junit] Running chs.utility.gfx.DXFGraphicsTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.5 sec
+    [junit] Running chs.utility.gfx.PDFPrintContextTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.441 sec
+    [junit] Running chs.utility.gfx.TableDataRendererTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.966 sec
+    [junit] Running chs.utility.gfx.TableZoomOutXRendererTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.623 sec
+    [junit] Running chs.utility.harness.DimensionExtensionLineTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.357 sec
+    [junit] Running chs.utility.harness.FixtureImportExportTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.97 sec
+    [junit] Running chs.utility.harness.HarnessArcTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.356 sec
+    [junit] Running chs.utility.harness.HarnessDimensionTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.879 sec
+    [junit] Running chs.utility.harnessdesigntransfer.ldorado.LDoradoExecutableUtilsTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.967 sec
+    [junit] Running chs.utility.helpers.CalculateHeightOfTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.678 sec
+    [junit] Running chs.utility.helpers.EmbeddableFontTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.lowagie.text.pdf.MappedRandomAccessFile$1 (file:/C:/repos/iesd/chs_home/lib/itext.jar) to method java.nio.DirectByteBuffer.cleaner()
+    [junit] WARNING: Please consider reporting this to the maintainers of com.lowagie.text.pdf.MappedRandomAccessFile$1
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.263 sec
+    [junit] Running chs.utility.helpers.FontHelperTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.325 sec
+    [junit] Running chs.utility.helpers.FontLoadingTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.258 sec
+    [junit] Running chs.utility.helpers.FontMetricsConfigTest
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.39 sec
+    [junit] Running chs.utility.helpers.FontMetricsInterceptorTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.606 sec
+    [junit] Running chs.utility.helpers.FontMetricsTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by mockit.internal.util.Utilities (file:/C:/repos/iesd/chs_home/bld/lib/jmockit.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of mockit.internal.util.Utilities
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.146 sec
+    [junit] Running chs.utility.helpers.Java8CompatibleFontMetricsUtilDataTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 243, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.418 sec
+    [junit] Running chs.utility.helpers.Java8CompatibleFontMetricsUtilTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by chs.utility.helpers.Java8CompatibleFontMetricsUtil (file:/C:/repos/iesd/chs_home/lib/capitalcofutils.jar) to field sun.font.FontDesignMetrics.ascent
+    [junit] WARNING: Please consider reporting this to the maintainers of chs.utility.helpers.Java8CompatibleFontMetricsUtil
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.675 sec
+
+BUILD SUCCESSFUL
+Total time: 29 minutes 3 seconds

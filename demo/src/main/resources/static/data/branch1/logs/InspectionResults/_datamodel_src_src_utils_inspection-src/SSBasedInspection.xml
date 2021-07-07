@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/pdm/TCBomReportParserForLogic.java</file>
+          
+        <line>47</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCBomReportParserForLogic java.util.List&lt;com.mentor.chs.extension.api.plm.PIXPLMMessage&gt; createBOMDetailsFromReport(java.lang.String reportContent, java.util.List&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails&gt; bomDetails, java.lang.String defaultPartRevisionToUse, java.lang.String occurrenceIdentifier)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>59</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getTcConnectionLocale(java.lang.String formatID)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/pdm/TCBomReportParser.java</file>
+          
+        <line>41</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCBomReportParser java.util.List&lt;com.mentor.chs.extension.api.plm.PIXPLMMessage&gt; createBOMDetailsFromReport(java.lang.String reportContent, java.util.List&lt;com.mentor.chs.extension.api.plm.PXTCBOMLineDetails&gt; bomDetails, java.lang.String defaultPartRevisionToUse, java.lang.String occurrenceIdentifier)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>70</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getTcConnectionLocale(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/pdm/TCBomReportParserForLogic.java</file>
+          
+        <line>128</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCBomReportParserForLogic java.lang.String getInstanceName(java.util.Map&lt;java.lang.String,java.lang.String&gt; propertyValues)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>76</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getAWURL(java.lang.String formatID)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>87</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getAWURL(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>92</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getApplicationID(java.lang.String formatID)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>103</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getApplicationID(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>109</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getAWSServer(java.lang.String formatID)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>121</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getAWSServer(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>126</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getAWSPort(java.lang.String formatID)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>138</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getAWSPort(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>143</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getSsoUrl(java.lang.String formatID)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>154</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getSsoUrl(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>159</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getSsoAppId(java.lang.String formatID)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>170</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getSsoAppId(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>175</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getConnectProtocol(java.lang.String formatID)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/pdm/TCBomReportParser.java</file>
+          
+        <line>133</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCBomReportParser java.lang.String getQuantityNumericValue(java.lang.String quantity, java.lang.String unitOfMeasure)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/pdm/TCBomReportParser.java</file>
+          
+        <line>156</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCBomReportParser org.w3c.dom.Document convertStringToXMLDocument(java.lang.String reportContent)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>186</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getConnectProtocol(chs.bridges.adaptors.IAdaptorProperty propertyInst)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>191</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getPropertyValue(chs.bridges.adaptors.IAdaptorProperty propertyInst, java.lang.String propertyName, java.lang.String defaultValue)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>203</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getCompType(java.lang.String formatID, java.lang.String itemType)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>242</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.List&lt;javafx.util.Pair&lt;java.lang.String,java.lang.String&gt;&gt; loadPropertyPairs(chs.bridges.adaptors.IAdaptorProperty propertyInst, java.lang.String propertyName, java.lang.String outerDelimiter, java.lang.String innerDelimiter, java.lang.String defaultValue)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>267</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.Optional&lt;javafx.util.Pair&lt;java.lang.String,java.lang.String&gt;&gt; loadPropPair(java.lang.String propValue, java.lang.String delimiter)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>389</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getDisplayValueForGivenObject(java.lang.Object capitalObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>407</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.lang.String getAppBasedKeyRoot()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>436</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.function.Predicate&lt;? super chs.common.IDesignContainer&gt; matchingProperty(java.lang.String propName, java.lang.String propVal)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>442</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.function.Predicate&lt;? super chs.common.IDesignContainer&gt; shouldNotHavePDMExtIDProp()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>449</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.function.Predicate&lt;? super chs.common.IDesignContainer&gt; shouldNotHavePDMRevProp()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>505</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.Set&lt;chs.common.IUID&gt; getDesignUIDs(java.util.List&lt;chs.common.IDesignContainer&gt; designs)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+</problems>

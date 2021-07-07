@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>857</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void collectNewDesignCreationActions(chs.caf.ActionContainer newMenu, chs.utilities.CmdLine cmdLine)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant type cast</problem_class>
+          
+        <description>Casting &lt;code&gt;'.'&lt;/code&gt; to &lt;code&gt;int&lt;/code&gt; is redundant</description>
+        
+    </problem>
+    
+</problems>

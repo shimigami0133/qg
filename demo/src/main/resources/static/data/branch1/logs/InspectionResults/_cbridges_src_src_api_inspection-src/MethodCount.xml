@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/adaptors/IAdaptorFormat.java</file>
+          
+        <line>27</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.IAdaptorFormat" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many methods</problem_class>
+          
+        <description>&lt;code&gt;IAdaptorFormat&lt;/code&gt; has too many methods (method count = 43) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/IHandshakeMgr.java</file>
+          
+        <line>21</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.IHandshakeMgr" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many methods</problem_class>
+          
+        <description>&lt;code&gt;IHandshakeMgr&lt;/code&gt; has too many methods (method count = 38) #loc</description>
+        
+    </problem>
+    
+</problems>

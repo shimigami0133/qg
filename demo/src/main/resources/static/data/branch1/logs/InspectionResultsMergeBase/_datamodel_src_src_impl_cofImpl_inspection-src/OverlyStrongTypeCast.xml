@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>434</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices com.mentor.chs.api.IXProject getProject(com.mentor.chs.api.IXBuildList buildlist)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly strong type cast</problem_class>
+          
+        <description>Cast to &lt;code&gt;XBuildList&lt;/code&gt; can be weakened to 'IXPrivilegedObject' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>674</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices java.util.List&lt;chs.cof.draw.ISheet&gt; getDiagramSheets(java.util.List&lt;com.mentor.chs.api.IXDiagram&gt; xDiagrams)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly strong type cast</problem_class>
+          
+        <description>Cast to &lt;code&gt;XDiagram&lt;/code&gt; can be weakened to 'XObject' #loc</description>
+        
+    </problem>
+    
+</problems>

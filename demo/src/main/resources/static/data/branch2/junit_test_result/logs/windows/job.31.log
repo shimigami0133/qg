@@ -1,0 +1,161 @@
+-- Tue Jun 22 17:31:32 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Generated checksum of dest   - ed558ec7d76f2bf2011d9b5dcad363ed
+     [echo] Checksum does not match? : true
+
+BUILD FAILED
+G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml:1907: Checksum mismatch between C:/repos/iesd/chs_home.zip : ed558ec7d76f2bf2011d9b5dcad363ed and G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5 : c6f3c97868a1e3cfc329c6443a9f30e7
+
+Total time: 48 seconds
+-- Tue Jun 22 17:32:26 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dget-file-url="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip" -Dget-file-dest="C:/repos/iesd/chs_home.zip" get-file -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+get-file:
+      [get] Getting: http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip
+      [get] To: C:\repos\iesd\chs_home.zip
+
+BUILD SUCCESSFUL
+Total time: 1 minute 5 seconds
+-- Tue Jun 22 17:33:36 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Generated checksum of dest   - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Checksum does not match? : ${checksumDoesNotMatch}
+
+BUILD SUCCESSFUL
+Total time: 45 seconds
+-- Tue Jun 22 17:34:23 2021: IESD::ChsHomeUtil::downloadAndExtractBuildZip - Deleting chs_home dir: C:/repos/iesd/chs_home.
+-- Tue Jun 22 17:34:45 2021: Directory 'C:/repos/iesd/chs_home' deleted.
+-- Tue Jun 22 17:34:45 2021: Total time: 22.451 seconds
+-- Tue Jun 22 17:34:45 2021: 7z x C:/repos/iesd/chs_home.zip -y -oC:/repos/iesd/chs_home
+-- Tue Jun 22 17:35:45 2021: Total time: 60.158 seconds
+-- Tue Jun 22 17:35:46 2021: C:/repos/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dchshome=C:/repos/iesd/chs_home -Dchs.home=C:/repos/iesd/chs_home -Dchsbuildtools_home=C:/repos/iesd/chs_home/bld -Dtest.results.base=G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testresults  -Dchs.build.skiptestexports=true -Dcapital.testlist.path=G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testjobs.windows/job.31.txt runtestsonlyqg -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/cbridges_src/tests/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\cbridges_src\tests\build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = windows.job.31
+
+-os-init-linux:
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testresults/bridges exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from Capital Bridges Tests G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\cbridges_src\tests\build.xml
+[readtestlist] Found 50 test classes in testlist 'G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\chs_home\bld\testjobs.windows\job.31.txt'
+    [junit] Running chs.ccrs.rest.NXSessionManagerTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.528 sec
+    [junit] Running chs.ccrs.rest.contenttransformer.CMPICToNXCableTransformerTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.028 sec
+    [junit] Running chs.ccrs.rest.contenttransformer.CMPICToNXDeviceTransformerTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.005 sec
+    [junit] Running chs.ccrs.rest.contenttransformer.CMPICToNXNodeTransformerTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.835 sec
+    [junit] Running chs.ccrs.rest.contenttransformer.CMPICToNXSegmentTransformerTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.064 sec
+    [junit] Running chs.ccrs.rest.contenttransformer.CMPICToNXUOMTransformerTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.873 sec
+    [junit] Running chs.ccrs.rest.services.BaseRestServiceTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.021 sec
+    [junit] Running chs.ccrs.rest.services.CableRestServiceTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.617 sec
+    [junit] Running chs.ccrs.rest.services.DeviceRestServiceTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.016 sec
+    [junit] Running chs.ccrs.rest.services.NodeRestServiceTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.893 sec
+    [junit] Running chs.ccrs.rest.services.SegmentRestServiceTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.978 sec
+    [junit] Running chs.ccrs.rest.services.TokenRestServiceTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.024 sec
+    [junit] Running chs.ccrs.rest.services.UOMRestServiceTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.936 sec
+    [junit] Running chs.ccrs.server.CableRouterServerTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.139 sec
+    [junit] Running chs.ccrs.server.start.CableRouterServerStartLifecycleTaskTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.507 sec
+    [junit] Running chs.ccrs.server.start.DisplayFeedbackMessageTaskTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.737 sec
+    [junit] Running chs.ccrs.server.start.LicenseAndReportInitializationTaskTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.985 sec
+    [junit] Running chs.ccrs.server.start.PortValidationTaskTest
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.712 sec
+    [junit] Running chs.ccrs.server.start.PreInitializationTaskTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.372 sec
+    [junit] Running chs.ccrs.server.start.ServerPortSetupTaskTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.836 sec
+    [junit] Running chs.ccrs.server.start.StartLifecycleTaskChainBuilderTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.46 sec
+    [junit] Running chs.ccrs.server.start.StartServerTaskTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.062 sec
+    [junit] Running chs.ccrs.server.stop.CableRouterServerStopLifecycleTaskTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.461 sec
+    [junit] Running chs.ccrs.server.stop.StopServerServiceTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.033 sec
+    [junit] Running chs.ccrs.server.stop.StopServerTaskTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.774 sec
+    [junit] Running chs.ccrs.servlet.CMPICDelegationServletConfigTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.521 sec
+    [junit] Running chs.ccrs.servlet.CMPICDelegationServletTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.616 sec
+    [junit] Running chs.ccrs.servlet.CMPICRequestWrapperTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.569 sec
+    [junit] Running chs.ccrs.servlet.CableRouterActivityCheckerTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.06 sec
+    [junit] Running chs.ccrs.servlet.CableRouterAdministratorEmailServletTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.187 sec
+    [junit] Running chs.ccrs.servlet.CableRouterCmpicConnectDbServletTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.267 sec
+    [junit] Running chs.ccrs.servlet.CableRouterContentUploaderServletTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.303 sec
+    [junit] Running chs.ccrs.servlet.CableRouterContextAdapterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.868 sec
+    [junit] Running chs.ccrs.servlet.CableRouterLoginURLServletTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.551 sec
+    [junit] Running chs.ccrs.servlet.CableRouterScheduleSyncBackUpJobTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.629 sec
+    [junit] Running chs.ccrs.servlet.CableRouterScheduleSyncServletTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.489 sec
+    [junit] Running chs.ccrs.servlet.CableRouterSessionInfoServletTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.009 sec
+    [junit] Running chs.ccrs.servlet.CableRouterSyncContentValidationServletTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.554 sec
+    [junit] Running chs.ccrs.servlet.CableRouterUserAuthenticationServletTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.094 sec
+    [junit] Running chs.ccrs.servlet.CableRouterWebServerServletDefaultHandlerTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.746 sec
+    [junit] Running chs.ccrs.servlet.CableRouterWebServerServletDelegationTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.802 sec
+    [junit] Running chs.ccrs.servlet.CableRouterWebServerServletRedirectionTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.007 sec
+    [junit] Running chs.ccrs.servlet.LoginDelegationServletTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.169 sec
+    [junit] Running chs.ccrs.servlet.ShutdownServletTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.98 sec
+    [junit] Running chs.ccrs.servlet.context.CableRouterFilterHolderTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.671 sec
+    [junit] Running chs.ccrs.servlet.context.CableRouterFilterMappingTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.508 sec
+    [junit] Running chs.ccrs.servlet.context.CableRouterSecurityHeadersFilterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.537 sec
+    [junit] Running chs.ccrs.servlet.context.CableRouterServletContextAdderBuilderTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.879 sec
+    [junit] Running chs.ccrs.servlet.context.CableRouterServletContextAdderTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.036 sec
+    [junit] Running chs.ccrs.servlet.context.CableRouterServletHolderTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.086 sec
+
+BUILD SUCCESSFUL
+Total time: 4 minutes 4 seconds

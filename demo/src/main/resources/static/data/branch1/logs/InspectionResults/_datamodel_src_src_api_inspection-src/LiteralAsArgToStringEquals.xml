@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>1377</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper boolean isPdfPrintSelected(java.lang.String tagName)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'expression.equals("literal")' rather than '"literal".equals(expression)'</problem_class>
+          
+        <description>Literal &lt;code&gt;"pdf"&lt;/code&gt; is argument of 'equalsIgnoreCase()', instead of its qualifier #loc</description>
+        
+    </problem>
+    
+</problems>

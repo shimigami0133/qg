@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/TeamcenterLogicComponentBOM.java</file>
+          
+        <line>756</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.TeamcenterLogicComponentBOM com.mentor.chs.api.report.IXReport createReport(com.mentor.chs.api.report.IXReportContext context)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+</problems>

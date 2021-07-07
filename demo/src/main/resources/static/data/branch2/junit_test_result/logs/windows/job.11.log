@@ -1,0 +1,256 @@
+-- Tue Jun 22 17:31:25 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Generated checksum of dest   - ed558ec7d76f2bf2011d9b5dcad363ed
+     [echo] Checksum does not match? : true
+
+BUILD FAILED
+G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml:1907: Checksum mismatch between C:/repos/iesd/chs_home.zip : ed558ec7d76f2bf2011d9b5dcad363ed and G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5 : c6f3c97868a1e3cfc329c6443a9f30e7
+
+Total time: 51 seconds
+-- Tue Jun 22 17:32:29 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dget-file-url="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip" -Dget-file-dest="C:/repos/iesd/chs_home.zip" get-file -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+get-file:
+      [get] Getting: http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip
+      [get] To: C:\repos\iesd\chs_home.zip
+
+BUILD SUCCESSFUL
+Total time: 1 minute 5 seconds
+-- Tue Jun 22 17:33:36 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Generated checksum of dest   - c6f3c97868a1e3cfc329c6443a9f30e7
+     [echo] Checksum does not match? : ${checksumDoesNotMatch}
+
+BUILD SUCCESSFUL
+Total time: 29 seconds
+-- Tue Jun 22 17:34:07 2021: IESD::ChsHomeUtil::downloadAndExtractBuildZip - Deleting chs_home dir: C:/repos/iesd/chs_home.
+-- Tue Jun 22 17:34:42 2021: Directory 'C:/repos/iesd/chs_home' deleted.
+-- Tue Jun 22 17:34:42 2021: Total time: 34.543 seconds
+-- Tue Jun 22 17:34:42 2021: 7z x C:/repos/iesd/chs_home.zip -y -oC:/repos/iesd/chs_home
+-- Tue Jun 22 17:36:11 2021: Total time: 88.964 seconds
+-- Tue Jun 22 17:36:11 2021: C:/repos/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/build.windows.properties -Dchshome=C:/repos/iesd/chs_home -Dchs.home=C:/repos/iesd/chs_home -Dchsbuildtools_home=C:/repos/iesd/chs_home/bld -Dtest.results.base=G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testresults  -Dchs.build.skiptestexports=true -Dcapital.testlist.path=G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testjobs.windows/job.11.txt runtestsonlyqg -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/cframework_src/tests/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\cframework_src\tests\build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = windows.job.11
+
+-os-init-linux:
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, G:/iesdwa/qualitygates/wa/2021.1_ADP1_DEV_installer_porting/code/iesd/chs_home/bld/testresults/framework exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from CAF Tests G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\cframework_src\tests\build.xml
+[readtestlist] Found 50 test classes in testlist 'G:\iesdwa\qualitygates\wa\2021.1_ADP1_DEV_installer_porting\code\iesd\chs_home\bld\testjobs.windows\job.11.txt'
+    [junit] Running chs.caf.cafmain.actions.dxfimport.ImportDxfSymbolCentredTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.937 sec
+    [junit] Running chs.caf.cafmain.actions.dxfimport.ImportDxfSymbolEncodingTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.061 sec
+    [junit] Running chs.caf.cafmain.actions.dxfimport.ImportDxfSymbolLeftTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.687 sec
+    [junit] Running chs.caf.cafmain.actions.dxfimport.ImportDxfSymbolTest
+    [junit] Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.195 sec
+    [junit] Running chs.caf.cafmain.actions.dxfimport.ImportDxfTextFontTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.077 sec
+    [junit] Running chs.caf.cafmain.actions.dxfimport.ImportDxfVerticalPlacementTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.926 sec
+    [junit] Running chs.caf.cafmain.actions.ela.configdata.xml.ConfigDataXMLHandlerTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.851 sec
+    [junit] Running chs.caf.cafmain.actions.ela.datamodel.DataServiceFlightScheduleTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.047 sec
+    [junit] Running chs.caf.cafmain.actions.ela.node.DeviceConnectionFinderTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.32 sec
+    [junit] Running chs.caf.cafmain.actions.ela.node.data.NodeDataTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.005 sec
+    [junit] Running chs.caf.cafmain.actions.ela.poweranalysis.deviceproperties.xml.DevicePropertyXMLHandlerTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.255 sec
+    [junit] Running chs.caf.cafmain.actions.ela.poweranalysis.node.StandardELANodeFactoryTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector (file:/C:/repos/iesd/chs_home/lib/jaxb-impl.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+    [junit] WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.796 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.folder.NewFolderActionTest
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.859 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.folder.RenameFolderActionTest
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.371 sec
+    [junit] Running chs.caf.cafmain.actions.icd.CreateICDFromLogicDesignTest
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.519 sec
+    [junit] Running chs.caf.cafmain.actions.icd.CreateICDHandlerTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.67 sec
+    [junit] Running chs.caf.cafmain.actions.icd.CreateICDsFromBuildListTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.241 sec
+    [junit] Running chs.caf.cafmain.actions.linebalancing.GroupingCriteriaColumnTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.569 sec
+    [junit] Running chs.caf.cafmain.actions.modular.reportmodulerelationships.ReportModuleRelationshipsProcessorTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.558 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.DeleteProductPlanActionTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.142 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.EditProductPlanActionTest
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.278 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.EditProductPlanDialogTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.811 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.NewPlanBuildListDialogTest
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.085 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.NewProductPlanActionTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.701 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.NewProductPlanDialogTest
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.146 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.ProductPlanExporterActionTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.654 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.ProductPlanImporterActionTest
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.975 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.cafmain.actions.productplan.tc.TCConfiguratorContextImporterDialogTest
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 68.067 sec
+    [junit] Running chs.caf.cafmain.actions.qa.DumpObjectsForActiveProjectActionTest
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.247 sec
+    [junit] Running chs.caf.cafmain.actions.reports.DesignLogDialogTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.673 sec
+    [junit] Running chs.caf.cafmain.actions.reports.consolidated.ConsolidatedReportsDataValidatorTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.443 sec
+    [junit] Running chs.caf.cafmain.actions.reports.consolidated.ConsolidatedReportsDesignAccesibilityTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.174 sec
+    [junit] Running chs.caf.cafmain.actions.reports.consolidated.ConsolidatedReportsFileValidatorTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.868 sec
+    [junit] Running chs.caf.cafmain.actions.servicedoc.ui.DataOnlyOutputLocationListenerTest
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.614 sec
+    [junit] Running chs.caf.cafmain.actions.servicedoc.ui.PackagerDialogActionsImplTest
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.936 sec
+    [junit] Running chs.caf.cafmain.actions.tcshareeng.LifecyclePublishDesignTCShareActionTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.715 sec
+    [junit] Running chs.caf.cafmain.task.BuildlistContentUpdateTaskPluggablePermissionsTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.474 sec
+    [junit] Running chs.caf.cafmain.task.FMEATaskTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.459 sec
+    [junit] Running chs.caf.cafmain.task.SCATaskTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.461 sec
+    [junit] Running chs.caf.cafmain.task.ScriptTaskTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.491 sec
+    [junit] Running chs.caf.cafmain.task.StressTaskTest
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.085 sec
+    [junit] Running chs.caf.cafmain.task.ld4twi.DRCReportJSONFormatterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.078 sec
+    [junit] Running chs.caf.cafmain.task.ld4twi.DesignDRCRunResultAttachmentSaverTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.564 sec
+    [junit] Running chs.caf.cafmain.task.ld4twi.LD4TWISyncTaskElogFileAttachmentTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.424 sec
+    [junit] Running chs.caf.cafmain.task.ld4twi.VestigoBuildListDRCRunResultAttachmentSaverTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.128 sec
+    [junit] Running chs.caf.cafmain.task.ld4twi.VestigoDesignDRCRunResultAttachmentSaverTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.163 sec
+    [junit] Running chs.caf.cafmain.task.sbom.CustomCostResultsExportContextTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.133 sec
+    [junit] Running chs.caf.caplet.cmd.GenerateNamesCmdTest
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.983 sec
+    [junit] Running chs.caf.caplet.cmd.ProjectTraverseLockFailureTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.536 sec
+    [junit] WARNING: An illegal reflective access operation has occurred
+    [junit] WARNING: Illegal reflective access by org.uispec4j.UISpec4J (file:/C:/repos/iesd/chs_home/bld/lib/uispec4j.jar) to field java.awt.Toolkit.toolkit
+    [junit] WARNING: Please consider reporting this to the maintainers of org.uispec4j.UISpec4J
+    [junit] WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+    [junit] WARNING: All illegal access operations will be denied in a future release
+    [junit] Running chs.caf.caplet.helpers.ConfirmChoiceDialogTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.548 sec
+
+BUILD SUCCESSFUL
+Total time: 24 minutes 7 seconds

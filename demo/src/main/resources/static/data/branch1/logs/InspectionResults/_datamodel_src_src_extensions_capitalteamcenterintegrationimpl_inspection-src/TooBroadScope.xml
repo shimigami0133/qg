@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>198</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask com.teamcenter.soa.client.model.strong.Att0MeasurableAttribute getParameter(com.teamcenter.soa.client.model.ModelObject itemRevisionObject, java.lang.String paramName)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Scope of variable is too broad</problem_class>
+          
+        <description>Scope of variable &lt;code&gt;m_attrTargetService&lt;/code&gt; is too broad #loc</description>
+        
+    </problem>
+    
+</problems>

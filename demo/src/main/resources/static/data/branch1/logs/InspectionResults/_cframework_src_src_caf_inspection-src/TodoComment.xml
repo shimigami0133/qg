@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>814</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void initFileMenu(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer menu)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO jacobt FEAT3345 : symbol : File &gt; New Symbol/Diagram/Plane/Design&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>949</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void initViewMenu(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer menu)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO jacobt FEAT3345 : Move Zoom submenu --&gt; BaseResource&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>979</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void initViewMenu(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer menu)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO jacobt FEAT3345 : Toggle Color Map should be above the show/hide checkbox items?&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1798</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void initToolbars(chs.caf.helpers.ui.common.CapletResourceBuilder rb)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO jacobt FEAT3345 : Standard Toolbar &gt; New Symbol/Diagram/Design/Plane&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2100</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources chs.caf.ActionEntry getComparePrintOutputAction()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo move the action to within this class as an inner class&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2134</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void addChsProfExtensions(chs.caf.ActionContainer menu, chs.caf.ActionContainer dumpMenu)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;TODO jacobt chsprof : should make Heap acces DevTest actions available from the released .exes&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2292</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void createDynamicTeamcenterReportMenus(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer tcMenu)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo code cleanup&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

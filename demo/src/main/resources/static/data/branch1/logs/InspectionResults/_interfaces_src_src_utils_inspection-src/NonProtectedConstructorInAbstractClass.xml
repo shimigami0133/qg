@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>518</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite.AbstractBuiltInBridge AbstractBuiltInBridge(java.lang.String featureId, java.lang.String format)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'public' constructor in 'abstract' class</problem_class>
+          
+        <description>Constructor &lt;code&gt;AbstractBuiltInBridge()&lt;/code&gt; is not declared 'protected' in 'abstract' class #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>528</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite.AbstractBuiltInBridge AbstractBuiltInBridge(java.lang.String featureId, java.lang.String format, java.lang.String className)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'public' constructor in 'abstract' class</problem_class>
+          
+        <description>Constructor &lt;code&gt;AbstractBuiltInBridge()&lt;/code&gt; is not declared 'protected' in 'abstract' class #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>534</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite.AbstractBuiltInBridge AbstractBuiltInBridge(java.lang.String featureId, java.lang.String format, java.lang.String className, java.lang.String description, java.lang.String suffixes)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'public' constructor in 'abstract' class</problem_class>
+          
+        <description>Constructor &lt;code&gt;AbstractBuiltInBridge()&lt;/code&gt; is not declared 'protected' in 'abstract' class #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/AbstractApplicationSuite.java</file>
+          
+        <line>542</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.AbstractApplicationSuite.AbstractBuiltInBridge AbstractBuiltInBridge(java.lang.String featureId, java.lang.String format, java.lang.String className, java.lang.String description, java.lang.String suffixes, java.lang.String propFile)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'public' constructor in 'abstract' class</problem_class>
+          
+        <description>Constructor &lt;code&gt;AbstractBuiltInBridge()&lt;/code&gt; is not declared 'protected' in 'abstract' class #loc</description>
+        
+    </problem>
+    
+</problems>

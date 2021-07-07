@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>289</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment MEMORY_THRESHOLD_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-constant field with upper-case name</problem_class>
+          
+        <description>Non-constant field &lt;code&gt;MEMORY_THRESHOLD_DEFAULT&lt;/code&gt; with constant-style name #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>298</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment JVM_BITS_INITIALIZED" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-constant field with upper-case name</problem_class>
+          
+        <description>Non-constant field &lt;code&gt;JVM_BITS_INITIALIZED&lt;/code&gt; with constant-style name #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>159</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo CEA_TEMP" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-constant field with upper-case name</problem_class>
+          
+        <description>Non-constant field &lt;code&gt;CEA_TEMP&lt;/code&gt; with constant-style name #loc</description>
+        
+    </problem>
+    
+</problems>

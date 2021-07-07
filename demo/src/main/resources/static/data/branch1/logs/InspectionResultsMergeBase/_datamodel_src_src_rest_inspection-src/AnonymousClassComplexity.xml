@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/rest/src/chs/rest/service/reports/ProjectReportsService.java</file>
+          
+        <line>641</line>
+          
+        <module>datamodel_misc</module>
+          
+        <package>chs.rest.service.reports</package>
+          
+        <entry_point FQNAME="chs.rest.service.reports.ProjectReportsService$1" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex anonymous class</problem_class>
+          
+        <description>Overly complex anonymous class (cyclomatic complexity = 11) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/rest/src/chs/rest/service/reports/ProjectReportsService.java</file>
+          
+        <line>942</line>
+          
+        <module>datamodel_misc</module>
+          
+        <package>chs.rest.service.reports</package>
+          
+        <entry_point FQNAME="chs.rest.service.reports.ProjectReportsService$4" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex anonymous class</problem_class>
+          
+        <description>Overly complex anonymous class (cyclomatic complexity = 4) #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/LogicBOMReportCreator.java</file>
+          
+        <line>43</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.LogicBOMReportCreator LogicBOMReportCreator(java.util.Map&lt;com.mentor.chs.api.report.IXReportCreator,com.mentor.chs.api.dataexchange.teamcenter.IXPLMXMLTransformer&gt; allReportingPlugins, chs.bridges.pdm.TCSpecificBridgesProgressMonitor tcSpecificBridgesProgressMonitor, java.util.Observable notifier)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observable' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMStructureBuilderForTC.java</file>
+          
+        <line>40</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMStructureBuilderForTC" TYPE="class"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observable' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>57</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMReportCreator notifier" TYPE="field"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observable' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>60</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMReportCreator BOMReportCreator(java.util.Map&lt;com.mentor.chs.api.report.IXReportCreator,com.mentor.chs.api.dataexchange.teamcenter.IXPLMXMLTransformer&gt; allReportingPlugins1, chs.bridges.pdm.TCSpecificBridgesProgressMonitor tcSpecificBridgesProgressMonitor1, java.util.Observable notifier1)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observable' is deprecated</description>
+        
+    </problem>
+    
+</problems>

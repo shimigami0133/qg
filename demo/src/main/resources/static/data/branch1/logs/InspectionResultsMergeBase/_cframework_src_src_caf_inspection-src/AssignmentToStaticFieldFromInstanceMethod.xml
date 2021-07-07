@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2751</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.ReportActionTimingsQAAction void actionPerformed(java.awt.event.ActionEvent e)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Assignment to static field from instance context</problem_class>
+          
+        <description>Assignment to static field &lt;code&gt;TimingLogger.reportActionTimings&lt;/code&gt; from instance context #loc</description>
+        
+    </problem>
+    
+</problems>

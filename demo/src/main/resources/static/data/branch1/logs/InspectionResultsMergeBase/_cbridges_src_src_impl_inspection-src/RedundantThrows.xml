@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>194</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect void setAdaptorFormat(short bridgeType)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="DetailedBridgeException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;DetailedBridgeException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>665</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator.X2MLValidator void error(org.xml.sax.SAXParseException e)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="SAXParseException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;SAXParseException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>680</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator.X2MLValidator void warning(org.xml.sax.SAXParseException e)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="SAXParseException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;SAXParseException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>675</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator.X2MLValidator void fatalError(org.xml.sax.SAXParseException e)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="SAXParseException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;SAXParseException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+</problems>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcengv10.java</file>
+          
+        <line>90</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcengv10 void start()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exceptions 'BridgePDMException, MalformedURLException' and 'BridgeException' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>338</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator.X2MLValidator boolean isSchemaVersionSupportedForValidate(short adaptorFormatType)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'NumberFormatException' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesSchemaValidator.java</file>
+          
+        <line>759</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesSchemaValidator.XMLValidationException void reportIssues(chs.bridges.adaptors.IAdaptorReporter reporter)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>873</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory void addHandshake(java.util.Map&lt;java.lang.String,java.lang.String&gt; handshakeParameters)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'ClassNotFoundException' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>1241</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory boolean exportDesignXML(java.lang.String designId, java.lang.String designXMLPathName, boolean exportAssociatedDesign)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exceptions 'IOException, FileNotFoundException' and 'BridgeException' #loc</description>
+        
+    </problem>
+    
+</problems>

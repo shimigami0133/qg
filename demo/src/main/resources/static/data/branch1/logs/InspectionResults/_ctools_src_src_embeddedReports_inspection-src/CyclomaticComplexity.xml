@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>81</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(char[] a, char[] b)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;compare()&lt;/code&gt; (cyclomatic complexity = 25) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>179</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator int compare(T o1, T o2)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;compare()&lt;/code&gt; (cyclomatic complexity = 22) #loc</description>
+        
+    </problem>
+    
+</problems>

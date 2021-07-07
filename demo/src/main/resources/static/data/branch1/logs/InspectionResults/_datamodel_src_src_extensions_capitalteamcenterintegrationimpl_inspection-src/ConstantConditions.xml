@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCQueryHelper.java</file>
+          
+        <line>89</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCQueryHelper java.util.Optional&lt;com.teamcenter.soa.client.model.ModelObject&gt; getItemByNameAndType(java.lang.String itemName, java.lang.String itemType, java.lang.String taskContextTag)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Condition &lt;code&gt;modelObjectList == null&lt;/code&gt; is always &lt;code&gt;false&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>89</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator com.mentor.chsx.teamcenter.ProjectRevision getProjectRevision(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.PIXPLMObject plmObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>184</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; getPLMObjectRevision(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.PIXPLMObject pixplmObject, com.mentor.chsx.teamcenter.ProjectRevision projectRevision, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>247</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; getPLMObjectRevision(com.mentor.chs.extension.api.PIXPLMObject pixplmObject, com.mentor.chsx.teamcenter.ProjectRevision projectRevision, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask, boolean isProjectLessModeEnabled, java.lang.String plmObjectName, java.lang.String itemType, java.lang.String currentPLMObjectRevProp, java.lang.String xPLMObjectRev, java.lang.String capitalObjectType, java.lang.String taskContextTag, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; optPLMObjectItem, java.lang.String newPLMObjectId, com.mentor.chs.api.IXProject xProject)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>386</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; updatePLMObjectStructure(com.mentor.chs.api.IXObject pixplmObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask, java.lang.String plmObjectName, java.lang.String currentPLMObjectRevProp, java.lang.String xPLMObjectRev, java.lang.String capitalItemType, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; optPLMObjectItem, java.lang.String newRevisionId)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Condition &lt;code&gt;!optCurrentPLMObjectRevision.isPresent()&lt;/code&gt; is always &lt;code&gt;false&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>386</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; updatePLMObjectStructure(com.mentor.chs.api.IXObject pixplmObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask, java.lang.String plmObjectName, java.lang.String currentPLMObjectRevProp, java.lang.String xPLMObjectRev, java.lang.String capitalItemType, java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectItem&gt; optPLMObjectItem, java.lang.String newRevisionId)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Result of &lt;code&gt;optCurrentPLMObjectRevision.isPresent()&lt;/code&gt; is always 'true'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>560</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; createPLMObjectStructure(com.mentor.chsx.teamcenter.ProjectRevision projectRevision, com.mentor.chs.extension.api.PIXPLMObject pixplmObject, java.lang.String xPLMObjectName, java.lang.String plmObjectID, java.lang.String currentDesignRevProp, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;createdItemRev&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>735</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator com.teamcenter.soa.client.model.strong.ItemRevision getItemRevisionIfCreated(com.teamcenter.soa.client.model.ModelObject[] objects)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;newItemRevision&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>167</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration java.lang.String getSelectedObjectID()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;selectionHandler.getSelectedObjectID()&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>411</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration java.lang.String getSelectedDatasetAdaptorFormat(java.util.Collection&lt;java.lang.String&gt; availableFormats, boolean preferHarnessFormatIfNXDatasetSelected)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;selectedType&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>671</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration$4 void run()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;selectionHandler.getSelection()&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>147</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void doCleanUp()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>284</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl java.io.InputStream performCADExchangeBridgeIn(java.lang.String datasetID, com.mentor.chs.extension.api.PIXPLMObject pixplmObject, java.lang.String formatClassName, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>307</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl java.io.InputStream performCADExchangeBridgeIn(java.lang.String itemID, java.lang.String itemRevisionID, java.lang.String itemType, java.lang.String datasetName, java.lang.String datasetType, java.lang.String relationName, com.mentor.chs.extension.api.PIXPLMObject pixplmObject, java.lang.String formatClassName, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>432</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl java.lang.String fetchItemDetails(com.mentor.chs.api.IXProject xProject, java.util.Optional&lt;com.mentor.chs.extension.api.PIXPLMObject&gt; pixPLMObject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;xPLMObject&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>494</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void extendedPublish(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver, com.mentor.chs.extension.api.plm.PXContentForExtendedPublish contentForExtendedPublish, java.util.Set&lt;com.mentor.chs.extension.api.PIXPLMObject&gt; designsPublishedSuccessfully)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishBOMTask.java</file>
+          
+        <line>301</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishBOMTask java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; getTopLineParentDesignItemRevision(com.mentor.chs.api.IXDesign design)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishBOMTask.java</file>
+          
+        <line>99</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishBOMTask TCPublishBOMTask(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer observer, com.mentor.chs.extension.api.plm.PXCompositeBOMStruct completeBOMStruct, boolean includeChildModulesForComparison)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PDMPropertiesHandler.java</file>
+          
+        <line>102</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PDMPropertiesHandler java.lang.String loadProperty(java.lang.String propertyName, java.lang.String defaultValue)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;defaultValue&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PDMPropertiesHandler.java</file>
+          
+        <line>104</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PDMPropertiesHandler java.lang.String loadProperty(java.lang.String propertyName, java.lang.String defaultValue)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;defaultValue&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>108</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; getFirstPLMObjectRevision(com.mentor.chsx.teamcenter.PLMObjectItem plmObjectItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;plmObjectItem.getTCPLMObjectItem()&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>145</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService java.lang.String getItemTypeByDesignType(com.mentor.chs.api.IXDesign xDesign)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;itemType&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>281</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService java.util.Optional&lt;com.mentor.chsx.teamcenter.PLMObjectRevision&gt; getPLMObjectRevision(java.lang.String revision, com.mentor.chsx.teamcenter.PLMObjectItem plmObjectItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;plmObjectItem.getTCPLMObjectItem()&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>290</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService java.util.Optional&lt;com.mentor.chsx.teamcenter.ProjectRevision&gt; getProjectRevision(java.lang.String revision, com.mentor.chsx.teamcenter.ProjectItem projectItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;projectItem.getTCProjectItem()&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>850</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService com.teamcenter.soa.client.model.strong.ItemRevision getItemRevision(com.mentor.chsx.teamcenter.AbstractItemRevision abstractItemRevision)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>865</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService com.teamcenter.soa.client.model.strong.Item getItem(com.mentor.chsx.teamcenter.AbstractItem abstractItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>878</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService com.teamcenter.soa.client.model.strong.Item getItem(com.mentor.chsx.teamcenter.AbstractItem abstractItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>875</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService com.teamcenter.soa.client.model.strong.Item getItem(com.mentor.chsx.teamcenter.AbstractItem abstractItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>1034</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService java.util.List&lt;com.mentor.chsx.teamcenter.CapitalTeamcenterPropMapping&gt; getCapitalTeamcenterPropMappingsForImport(com.teamcenter.soa.client.model.strong.WorkspaceObject workspaceObject, com.mentor.chsx.teamcenter.TCClientTask&lt;?,?&gt; progressTask)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Method invocation &lt;code&gt;covertErrorMessageToWarningMessage&lt;/code&gt; may produce &lt;code&gt;NullPointerException&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>1080</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService com.teamcenter.services.strong.core._2008_06.PropDescriptor.CreateDescResponse getItemCreateDescInfo(java.lang.String itemType)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>232</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask com.teamcenter.soa.client.model.strong.Att0MeasurableAttribute getParameter(com.teamcenter.soa.client.model.ModelObject itemRevisionObject, java.lang.String paramName)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>255</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask void parameterPropagation(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails pxtcbomLineDetails, com.teamcenter.soa.client.model.ModelObject itemRevisionObject, java.lang.String[] parameterPairs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;maxValue&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>255</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask void parameterPropagation(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails pxtcbomLineDetails, com.teamcenter.soa.client.model.ModelObject itemRevisionObject, java.lang.String[] parameterPairs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;minValue&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>255</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask void parameterPropagation(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails pxtcbomLineDetails, com.teamcenter.soa.client.model.ModelObject itemRevisionObject, java.lang.String[] parameterPairs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;measurementValue&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>262</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask void parameterPropagation(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails pxtcbomLineDetails, com.teamcenter.soa.client.model.ModelObject itemRevisionObject, java.lang.String[] parameterPairs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;maxValue&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>261</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask void parameterPropagation(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails pxtcbomLineDetails, com.teamcenter.soa.client.model.ModelObject itemRevisionObject, java.lang.String[] parameterPairs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;minValue&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>261</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask void parameterPropagation(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails pxtcbomLineDetails, com.teamcenter.soa.client.model.ModelObject itemRevisionObject, java.lang.String[] parameterPairs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;measurementValue&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>279</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask java.lang.String getAttributeValue(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails pxtcbomLineDetails, java.lang.String[] parameterPairs, java.lang.String attribute)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCCADBridgeInByDatasetNameTask.java</file>
+          
+        <line>75</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCCADBridgeInByDatasetNameTask java.io.File downloadFile(com.mentor.chs.extension.api.PIXPLMObject pixplmObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCCADBridgeInByDatasetNameTask.java</file>
+          
+        <line>87</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCCADBridgeInByDatasetNameTask java.io.File downloadFile(com.mentor.chs.extension.api.PIXPLMObject pixplmObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCCADBridgeInByDatasetNameTask.java</file>
+          
+        <line>71</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCCADBridgeInByDatasetNameTask java.io.File downloadFile(com.mentor.chs.extension.api.PIXPLMObject pixplmObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCObjectPropertiesLoader.java</file>
+          
+        <line>577</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCObjectPropertiesLoader java.lang.String getPropertyType(com.teamcenter.soa.client.model.Property propertyObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCObjectPropertiesLoader.java</file>
+          
+        <line>582</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCObjectPropertiesLoader java.lang.String getPropertyType(com.teamcenter.soa.client.model.Property propertyObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCObjectPropertiesLoader.java</file>
+          
+        <line>600</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCObjectPropertiesLoader java.lang.String getPropertyType(int teamcenterDataTypeSeqNo)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCObjectPropertiesLoader.java</file>
+          
+        <line>610</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCObjectPropertiesLoader com.teamcenter.soa.client.model.Property getProperty(com.teamcenter.soa.client.model.strong.BusinessObject businessObject, java.lang.String propName)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCObjectPropertiesLoader.java</file>
+          
+        <line>661</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCObjectPropertiesLoader com.teamcenter.soa.client.model.ModelObject getModelObjectFromUid(java.lang.String uid)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>&lt;code&gt;null&lt;/code&gt; is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+</problems>

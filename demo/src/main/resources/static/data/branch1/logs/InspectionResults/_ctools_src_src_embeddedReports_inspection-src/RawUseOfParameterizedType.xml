@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/PublishLogicBOMConfig.java</file>
+          
+        <line>92</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.PublishLogicBOMConfig void readConfig()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;List&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/PublishLogicBOMConfig.java</file>
+          
+        <line>96</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.PublishLogicBOMConfig void populateConfig(java.util.List componentList)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;List&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/PublishLogicBOMConfig.java</file>
+          
+        <line>113</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.PublishLogicBOMConfig void populateProperties(Element componentElement, java.util.Map&lt;java.lang.String,java.lang.String&gt; properties)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Raw use of parameterized class</problem_class>
+          
+        <description>Raw use of parameterized class &lt;code&gt;List&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

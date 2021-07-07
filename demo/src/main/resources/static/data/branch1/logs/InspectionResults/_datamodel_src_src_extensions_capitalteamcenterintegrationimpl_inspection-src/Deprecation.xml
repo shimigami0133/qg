@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCQueryHelper.java</file>
+          
+        <line>332</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCQueryHelper boolean hasSameValues(java.lang.String capitalPropValue, com.teamcenter.soa.client.model.Property teamcenterProperty)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'getFloatValue()' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCQueryHelper.java</file>
+          
+        <line>359</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCQueryHelper java.lang.String getTeamcenterPropValue(com.teamcenter.soa.client.model.Property propertyObject)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'getFloatValue()' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>536</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration void deleteWebLinks(java.util.Map&lt;com.mentor.chs.extension.api.plm.PXTCItemDetails,java.util.List&lt;com.mentor.chs.extension.api.plm.PIXWebLinkDetails&gt;&gt; itemToTCLinkMap, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>633</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration void updateWebLinks(com.mentor.chs.extension.api.plm.PXTCItemDetails itemDetails, java.util.List&lt;com.mentor.chs.extension.api.plm.PIXWebLinkDetails&gt; newWebLinks, java.util.List&lt;com.mentor.chs.extension.api.plm.PIXWebLinkDetails&gt; deletedWebLinks, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/aws/impl/PXCapitalAWSIntegration.java</file>
+          
+        <line>644</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter.aws.impl</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.aws.impl.PXCapitalAWSIntegration void updateAllWebLinks(java.util.Map&lt;com.mentor.chs.extension.api.plm.PXTCItemDetails,java.util.List&lt;com.mentor.chs.extension.api.plm.PIXWebLinkDetails&gt;&gt; newWebLinks, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>77</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl" TYPE="class"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>188</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void publishDesignOrBuildList(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.PIXPLMObject xPLMObject, java.util.List&lt;com.mentor.chs.extension.api.PIXPLMObject&gt; childPLMObjects, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver, boolean publishAsSingleItem, boolean publishIncludingChildren)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>212</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl boolean saveFunctionDesignAndCreateRelationWithSystemBlock(com.mentor.chs.api.IXProject xProject, com.mentor.chs.api.IXPropertyProvider xPLMObject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>228</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void publishFunctionDesignInBulk(com.mentor.chs.api.IXProject xProject, com.mentor.chs.api.capture.IXFunctionDesign xPLMObject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>256</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void performCADExchangeBridgeOut(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.PIXPLMObject xPLMObject, java.io.File bridgedOutFile, java.lang.String formatClassName, java.lang.String formatIdentifier, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>268</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl java.io.InputStream performCADExchangeBridgeIn(java.lang.String datasetID, com.mentor.chs.extension.api.PIXPLMObject pixplmObject, java.lang.String formatClassName, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>291</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl java.io.InputStream performCADExchangeBridgeIn(java.lang.String itemID, java.lang.String itemRevisionID, java.lang.String itemType, java.lang.String datasetName, java.lang.String datasetType, java.lang.String relationName, com.mentor.chs.extension.api.PIXPLMObject pixplmObject, java.lang.String formatClassName, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>312</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl java.util.List&lt;java.lang.String&gt; downloadDataset(java.lang.String designDataSetID, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>322</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl com.mentor.chs.extension.api.plm.PXTCItemDetails getDatasetContainer(java.lang.String datasetID, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>352</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl$1" TYPE="class"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>354</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl$1 void update(java.util.Observable o, java.lang.Object arg)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observable' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>366</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl$2" TYPE="class"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>368</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl$2 void update(java.util.Observable o, java.lang.Object arg)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observable' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>379</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl$3" TYPE="class"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>381</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl$3 void update(java.util.Observable o, java.lang.Object arg)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observable' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>417</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void deleteTeamcenterObject(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.PIXPLMObject xPLMObject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>453</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void publishBOMReport(com.mentor.chs.api.IXProject ixProject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver, com.mentor.chs.extension.api.plm.PXCompositeBOMStruct completeBOMDetails, boolean includeChildModulesForComparison)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>461</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void publishBOM(com.mentor.chs.api.IXProject ixProject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver, com.mentor.chs.extension.api.plm.PXCompositeBOMStruct completeBOMDetails, boolean includeChildModulesForComparison)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>478</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void publishFullDesign(com.mentor.chs.api.IXProject xProject, com.mentor.chs.api.IXDesign xDesign, java.util.List&lt;com.mentor.chs.extension.api.PIXPLMObject&gt; childPLMObjects, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>489</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void extendedPublish(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver, com.mentor.chs.extension.api.plm.PXContentForExtendedPublish contentForExtendedPublish, java.util.Set&lt;com.mentor.chs.extension.api.PIXPLMObject&gt; designsPublishedSuccessfully)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>501</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void publishDesign(com.mentor.chs.api.IXProject xProject, com.mentor.chs.api.IXDesign xDesign, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>509</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void publishBuildList(com.mentor.chs.api.IXProject xProject, com.mentor.chs.api.IXBuildList pixPLMObject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver, boolean publishAsSingleItem)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/PXPLMClientImpl.java</file>
+          
+        <line>649</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.PXPLMClientImpl void update(java.util.Observable observable, java.lang.Object o)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observable' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishBOMTask.java</file>
+          
+        <line>94</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishBOMTask TCPublishBOMTask(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer observer, com.mentor.chs.extension.api.plm.PXCompositeBOMStruct completeBOMStruct, boolean includeChildModulesForComparison)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishLogicBOMTask.java</file>
+          
+        <line>55</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishLogicBOMTask TCPublishLogicBOMTask(com.mentor.chs.api.IXProject xProject, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer observer, com.mentor.chs.extension.api.plm.PXCompositeBOMStruct completeBOMStruct, boolean includeChildModulesForComparison)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCCADBridgeInByDatasetNameTask.java</file>
+          
+        <line>47</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCCADBridgeInByDatasetNameTask TCCADBridgeInByDatasetNameTask(java.lang.String itemID, java.lang.String itemRevisionID, java.lang.String itemType, java.lang.String datasetName, java.lang.String datasetType, java.lang.String relationName, com.mentor.chs.extension.api.PIXPLMObject pixplmObject, java.lang.String formatClassName, com.mentor.chs.extension.api.plm.PIXPLMIntegrationServices integrationServices, java.util.Observer progressObserver)" TYPE="method"/>
+          
+        <problem_class attribute_key="DEPRECATED_ATTRIBUTES" severity="WARNING">Deprecated API usage</problem_class>
+          
+        <description>'java.util.Observer' is deprecated</description>
+        
+    </problem>
+    
+</problems>

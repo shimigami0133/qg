@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XDesign.java</file>
+          
+        <line>526</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XDesign com.mentor.chs.api.customdata.IXAttachedData createAttachedData(java.lang.String type, java.lang.String key)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'String.equals("")'</problem_class>
+          
+        <description>&lt;code&gt;equals("")&lt;/code&gt; can be replaced with 'isEmpty()' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XDesign.java</file>
+          
+        <line>526</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XDesign com.mentor.chs.api.customdata.IXAttachedData createAttachedData(java.lang.String type, java.lang.String key)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'String.equals("")'</problem_class>
+          
+        <description>&lt;code&gt;equals("")&lt;/code&gt; can be replaced with 'isEmpty()' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>481</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.lang.String getAttributeValue(chs.common.attr.IAttribute attribute)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'String.equals("")'</problem_class>
+          
+        <description>&lt;code&gt;equals("")&lt;/code&gt; can be replaced with 'isEmpty()' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>487</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.lang.String getAttributeValue(chs.common.attr.IAttribute attribute)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'String.equals("")'</problem_class>
+          
+        <description>&lt;code&gt;equals("")&lt;/code&gt; can be replaced with 'isEmpty()' #loc</description>
+        
+    </problem>
+    
+</problems>

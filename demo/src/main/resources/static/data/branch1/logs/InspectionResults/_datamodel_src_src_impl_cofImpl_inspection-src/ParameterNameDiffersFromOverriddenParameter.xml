@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>136</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices void exportDesignXml(com.mentor.chs.api.IXDesign xDesign, java.io.OutputStream outputStream)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Parameter name differs from parameter in overridden method</problem_class>
+          
+        <description>Parameter name &lt;code&gt;xDesign&lt;/code&gt; is different from parameter 'design' overridden #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>521</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices void addReportGenerator(com.mentor.chs.extension.api.plm.PIXReportGeneratorForPLMPublish reportGenerator)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Parameter name differs from parameter in overridden method</problem_class>
+          
+        <description>Parameter name &lt;code&gt;reportGenerator&lt;/code&gt; is different from parameter 'reportGeneratorForPLMPublish' overridden #loc</description>
+        
+    </problem>
+    
+</problems>

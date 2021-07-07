@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>825</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Set&lt;com.mentor.chs.api.IXDiagramInstance&gt; getInstancesFromDesigns(java.util.Set&lt;? extends chs.common.IDesignDescriptor&gt; iDesigns)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'instanceof' check for 'this'</problem_class>
+          
+        <description>'instanceof' check for &lt;code&gt;this&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

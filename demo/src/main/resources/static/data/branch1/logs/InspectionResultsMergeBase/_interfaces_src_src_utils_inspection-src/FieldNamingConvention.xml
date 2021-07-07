@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>129</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo usageRegenerationEnabledAtProjectImport" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Field naming convention</problem_class>
+          
+        <description>Instance field name &lt;code&gt;usageRegenerationEnabledAtProjectImport&lt;/code&gt; is too long (39 &amp;gt; 32) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/BuildInfo.java</file>
+          
+        <line>159</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.BuildInfo CEA_TEMP" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Field naming convention</problem_class>
+          
+        <description>Instance field name &lt;code&gt;CEA_TEMP&lt;/code&gt; doesn't match regex '[a-z][_A-Za-z\d]*' #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/IHandshakeMgr.java</file>
+          
+        <line>81</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.IHandshakeMgr void isAvailable()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-boolean method name must not start with question word</problem_class>
+          
+        <description>Non-boolean method name &lt;code&gt;isAvailable&lt;/code&gt; starts with a question word #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/adaptors/IAdaptorFormat.java</file>
+          
+        <line>191</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.IAdaptorFormat void isAvailable()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-boolean method name must not start with question word</problem_class>
+          
+        <description>Non-boolean method name &lt;code&gt;isAvailable&lt;/code&gt; starts with a question word #loc</description>
+        
+    </problem>
+    
+</problems>

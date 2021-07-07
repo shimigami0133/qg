@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/cablerouteradmin/src/chs/cablerouteradmin/CableRouterAdmin.java</file>
+          
+        <line>83</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.cablerouteradmin</package>
+          
+        <entry_point FQNAME="chs.cablerouteradmin.CableRouterAdmin void runCMPIC()" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo logging for failure&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

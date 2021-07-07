@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/impl/cofImpl/src/chs/extension/impl/teamcenter/PXPLMIntegrationServices.java</file>
+          
+        <line>173</line>
+          
+        <module>datamodel_impl</module>
+          
+        <package>chs.extension.impl.teamcenter</package>
+          
+        <entry_point FQNAME="chs.extension.impl.teamcenter.PXPLMIntegrationServices void printPDF(java.util.List&lt;com.mentor.chs.api.IXDiagram&gt; diagramList, java.io.File file, com.mentor.chs.api.IXGraphicConversions.XPDFContext pdfContext, boolean shouldPrintRegions)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">I/O resource opened but not safely closed</problem_class>
+          
+        <description>'FileOutputStream' should be opened in front of a 'try' block and closed in the corresponding 'finally' block #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,10 @@
+chs.bridges.pdm.TCBridgeInActionUITest
+chs.caplets.harness.actions.HarnessEngineering.BalanceSpliceForceDirectionTest
+chs.caplets.harness.actions.HarnessEngineering.BalanceSpliceTest
+chs.caplets.harness.actions.HarnessPrimitiveGraphicsExportImportTest
+chs.caplets.harness.actions.HarnessProcessing.DepopulateRedundantObjectsTest
+chs.caplets.logic.actions.ConnectivityCommonPinSelectionPanelTest
+chs.caplets.logic.actions.ConnectivityPortSelectionPanelTest
+chs.caplets.topo.actions.place.PlaceAllActionTest
+chs.common.reporting.TeamcenterLogicComponentBOMTest
+chs.task.icd.cea.CEAICDDataItemTest

@@ -1,0 +1,6 @@
+chs.ccrs.datamanagement.sync.BaseXMLUploadTest
+chs.ccrs.datamanagement.sync.MarineScheduleXMLUploadTest
+chs.ccrs.datamanagement.sync.MarineXMLUploadTest
+chs.ccrs.datamanagement.sync.MarineXMLUploaderJobExecutionTest
+chs.ccrs.datamanagement.sync.schedule.MarineXMLFileVisitorTest
+chs.ccrs.servlet.MarineSyncContentValidationServletTest

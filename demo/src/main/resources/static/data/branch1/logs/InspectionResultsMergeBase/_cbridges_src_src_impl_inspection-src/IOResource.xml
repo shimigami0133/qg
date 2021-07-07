@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>94</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect java.io.InputStream pullDesign(java.io.InputStream designRequest)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">I/O resource opened but not safely closed</problem_class>
+          
+        <description>'FileInputStream' should be opened in front of a 'try' block and closed in the corresponding 'finally' block #loc</description>
+        
+    </problem>
+    
+</problems>

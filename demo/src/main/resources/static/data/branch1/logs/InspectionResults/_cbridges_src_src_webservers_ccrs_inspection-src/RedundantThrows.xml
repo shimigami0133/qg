@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/filters/MarineBaseFilter.java</file>
+          
+        <line>38</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.filters</package>
+          
+        <entry_point FQNAME="chs.ccrs.filters.MarineBaseFilter void init(javax.servlet.FilterConfig filterConfig)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="ServletException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;ServletException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/webservers/ccrs/src/chs/ccrs/servlet/ShutdownServlet.java</file>
+          
+        <line>40</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.ccrs.servlet</package>
+          
+        <entry_point FQNAME="chs.ccrs.servlet.ShutdownServlet void doGet(javax.servlet.http.HttpServletRequest req, javax.servlet.http.HttpServletResponse resp)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="ServletException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;ServletException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+</problems>

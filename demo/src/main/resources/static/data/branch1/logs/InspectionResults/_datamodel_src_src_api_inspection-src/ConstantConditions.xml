@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XDesign.java</file>
+          
+        <line>623</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XDesign chs.api.teamplay.XTeamPlayContentProvider getTeamPlayContentProvider()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;getDesignObject()&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>406</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Set&lt;com.mentor.chs.api.IXValue&gt; getAttributes()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;value&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>779</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.util.Set&lt;com.mentor.chs.api.IXDiagramInstance&gt; getInstances()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>198</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject XObject(chs.common.IUIDProvider uidObj)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;determineAssignedUID(uidObj)&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>201</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject XObject(chs.common.IUIDProvider uidObj)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;determineSharedObjectUID()&lt;/code&gt; might be null but is assigned to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>326</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper boolean filterByConfiguration(com.mentor.chs.api.servicedoc.IXPackagerContext context, chs.cof.project.IOptionExpression optionExpression)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Method invocation &lt;code&gt;getOptionMgr&lt;/code&gt; may produce &lt;code&gt;NullPointerException&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>482</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper boolean reset()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Passing &lt;code&gt;null&lt;/code&gt; argument to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>540</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper.UtilityHelperHolder void deleteUtilityHelperInstance()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Assigning &lt;code&gt;null&lt;/code&gt; value to non-annotated field</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>877</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void modifyRelativePaths(java.io.File file, java.lang.String relativePathToBeAdded, java.io.File dirToCheckFiles, java.io.File dirToCopyInternalFiles, boolean copyInternalFiles, boolean changeTheHrefs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;relativePathToBeAdded&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>909</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void removeCharSetFromMetaTag(org.jdom.Element rootElement)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Condition &lt;code&gt;attribute.getValue().split(";") != null&lt;/code&gt; is always &lt;code&gt;true&lt;/code&gt; when reached</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>922</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void removeCharSetFromMetaTag(org.jdom.Element rootElement)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Condition &lt;code&gt;attribute.getValue() != null&lt;/code&gt; is always &lt;code&gt;false&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>922</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void removeCharSetFromMetaTag(org.jdom.Element rootElement)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Condition &lt;code&gt;attribute.getValue() != null &amp;&amp; attribute.getValue().contains("charset")&lt;/code&gt; is always &lt;code&gt;false&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>971</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper void changeReferenceAttributes(org.jdom.Element rootElement, java.lang.String relativePathToBeAdded, java.io.File dirToCheckFiles, java.io.File targetDir, boolean copyToTargetDir, boolean changeTheHrefs)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Argument &lt;code&gt;relativePathToBeAdded&lt;/code&gt; might be null but passed to non-annotated parameter</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>990</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.lang.String getValidFileName(java.lang.String fileName, java.io.File dirToCheckFiles, java.io.File targetDir, boolean copyInternalFilesToTarget)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="WEAK WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Value &lt;code&gt;existingFileName&lt;/code&gt; is always 'null'</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>1307</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper chs.common.IMemorySnapshotable getDiagram(com.mentor.chs.api.IXDiagram ixDiagram)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Constant conditions &amp; exceptions</problem_class>
+          
+        <description>Expression &lt;code&gt;FactoryMgr.getUIDMgr().getObject(((XObject) ixDiagram).toUID())&lt;/code&gt; might evaluate to null but is returned by the method which is not declared as @Nullable</description>
+        
+    </problem>
+    
+</problems>

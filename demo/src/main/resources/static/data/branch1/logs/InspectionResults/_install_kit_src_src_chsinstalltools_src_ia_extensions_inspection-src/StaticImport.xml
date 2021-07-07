@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IADeleteServiceAction.java</file>
+          
+        <line>13</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/inspection-src/chs/iaactions/IADeleteServiceAction.java" TYPE="file"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Static import</problem_class>
+          
+        <description>Static import &lt;code&gt;import static com.installshield.wizard.platform.win32.Win32Service.SERVICE_CONTROL_STOP;&lt;/code&gt;  #loc</description>
+        
+    </problem>
+    
+</problems>

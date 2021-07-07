@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IASuite.java</file>
+          
+        <line>137</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IASuite.Suite" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many methods</problem_class>
+          
+        <description>&lt;code&gt;Suite&lt;/code&gt; has too many methods (method count = 31) #loc</description>
+        
+    </problem>
+    
+</problems>

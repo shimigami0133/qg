@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>181</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.bridges.BOMReportCreator com.mentor.chs.api.report.IXReportCreator getReportCreatorDefinedFromProperties(chs.bridges.adaptors.IAdaptorProperty property, boolean isComposite)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">@NotNull/@Nullable problems</problem_class>
+          
+        <description>Overridden methods are not annotated</description>
+        
+    </problem>
+    
+</problems>

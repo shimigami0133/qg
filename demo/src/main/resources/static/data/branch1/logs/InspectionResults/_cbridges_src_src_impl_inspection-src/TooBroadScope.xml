@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>270</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect boolean isAdaptorConfiguredInProps(chs.bridges.adaptors.IAdaptorFormat iAdaptorFormat)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Scope of variable is too broad</problem_class>
+          
+        <description>Scope of variable &lt;code&gt;propDatasetType&lt;/code&gt; is too broad #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>271</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect boolean isAdaptorConfiguredInProps(chs.bridges.adaptors.IAdaptorFormat iAdaptorFormat)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Scope of variable is too broad</problem_class>
+          
+        <description>Scope of variable &lt;code&gt;propDatasetTypeRelation&lt;/code&gt; is too broad #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/CHSHandshakeMgr_wiring_tcconnect.java</file>
+          
+        <line>272</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.CHSHandshakeMgr_wiring_tcconnect boolean isAdaptorConfiguredInProps(chs.bridges.adaptors.IAdaptorFormat iAdaptorFormat)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Scope of variable is too broad</problem_class>
+          
+        <description>Scope of variable &lt;code&gt;propFileExt&lt;/code&gt; is too broad #loc</description>
+        
+    </problem>
+    
+</problems>

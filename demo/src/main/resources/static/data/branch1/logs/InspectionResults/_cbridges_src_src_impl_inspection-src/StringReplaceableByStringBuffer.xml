@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>424</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory void getLicense(java.lang.String featureId, java.lang.String featureNLSName, java.lang.String[] hostApplis)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-constant String should be StringBuilder</problem_class>
+          
+        <description>Non-constant &lt;code&gt;String licApps&lt;/code&gt; should probably be declared as ''StringBuilder'' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>425</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory void getLicense(java.lang.String featureId, java.lang.String featureNLSName, java.lang.String[] hostApplis)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-constant String should be StringBuilder</problem_class>
+          
+        <description>Non-constant &lt;code&gt;String unlicApps&lt;/code&gt; should probably be declared as ''StringBuilder'' #loc</description>
+        
+    </problem>
+    
+</problems>

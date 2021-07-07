@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesIntegrationServices.java</file>
+          
+        <line>244</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesIntegrationServices chs.bridges.IHandshakeMgr getCurrentAppliHandshake(short bridgeType, chs.common.IDesignContainer designContainer, boolean isExport)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly strong type cast</problem_class>
+          
+        <description>Cast to &lt;code&gt;CHSHandshakeMgr&lt;/code&gt; can be weakened to 'CHSCommonHandshakeMgr' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/adaptors/CHSAdaptorFactory.java</file>
+          
+        <line>1114</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.CHSAdaptorFactory java.util.List&lt;chs.bridges.adaptors.IAdaptorDiagramInfoProvider.DiagramInfo&gt; getDesignDiagrams(java.lang.String designId, boolean includeAssociatedDesigns)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly strong type cast</problem_class>
+          
+        <description>Cast to &lt;code&gt;ILogicAnalysisBuildList&lt;/code&gt; can be weakened to 'IAbstractLogicBuildList' #loc</description>
+        
+    </problem>
+    
+</problems>

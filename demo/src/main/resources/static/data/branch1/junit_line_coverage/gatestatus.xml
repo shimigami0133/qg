@@ -1,0 +1,18 @@
+<gatestatus>
+    <gate
+        name="junit_line_coverage"
+        displayname="JUnit Line Coverage"
+        description="Line coverage for new files by JUnit tests must be at least 65%"
+        mode="PRODUCTION"
+        kind="DEFAULT"
+    />
+    <status
+        result="FAIL"
+        link="code/iesd/chs_home/bld/coverage/index.html"
+        details="Some undelivered new files have line coverage less than 90% (New Coverage: 83.6%, Valid: 2569, Missing: 422)"
+    />
+    <timing
+        starttime="1620173570272"
+        endtime="1620181138071"
+    />
+</gatestatus>

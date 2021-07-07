@@ -1,0 +1,19 @@
+<gatestatus>
+    <gate
+        name="complexity"
+        displayname="Method Complexity"
+        description="Calculates mehod level Cyclomatic Complexity trend and fails on degradation"
+        mode="REPORT_ONLY"
+        kind="SMELL"
+    />
+    <status
+        result="FAIL"
+        link="complexity/reports/qgcomplexityreport.html"
+        details="Degraded: 16, Deleted: 723, New: 949, Improved: 2
+"
+    />
+    <timing
+        starttime="1620173576307"
+        endtime="1620179749023"
+    />
+</gatestatus>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/TeamcenterReportExchangeRegistrar.java</file>
+          
+        <line>35</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.TeamcenterReportExchangeRegistrar java.lang.String getDescription()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/TeamcenterReportExchangeRegistrar.java</file>
+          
+        <line>40</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.TeamcenterReportExchangeRegistrar java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/TeamcenterReportExchangeRegistrar.java</file>
+          
+        <line>45</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.TeamcenterReportExchangeRegistrar java.lang.String getVersion()" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/AlphaNumComparator.java</file>
+          
+        <line>262</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.AlphaNumComparator java.lang.String stringify(T object)" TYPE="method"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Structural search inspection</problem_class>
+          
+        <description>Missing Nullability Contract on Return Type - NotNull or Nullable</description>
+        
+    </problem>
+    
+</problems>

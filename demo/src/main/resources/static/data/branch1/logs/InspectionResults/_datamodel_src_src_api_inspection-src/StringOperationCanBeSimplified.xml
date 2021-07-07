@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/servicedoc/helper/UtilityHelper.java</file>
+          
+        <line>1103</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api.servicedoc.helper</package>
+          
+        <entry_point FQNAME="chs.api.servicedoc.helper.UtilityHelper java.lang.StringBuffer getMultiCoreUIDs(com.mentor.chs.api.IXMulticore multicore, com.mentor.chs.api.servicedoc.IXPackagerContext context)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="ERROR">Redundant String operation</problem_class>
+          
+        <description>Unnecessary empty string argument</description>
+        
+    </problem>
+    
+</problems>

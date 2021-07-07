@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>429</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.function.Predicate&lt;chs.common.IDesignContainer&gt; shouldNotHavePDMIDProp()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-boolean method name must not start with question word</problem_class>
+          
+        <description>Non-boolean method name &lt;code&gt;shouldNotHavePDMIDProp&lt;/code&gt; starts with a question word #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>442</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.function.Predicate&lt;? super chs.common.IDesignContainer&gt; shouldNotHavePDMExtIDProp()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-boolean method name must not start with question word</problem_class>
+          
+        <description>Non-boolean method name &lt;code&gt;shouldNotHavePDMExtIDProp&lt;/code&gt; starts with a question word #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/utils/src/chs/bridges/TCeHelper.java</file>
+          
+        <line>449</line>
+          
+        <module>datamodel_utils</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.TCeHelper java.util.function.Predicate&lt;? super chs.common.IDesignContainer&gt; shouldNotHavePDMRevProp()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Non-boolean method name must not start with question word</problem_class>
+          
+        <description>Non-boolean method name &lt;code&gt;shouldNotHavePDMRevProp&lt;/code&gt; starts with a question word #loc</description>
+        
+    </problem>
+    
+</problems>

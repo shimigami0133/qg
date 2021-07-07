@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/rest/src/chs/rest/service/reports/ProjectReportsService.java</file>
+          
+        <line>756</line>
+          
+        <module>datamodel_misc</module>
+          
+        <package>chs.rest.service.reports</package>
+          
+        <entry_point FQNAME="chs.rest.service.reports.ProjectReportsService void writeReportAsHTML(java.io.PrintWriter pw, java.lang.String report, javax.xml.transform.stream.StreamSource styleSheet)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">TODO comment</problem_class>
+          
+        <description>TODO comment &lt;code&gt;todo get the correct username&lt;/code&gt; #loc</description>
+        
+    </problem>
+    
+</problems>

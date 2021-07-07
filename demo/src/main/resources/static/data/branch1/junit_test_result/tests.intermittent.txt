@@ -1,0 +1,15 @@
+chs.capitalmigrate.DatabaseSchemaChangeIdentifierTest
+chs.caplets.harnesstvm.actions.linebalancing.DefineWorkstationsActionTest
+chs.caplets.logic.tests.CreateStackPinTest
+chs.caplets.logic.tests.CrossReferenceTest
+chs.caplets.logic.tests.DeviceSymbolTest
+chs.caplets.logic.tests.EditHarnessAttributeTest
+chs.caplets.topo.compwiring.SynthGroundMasterSignalsTest
+chs.ccrs.datamanagement.sync.MarineScheduleXMLUploaderJobExecutionTest
+chs.ccrs.datamanagement.sync.schedule.MarineLogBackupTriggerBuilderTest
+chs.ccrs.datamanagement.sync.schedule.MarineUploadSchedulerTest
+chs.common.reporting.TeamcenterLogicComponentBOMTest
+chs.common.styles.HtmlPluginTableToggleColorTest
+chs.ctf.ui.form.preferences.connectivityMatch.ConnectivityMatchBeanTest
+chs.task.icd.cea.CEAICDDataItemTest
+chs.teamplay.common.CapitalHTMLEditorTest

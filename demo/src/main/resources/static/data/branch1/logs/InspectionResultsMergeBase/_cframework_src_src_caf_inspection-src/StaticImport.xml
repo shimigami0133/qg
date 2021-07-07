@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java</file>
+          
+        <line>48</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions.bridges</package>
+          
+        <entry_point FQNAME="file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/inspection-src/chs/caf/cafmain/actions/bridges/BOMReportCreator.java" TYPE="file"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Static import</problem_class>
+          
+        <description>Static import &lt;code&gt;import static chs.caf.cafmain.actions.TeamcenterReportExchangeAction.PLUGIN_EXTENSION_PREFFIX;&lt;/code&gt;  #loc</description>
+        
+    </problem>
+    
+</problems>

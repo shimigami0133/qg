@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/TCPublishBOMTask.java</file>
+          
+        <line>32</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.TCPublishBOMTask" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many fields</problem_class>
+          
+        <description>&lt;code&gt;TCPublishBOMTask&lt;/code&gt; has too many fields (field count = 12) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/HarnessBOMPartItemRevisionsLoader.java</file>
+          
+        <line>29</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.HarnessBOMPartItemRevisionsLoader" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Class with too many fields</problem_class>
+          
+        <description>&lt;code&gt;HarnessBOMPartItemRevisionsLoader&lt;/code&gt; has too many fields (field count = 11) #loc</description>
+        
+    </problem>
+    
+</problems>

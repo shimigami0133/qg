@@ -1,0 +1,18 @@
+<gatestatus>
+    <gate
+        name="cpd"
+        displayname="Copy Paste Duplication"
+        description="Detects code duplication of 100 tokens or more"
+        mode="PRODUCTION"
+        kind="DEFAULT"
+    />
+    <status
+        result="FAIL"
+        link="cpd/cpd-output.txt"
+        details="Code duplication of 100 or more tokens found"
+    />
+    <timing
+        starttime="1620173746426"
+        endtime="1620174892446"
+    />
+</gatestatus>

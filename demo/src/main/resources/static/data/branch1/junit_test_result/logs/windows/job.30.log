@@ -1,0 +1,172 @@
+-- Wed May  5 01:17:41 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Generated checksum of dest   - a3b35abe90de6739ca43515a39d120ab
+     [echo] Checksum does not match? : true
+
+BUILD FAILED
+G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml:1821: Checksum mismatch between C:/repos/iesd/chs_home.zip : a3b35abe90de6739ca43515a39d120ab and G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5 : 5b00a840259e7ddbdae07d9d55b95da1
+
+Total time: 1 minute 10 seconds
+-- Wed May  5 01:18:58 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dget-file-url="http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip" -Dget-file-dest="C:/repos/iesd/chs_home.zip" get-file -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+get-file:
+      [get] Getting: http://ies-iesd-qgweb.ies.mentorg.com:8080/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip
+      [get] To: C:\repos\iesd\chs_home.zip
+
+BUILD SUCCESSFUL
+Total time: 17 seconds
+-- Wed May  5 01:19:18 2021: G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dsrc_file="C:/repos/iesd/chs_home.zip" -Dchecksum_file="G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home.zip.MD5"  verify-checksum -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/infrastructure_src/src/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\infrastructure_src\src\build.xml
+Trying to override old definition of task jar
+
+verify-checksum:
+     [echo] Generated checksum of source - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Generated checksum of dest   - 5b00a840259e7ddbdae07d9d55b95da1
+     [echo] Checksum does not match? : ${checksumDoesNotMatch}
+
+BUILD SUCCESSFUL
+Total time: 52 seconds
+-- Wed May  5 01:20:13 2021: IESD::ChsHomeUtil::downloadAndExtractBuildZip - Deleting chs_home dir: C:/repos/iesd/chs_home.
+-- Wed May  5 01:20:42 2021: Directory 'C:/repos/iesd/chs_home' still exists.
+-- Wed May  5 01:20:42 2021: Total time: 28.393 seconds
+-- Wed May  5 01:20:42 2021: 7z x C:/repos/iesd/chs_home.zip -y -oC:/repos/iesd/chs_home
+-- Wed May  5 01:21:37 2021: Total time: 55.977 seconds
+-- Wed May  5 01:21:38 2021: C:/repos/iesd/chs_home/bld/bin/ant -propertyfile G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/build.windows.properties -Dchshome=C:/repos/iesd/chs_home -Dchs.home=C:/repos/iesd/chs_home -Dchsbuildtools_home=C:/repos/iesd/chs_home/bld -Dtest.results.base=G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults  -Dchs.build.skiptestexports=true -Dcapital.testlist.path=G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testjobs.windows/job.30.txt runtestsonlyqg -f G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/cbridges_src/tests/build.xml
+Buildfile: G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\cbridges_src\tests\build.xml
+Trying to override old definition of task jar
+   [script] Warning: Nashorn engine is planned to be removed from a future JDK release
+
+initJaCoCoExecFilePerJob:
+     [echo] jacoco.execfileprefix = windows.job.30
+
+-os-init-linux:
+
+extendedtestsinit:
+[propertyreset] Warning: Nashorn engine is planned to be removed from a future JDK release
+     [echo] Test results directory, G:/iesdwa/qualitygates/wa/2021.1_ADP1_INT/code/iesd/chs_home/bld/testresults/bridges exists.
+
+instrument:
+
+runtestsonlyqg:
+     [echo] Running runtestsonly from TestTargets - called from Capital Bridges Tests G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\cbridges_src\tests\build.xml
+[readtestlist] Found 50 test classes in testlist 'G:\iesdwa\qualitygates\wa\2021.1_ADP1_INT\code\iesd\chs_home\bld\testjobs.windows\job.30.txt'
+    [junit] Running chs.ccrs.MarineServerMainTest
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.229 sec
+    [junit] Running chs.ccrs.config.CcrsConfigTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.55 sec
+    [junit] Running chs.ccrs.config.MarineServerConfigurationTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.158 sec
+    [junit] Running chs.ccrs.config.MarineServerConfigurationUtilTest
+    [junit] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.86 sec
+    [junit] Running chs.ccrs.constants.MarineRequestParameterNamesTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.489 sec
+    [junit] Running chs.ccrs.constants.MarineServerApplicationTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.531 sec
+    [junit] Running chs.ccrs.constants.MarineServerExecutableCommandsTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.477 sec
+    [junit] Running chs.ccrs.constants.MarineServerSessionTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.562 sec
+    [junit] Running chs.ccrs.constants.MarineStandardCharsetTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.496 sec
+    [junit] Running chs.ccrs.constants.MarineWebTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.495 sec
+    [junit] Running chs.ccrs.datamanagement.sync.BaseXMLUploadTest
+    [junit] Tests run: 4, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 1.016 sec
+    [junit] Test chs.ccrs.datamanagement.sync.BaseXMLUploadTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.MarineScheduleXMLUploadTest
+    [junit] Tests run: 8, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 1.477 sec
+    [junit] Test chs.ccrs.datamanagement.sync.MarineScheduleXMLUploadTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.MarineScheduleXMLUploaderJobExecutionTest
+    [junit] Tests run: 9, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 3.389 sec
+    [junit] Test chs.ccrs.datamanagement.sync.MarineScheduleXMLUploaderJobExecutionTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.MarineXMLUploadTest
+    [junit] Tests run: 8, Failures: 2, Errors: 4, Skipped: 0, Time elapsed: 1.025 sec
+    [junit] Test chs.ccrs.datamanagement.sync.MarineXMLUploadTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.MarineXMLUploaderJobExecutionTest
+    [junit] Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.628 sec
+    [junit] Test chs.ccrs.datamanagement.sync.MarineXMLUploaderJobExecutionTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.MarineXMLUploaderJobTest
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.004 sec
+    [junit] Test chs.ccrs.datamanagement.sync.MarineXMLUploaderJobTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.client.FTPClientCreatorTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.691 sec
+    [junit] Running chs.ccrs.datamanagement.sync.client.MarineFTPClientTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.028 sec
+    [junit] Running chs.ccrs.datamanagement.sync.client.MarineNoOpFileExchangeClientTest
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.41 sec
+    [junit] Running chs.ccrs.datamanagement.sync.client.MarineSFTPClientTest
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.267 sec
+    [junit] Running chs.ccrs.datamanagement.sync.client.MarineSyncUploadClientBuilderTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.119 sec
+    [junit] Running chs.ccrs.datamanagement.sync.config.MarineSyncConfigurationReaderTest
+    [junit] Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.075 sec
+    [junit] Test chs.ccrs.datamanagement.sync.config.MarineSyncConfigurationReaderTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.model.MarineUploadXMLModelTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.741 sec
+    [junit] Running chs.ccrs.datamanagement.sync.schedule.MarineInstantSyncTriggerBuilderTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.652 sec
+    [junit] Running chs.ccrs.datamanagement.sync.schedule.MarineLogBackupTriggerBuilderTest
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.206 sec
+    [junit] Test chs.ccrs.datamanagement.sync.schedule.MarineLogBackupTriggerBuilderTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.schedule.MarineScheduleSyncTriggerBuilderTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.619 sec
+    [junit] Running chs.ccrs.datamanagement.sync.schedule.MarineUploadScheduleManagerTest
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.982 sec
+    [junit] Test chs.ccrs.datamanagement.sync.schedule.MarineUploadScheduleManagerTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.schedule.MarineUploadSchedulerTest
+    [junit] Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.419 sec
+    [junit] Test chs.ccrs.datamanagement.sync.schedule.MarineUploadSchedulerTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.schedule.MarineXMLFileVisitorTest
+    [junit] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.768 sec
+    [junit] Test chs.ccrs.datamanagement.sync.schedule.MarineXMLFileVisitorTest FAILED
+    [junit] Running chs.ccrs.datamanagement.sync.validate.MarineDataCronValidatorTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.657 sec
+    [junit] Running chs.ccrs.datamanagement.sync.validate.MarineSyncConfigurationValidatorTest
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.598 sec
+    [junit] Running chs.ccrs.exception.MarineExceptionHandlerTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.916 sec
+    [junit] Running chs.ccrs.filters.MarineActivityFilterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.632 sec
+    [junit] Running chs.ccrs.filters.MarineAdmininstratorDetailFilterTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.829 sec
+    [junit] Running chs.ccrs.filters.MarineAuthenticationFilterTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.236 sec
+    [junit] Running chs.ccrs.filters.MarineLoginURLFilterTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.581 sec
+    [junit] Running chs.ccrs.filters.MarineResourceAccessFilterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.828 sec
+    [junit] Running chs.ccrs.filters.MarineScheduleSyncFilterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.194 sec
+    [junit] Running chs.ccrs.filters.MarineServerShutdownFilterTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.836 sec
+    [junit] Running chs.ccrs.filters.MarineSessionInfoFilterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.216 sec
+    [junit] Running chs.ccrs.filters.MarineSyncContentUploadFilterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.978 sec
+    [junit] Running chs.ccrs.filters.MarineSyncXMLContentValidationFilterTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.985 sec
+    [junit] Running chs.ccrs.model.MarineServerDetailsTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.133 sec
+    [junit] Running chs.ccrs.model.cmpic.MultiCMPICResponseDataBuilderTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.741 sec
+    [junit] Running chs.ccrs.model.object.nx.NXCableAdapterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.455 sec
+    [junit] Running chs.ccrs.model.object.nx.NXDeviceAdapterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.538 sec
+    [junit] Running chs.ccrs.model.object.nx.NXNodeAdapterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.485 sec
+    [junit] Running chs.ccrs.model.object.nx.NXSegmentAdapterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.654 sec
+    [junit] Running chs.ccrs.model.object.nx.NXUOMAdapterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.574 sec
+    [junit] Running chs.ccrs.rest.CableServiceTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.158 sec
+
+BUILD SUCCESSFUL
+Total time: 4 minutes 47 seconds

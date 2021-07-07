@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>637</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void initMenus(chs.caf.helpers.ui.common.CapletResourceBuilder rb)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly long method</problem_class>
+          
+        <description>&lt;code&gt;initMenus&lt;/code&gt; is too long (# Non-comment source statements = 71) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1078</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void initToolsMenu(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer menu)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly long method</problem_class>
+          
+        <description>&lt;code&gt;initToolsMenu&lt;/code&gt; is too long (# Non-comment source statements = 166) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1419</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void addBridgesActions(chs.caf.helpers.ui.common.CapletResourceBuilder rb)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly long method</problem_class>
+          
+        <description>&lt;code&gt;addBridgesActions&lt;/code&gt; is too long (# Non-comment source statements = 60) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>1827</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources void initDevOnlyMenu(chs.caf.helpers.ui.common.CapletResourceBuilder rb, chs.caf.ActionContainer devMenu)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly long method</problem_class>
+          
+        <description>&lt;code&gt;initDevOnlyMenu&lt;/code&gt; is too long (# Non-comment source statements = 110) #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>3916</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.ValidateMenusDEVAction void actionPerformed(java.awt.event.ActionEvent e)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly long method</problem_class>
+          
+        <description>&lt;code&gt;actionPerformed&lt;/code&gt; is too long (# Non-comment source statements = 66) #loc</description>
+        
+    </problem>
+    
+</problems>

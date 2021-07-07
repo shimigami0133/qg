@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2652</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.SaveComponentAsPNGOnShowOriginQAAction prefKeyForSaveCompAsPNGOnShowOrigin" TYPE="field"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Field naming convention</problem_class>
+          
+        <description>Instance field name &lt;code&gt;prefKeyForSaveCompAsPNGOnShowOrigin&lt;/code&gt; is too long (35 &amp;gt; 32) #loc</description>
+        
+    </problem>
+    
+</problems>

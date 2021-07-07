@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../install_kit_src/src/chsinstalltools/src/ia_extensions/src/chs/iaactions/IADeleteServiceAction.java</file>
+          
+        <line>29</line>
+          
+        <module>installer</module>
+          
+        <package>chs.iaactions</package>
+          
+        <entry_point FQNAME="chs.iaactions.IADeleteServiceAction void doTask(com.zerog.ia.api.pub.VariableAccess ip, com.installshield.wizard.platform.win32.Win32Service win32Service)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly complex method</problem_class>
+          
+        <description>Overly complex method &lt;code&gt;doTask()&lt;/code&gt; (cyclomatic complexity = 11) #loc</description>
+        
+    </problem>
+    
+</problems>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../ctools_src/src/embeddedReports/src/com/mentor/iesd/reports/publish/TeamcenterLogicComponentBOM.java</file>
+          
+        <line>58</line>
+          
+        <module>ctools</module>
+          
+        <package>com.mentor.iesd.reports.publish</package>
+          
+        <entry_point FQNAME="com.mentor.iesd.reports.publish.TeamcenterLogicComponentBOM" TYPE="class"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="INFO">Overly coupled class</problem_class>
+          
+        <description>&lt;code&gt;TeamcenterLogicComponentBOM&lt;/code&gt; is overly coupled (dependencies = 27) #loc</description>
+        
+    </problem>
+    
+</problems>

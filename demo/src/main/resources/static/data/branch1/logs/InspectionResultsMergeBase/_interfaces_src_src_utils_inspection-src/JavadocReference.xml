@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/suite/IApplicationSuite.java</file>
+          
+        <line>211</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities.suite</package>
+          
+        <entry_point FQNAME="chs.utilities.suite.IApplicationSuite java.lang.String getApplicationNameForAnalytics(chs.utilities.AppInfo appInfo)" TYPE="method"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="WARNING">Declaration has problems in Javadoc references</problem_class>
+          
+        <description>Cannot resolve symbol &lt;code&gt;appname&lt;/code&gt;</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>108</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment EIGHTY_PERCENT" TYPE="field"/>
+          
+        <problem_class attribute_key="INFO_ATTRIBUTES" severity="WARNING">Declaration has problems in Javadoc references</problem_class>
+          
+        <description>Cannot resolve symbol &lt;code&gt;getMaxMemoryBuffer&lt;/code&gt;</description>
+        
+    </problem>
+    
+</problems>

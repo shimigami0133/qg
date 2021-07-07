@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/rest/src/chs/rest/service/reports/ProjectReportsService.java</file>
+          
+        <line>1167</line>
+          
+        <module>datamodel_misc</module>
+          
+        <package>chs.rest.service.reports</package>
+          
+        <entry_point FQNAME="chs.rest.service.reports.ProjectReportsService boolean allowOnlyBasicAttributes(chs.cofUtils.exporter.IWriteContextStateProvider contextState, java.lang.String attributeName)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Redundant 'if' statement</problem_class>
+          
+        <description>&lt;code&gt;if&lt;/code&gt; statement can be simplified #loc</description>
+        
+    </problem>
+    
+</problems>

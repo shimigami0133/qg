@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/impl/src/chs/bridges/BridgesIntegrationServices.java</file>
+          
+        <line>285</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.BridgesIntegrationServices void getBaseIdMap(chs.common.IDesignContainer design, chs.bridges.importer.BridgeInComponentsMap objBaseIds)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Static method referenced via subclass</problem_class>
+          
+        <description>Static method &lt;code&gt;populateDesignObjectsInMap()&lt;/code&gt; declared in class 'chs.bridges.importer.BridgesImporterBase' but referenced via subclass 'chs.bridges.importer.BridgesImporter' #loc</description>
+        
+    </problem>
+    
+</problems>

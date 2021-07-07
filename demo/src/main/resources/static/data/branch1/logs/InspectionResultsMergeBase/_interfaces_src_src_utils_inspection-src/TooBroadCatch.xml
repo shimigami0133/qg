@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>648</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String decrypt(java.security.Key decKey, java.lang.String encString)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exceptions 'NoSuchAlgorithmException, InvalidParameterSpecException, NoSuchPaddingException, InvalidKeyException' and 'InvalidAlgorithmParameterException' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>699</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment java.lang.String getBase64Encoded(byte[] plainText)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>719</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment byte[] getBase64Decoded(java.lang.String codedText)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exception 'RuntimeException' #loc</description>
+        
+    </problem>
+    
+</problems>

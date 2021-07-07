@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/api/src/chs/api/XObject.java</file>
+          
+        <line>537</line>
+          
+        <module>datamodel_api</module>
+          
+        <package>chs.api</package>
+          
+        <entry_point FQNAME="chs.api.XObject java.lang.String getName()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">'size() == 0' replaceable with 'isEmpty()'</problem_class>
+          
+        <description>&lt;code&gt;name.trim().length() == 0&lt;/code&gt; can be replaced with 'name.trim().isEmpty()' #loc</description>
+        
+    </problem>
+    
+</problems>

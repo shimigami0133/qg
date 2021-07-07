@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>299</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment m_isUnitTest" TYPE="field"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Field accessed in both synchronized and unsynchronized contexts</problem_class>
+          
+        <description>Field &lt;code&gt;m_isUnitTest&lt;/code&gt; is accessed in both synchronized and unsynchronized contexts #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>326</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment m_logicMUMode" TYPE="field"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Field accessed in both synchronized and unsynchronized contexts</problem_class>
+          
+        <description>Field &lt;code&gt;m_logicMUMode&lt;/code&gt; is accessed in both synchronized and unsynchronized contexts #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../interfaces_src/src/utils/src/chs/utilities/Environment.java</file>
+          
+        <line>302</line>
+          
+        <module>interfaces</module>
+          
+        <package>chs.utilities</package>
+          
+        <entry_point FQNAME="chs.utilities.Environment legacyEnabledFeatures" TYPE="field"/>
+          
+        <problem_class attribute_key="ERRORS_ATTRIBUTES" severity="ERROR">Field accessed in both synchronized and unsynchronized contexts</problem_class>
+          
+        <description>Field &lt;code&gt;legacyEnabledFeatures&lt;/code&gt; is accessed in both synchronized and unsynchronized contexts #loc</description>
+        
+    </problem>
+    
+</problems>

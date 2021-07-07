@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/IHandshakeMgr.java</file>
+          
+        <line>40</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges</package>
+          
+        <entry_point FQNAME="chs.bridges.IHandshakeMgr.PDMAction REQUIREMENT_LINK" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>420</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants TC_CONNECTION_LOCALE_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>26</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants PDM_SOURCE_BOM_ID" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>445</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants SHOULD_UPDATE_PART_DESC" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>380</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants PDM_PROPERTIES_TO_BE_DELETED_ON_COPY_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>463</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants AW_BROWSER_CHROMIUM" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>415</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants AW_SERVER" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>436</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants TC_LIBRARY_IMPORT_PLUGIN_URL" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>378</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants PDM_PROPERTIES_TO_BE_DELETED_ON_IMPORT_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>414</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants AW_URL_PATH_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>114</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants DATASET_CGM_TYPE_RELATION" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>25</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants PDM_EXTERNAL_BOM_ID" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>450</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants SSO_APP_ID_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>468</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants ATTACH_BOM_REPORT_AS_DATASET_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>419</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants TC_CONNECTION_LOCALE" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>27</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants EXPORT_BOM_TO_DESIGN_ITEM" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>440</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants TEAMCENTER_OBJECT_TYPE_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>448</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants SSO_URL_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>457</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants PDM_PROPERTIES_TO_BE_DELETED_ON_REVISE_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>466</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants AW_BROWSER_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>125</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants CAD_FILE_EXCHANGE_DATASET_TYPE_RELATION_SUFFIX" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>418</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants AW_PORT_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>28</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants EXPORT_BOM_TO_DESIGN_ITEM_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>439</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants TEAMCENTER_OBJECT_TYPE" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>447</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants SSO_URL" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>456</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants PDM_PROPERTIES_TO_BE_DELETED_ON_REVISE" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>465</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants AW_BROWSER" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>118</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants WEB_LINK_TYPE_RELATION" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>417</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants AW_PORT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>438</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants TC_LIBRARY_PROPERTY_IDENTIFIER_PREFIX_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>446</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants SHOULD_UPDATE_PART_DESC_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>416</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants AW_SERVER_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>103</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants DATASET_CGM_TYPE_DEFAULT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>437</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants TC_LIBRARY_PROPERTY_IDENTIFIER_PREFIX" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>449</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants SSO_APP_ID" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>375</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants PDM_PROPERTIES_TO_BE_DELETED_ON_IMPORT" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>458</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants PROPERTIES_TO_BE_DELETED_DELIMITER" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/pdm/TCeConstants.java</file>
+          
+        <line>467</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.pdm</package>
+          
+        <entry_point FQNAME="chs.bridges.pdm.TCeConstants ATTACH_BOM_REPORT_AS_DATASET" TYPE="field"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Field has no usages.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/adaptors/IAdaptorFormat.java</file>
+          
+        <line>325</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.IAdaptorFormat boolean getUseExtendedProperties()" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/adaptors/IAdaptorFormat.java</file>
+          
+        <line>214</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.IAdaptorFormat chs.bridges.adaptors.IAdaptorPluginMgr getPlugin(java.lang.String application)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cbridges_src/src/api/src/chs/bridges/adaptors/IAdaptorFormat.java</file>
+          
+        <line>312</line>
+          
+        <module>bridges</module>
+          
+        <package>chs.bridges.adaptors</package>
+          
+        <entry_point FQNAME="chs.bridges.adaptors.IAdaptorFormat boolean hasTag(java.lang.String tag)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">unused declaration</problem_class>
+          
+        <hints>
+                
+            <hint value="comment"/>
+                
+            <hint value="delete"/>
+              
+        </hints>
+          
+        <description>Method is never used.</description>
+        
+    </problem>
+</problems>

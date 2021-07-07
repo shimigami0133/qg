@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/MainResources.java</file>
+          
+        <line>2591</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.MainResources.DeleteAllTagsQAExtension void actionPerformed(java.awt.event.ActionEvent e)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Overly broad 'catch' block</problem_class>
+          
+        <description>'catch' of &lt;code&gt;Exception&lt;/code&gt; is too broad, masking exceptions 'UserSessionException' and 'NumberFormatException' #loc</description>
+        
+    </problem>
+    
+</problems>

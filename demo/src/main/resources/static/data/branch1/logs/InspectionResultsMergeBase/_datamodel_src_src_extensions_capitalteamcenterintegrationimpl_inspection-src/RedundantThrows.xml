@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/QueryService.java</file>
+          
+        <line>1254</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.QueryService void updateBOMLineIfNeeded(com.mentor.chs.extension.api.plm.PXTCBOMLineDetails pxtcbomLineDetails, com.teamcenter.soa.client.model.strong.BOMLine bomLine, java.util.List&lt;javafx.util.Pair&lt;java.lang.String,java.lang.String&gt;&gt; mandatoryPropertiesToUpdate, com.mentor.chsx.teamcenter.TCClientTask&lt;?,com.mentor.chsx.teamcenter.TCSOAServiceData&gt; progressTask)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="NotLoadedException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;NotLoadedException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>932</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.lang.String createDesignItemId(java.lang.String projectName, java.lang.String projectRevisionID, com.mentor.chs.extension.api.PIXPLMObject pixplmObject, java.lang.String taskContextTag)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="ServiceException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;ServiceException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../datamodel_src/src/extensions/capitalteamcenterintegrationimpl/src/com/mentor/chsx/teamcenter/ItemCreator.java</file>
+          
+        <line>906</line>
+          
+        <module>extensions</module>
+          
+        <package>com.mentor.chsx.teamcenter</package>
+          
+        <entry_point FQNAME="com.mentor.chsx.teamcenter.ItemCreator java.lang.String createProjectItemId(java.lang.String projectName, java.lang.String taskContextTag)" TYPE="method"/>
+          
+        <problem_class attribute_key="NOT_USED_ELEMENT_ATTRIBUTES" severity="WARNING">Redundant 'throws' clause</problem_class>
+          
+        <hints>
+                
+            <hint value="ServiceException"/>
+              
+        </hints>
+          
+        <description>The declared exception &lt;code&gt;ServiceException&lt;/code&gt; is never thrown</description>
+        
+    </problem>
+</problems>

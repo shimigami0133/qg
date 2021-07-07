@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<problems is_local_tool="true">
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/TeamcenterReportExchangeAction.java</file>
+          
+        <line>344</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.TeamcenterReportExchangeAction.ReportWorker void doDisconnectedModeTransfer()" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception declared</problem_class>
+          
+        <description>Prohibited exception &lt;code&gt;Exception&lt;/code&gt; declared #loc</description>
+        
+    </problem>
+    
+    <problem>
+          
+        <file>file://$PROJECT_DIR$/../../../../../cframework_src/src/caf/src/chs/caf/cafmain/actions/TeamcenterReportExchangeAction.java</file>
+          
+        <line>355</line>
+          
+        <module>framework</module>
+          
+        <package>chs.caf.cafmain.actions</package>
+          
+        <entry_point FQNAME="chs.caf.cafmain.actions.TeamcenterReportExchangeAction.ReportWorker void doConnectedModeTransfer(chs.bridges.IHandshakeMgr currentHandShakeMgr)" TYPE="method"/>
+          
+        <problem_class attribute_key="WARNING_ATTRIBUTES" severity="WARNING">Prohibited exception declared</problem_class>
+          
+        <description>Prohibited exception &lt;code&gt;Exception&lt;/code&gt; declared #loc</description>
+        
+    </problem>
+    
+</problems>
