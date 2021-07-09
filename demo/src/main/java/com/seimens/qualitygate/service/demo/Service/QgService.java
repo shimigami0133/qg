@@ -54,7 +54,14 @@ public class QgService {
 
             if(s==null)continue;
             else if(s1=="junit_test_result")
+            {
+                JunitGateResult result1=this.getJunitGateResult("junit_test_result",branch,"skipped");
+                JunitGateResult result2=this.getJunitGateResult("junit_test_result",branch,"tests.passed");
+                String s3=s.getDetails();
+                s3=s3+", Skipped: "+result1.getListOfTests().size()+", Passed "+result2.getListOfTests().size();
+                s.setDetails(s3);
                 res.setJunit(s);
+            }
             else if(s1=="datacheck_test_result")
                 res.setDataChecks(s);
             else if(s1=="junit_branch_coverage")
